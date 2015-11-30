@@ -1,0 +1,48 @@
+---
+directory_name: Download
+title: Download programmi
+in_menu: true
+sort_info: 40
+---
+
+h2. Questa è la lista dei programmi disponibili da scaricare.
+
+Tutti i programmi sotto riportati sono stati creati da Igor Sarzi Sartori.
+Normalmente tutti i software sono provvisti di codice sorgente e hanno
+una licenza open source.
+
+h3. Cuperativa
+
+<a href="{relocatable: /images/cuperativa/tres2_082.png}">
+  <img src="{relocatable: /images/cuperativa/tres2_082.png}">
+</a>
+
+Il programma per giocare a briscola, mariazza, scopa, spazzino e tombolon da soli
+oppure in internet contro altri giocatori.<br/>
+"Cuperativa Download":cuperativa_download.html
+
+h3. Tressette
+
+<a href="{relocatable: /images/tressette/tressette_800.jpg}">
+  <img src="{relocatable: /images/tressette/tressette_200.jpg}">
+</a>
+
+Il programma per giocare a tressette in 4 contro il computer.<br/>
+"Tressette Download":tressette_download.html
+
+h3. Invido
+
+<img src="{relocatable: /images/invido/in_partita_small.jpg}">
+
+Il programma per giocare a invido in 2 contro il computer.<br/>
+"Invido Download":invido_download.html
+
+h3. Solitari
+
+<a href="{relocatable: /images/solitario/special/scr_solit_2_0_400.jpg}">
+  <img src="{relocatable: /images/solitario/special/in_partita_small.jpg}">
+</a>
+
+Il classico solitario aggiornato alle carte da briscola e tarocco pimontese<br/>
+"Solitario Download":solitari_download.html
+

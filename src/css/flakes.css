@@ -1,0 +1,147 @@
+html {
+    overflow-x: hidden !important; /* @todo improve this */
+}
+
+.flake,
+.tweet {
+    position:absolute;
+}
+
+.flake {
+    margin:0;
+    padding:0;
+    /*color:#000;*/
+    color:#eee; /* Grey for IE */
+    color:rgba(230,230,230,1); /* White for good browsers */
+    text-shadow:0 0 5px rgba(0,0,0,0.4); /* Subtle shadow for good browsers */
+    z-index:100;
+    cursor:default;
+}
+
+.flake.node {
+    color: #FFD700;
+    font-weight:bold;
+}
+
+.tweet {
+    z-index:200;
+    font-size:14px;
+    font-family:Helvetica;
+    background:#000;
+    color:#fff;
+    max-width:400px;
+    min-width:200px;
+    padding:0.75em;
+    border-radius:18px;
+    -moz-border-radius:18px;
+}
+
+.tweet a {
+    text-decoration:none;
+    color:#9DFAF5;
+}
+
+.tweet a:hover {
+    color:#9CD9D6;
+}
+
+.tweet .author {
+    font-weight:bold;
+}
+
+.tweet .hashtag {
+    color:#E01B4C;
+}
+
+.tweet a.url {
+    color:#82D96A;
+}
+
+.tweet a.url:hover {
+    color:#65A852;
+}
+
+.tweet .photo {
+    width:50px;
+    height:50px;
+    float:right;
+}
+
+@-webkit-keyframes rotate-clockwise {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate-anticlockwise {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+    to { 
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes rotate-clockwise {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to { 
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate-anticlockwise {
+    from {
+        -moz-transform: rotate(360deg);
+    }
+    to { 
+        -moz-transform: rotate(0deg);
+    }
+}
+
+.threedee {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+}
+
+.animated {
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+
+#actions {
+    position:fixed;
+    bottom:0;
+    right:0;
+    padding:0.25em;
+    border-top-left-radius:8px;
+    -moz-border-top-left-radius:8px;
+    background:#111;
+    color:#fff;
+    z-index:300;
+}
+
+#actions a {
+    color:#fff;
+    text-decoration:none;
+    margin: 1em;
+}
+
+#actions a:hover {
+    color:#ccc;
+}
+
+#actions a span {
+    font-weight:bold;
+}
+
+#weather {
+    display:inline-block;
+    width:50px;
+}

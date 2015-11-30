@@ -1,0 +1,45 @@
+---
+directory_name: Download
+title: Invido download 
+in_menu: true
+sort_info: 43
+---
+
+h2. Invido download 
+
+Scarica qui: "Invido ver 0.7.0":http://sourceforge.net/projects/invido/files/latest/download?source=directory
+
+h3. Sulla versione 0.7.0 the best(ia)
+
+Questa versione risulta notevolmente migliorata nella forza di gioco.
+Di seguito i dettagli dei cambiamenti del nuovo programma:
+
+  * Corretti i problemi con i files delle voci
+  * Migliorato di molto l'algoritmo di gioco
+  * Installazione più semplice per mezzo del file che si scarica, non più via zip
+
+h3. Dettaglio del download
+
+|*Descrizione*:| Simulazione del gioco dell'Invido in versione singolo giocatore. |
+|*Dimensione*:| 3893 Kb|
+|*Versione*:| 0.7.0|
+|*Tipo file*:| msi|
+|*Sistema Operativo*:| Windows 7, XP|
+|*Autore*:| Igor|
+|*Licenza*:| Freeware|
+|*Data*:| 28.11.2011|
+|*Screenshot*:| <img src="{relocatable: /images/invido/in_partita_small.jpg}">|
+
+h3. Installazione
+
+Scaricare il programma e lanciarlo e poi seguire le istruzioni che 
+compariranno sullo schermo.
+Una volta terminato il setup, andare nei programmi e lanciare il programma Invido.
+
+h3. Come si gioca
+
+Un volta fatto partire il programma scegliere il menu "Inizia" per iniziare una nuova partita.
+Tramite il menu "Opzioni" è possibile scegliere diversi parametri come la lingua, per esempio il 
+dialetto bredesse.
+Per le regole del gioco vedi "il progetto Invido":../progetti/invido_progetto.html.
+

@@ -1,0 +1,81 @@
+---
+directory_name: FAQ
+title: FAQ Cuperativa
+in_menu: true
+sort_info: 100
+---
+
+h3. Che cos'è Cuperativa?
+
+È una suite per giocare alle carte, contro il computer
+ma principalmente in rete. Il programma è open source, quindi 
+niente spiacevoli sorprese  quando lo si usa.
+
+h3. Quali giochi sono inclusi nel programma Cuperativa? 
+
+Al momento i giochi  disponibili sono:
+
+  * - la briscola in due
+  * - la mariazza in due
+  * - lo spazzino in due
+  * - la scopa in due
+
+h3. Perché il programma si chiama Cuperativa? 
+
+È il nome in dialetto bredese del locale __la cooperativa la Nazionale__ di Breda Cisoni. 
+Era il locale dove a Breda Cisoni si giocava a carte ai massimi livelli, 
+specialmente a briscola, tressette, spazzino, ciapanò, mariassa, invido e ramino.
+
+h3. Funziona il gioco in rete? 
+
+Si, basta mettere il proprio __login__, un nome a piacere, al momento della connessione.
+Il server è sempre online e la password è al momento superflua.
+
+h3. Dove si scarica il programma Cuperativa? 
+
+Dalla <a href="{relocatable: /download/cuperativa_download.html}"> sezione download cuperativa</a>.
+
+h3. Come mai l'aggiornamento automatico con Windows Vista non funziona?
+
+Questo è dovuto alla funzione di Vista, che restringe la funzionalità dei programmi
+che vogliono installare nuovi files sopra quelli già installati. La soluzione
+è quella di lanciare la cuperativa con i privilegi di amministratore.
+Come? Usare il tasto destro del mouse sul link del programma cuperativa e
+selezionare la voce "Lancia come" per eseguire il programma con i privilegi di
+amministratore. Meglio ancora sarebbe installare il programma in una cartella
+diversa della C:\Programmi. In questo modo i privilegi di amministratore non sono
+più necessari.
+
+h3. Con Vista non riesco a vedere i files di log del programma?
+
+Questo accade sotto Vista avendo installato il programma in una sottocartella di C:\Programmi.
+Il programma Cuperativa scrive i propri logs in due files che di solito sono nella stessa
+directory del programma. Solo che il sistema operativo lo vieta dirottando i files in una
+cartella nascosta (C:\nome_utente\appdata\ViewStore\cuperativa).
+Per queste ragioni è molto meglio installare il programma Cuperativa nella
+directory c:\cuperativa. Così facendo tutto funzionerà come sotto windows XP.
+Ricordo che il programma è opensource e che i sorgenti sono installati assieme al
+programma. Questa è la migliore garanzia di software sicuro, in quanto ogni utente è
+in grado di vedere quello che il software fa veramente.
+
+h3. Come si gioca alla Mariazza? 
+
+La Mariazza è una variante della briscola in due. Le regole del gioco sono
+descritte  nelle <a href="{relocatable: /progetti/cuperativa/mariazza.html}">
+regole della Mariazza </a>
+
+h3. Ci sarà presto il mio gioco preferito xyz? 
+
+I giochi da implementare sono ancora molti, come per esempio il tressette in due,
+la briscola scoperta, l'invido, il ciapanò, il ramino e il cen bos. 
+
+
+h3. Chi c'è dietro il software Cuperativa? 
+
+Cuperativa è il progetto di _one man show_ Igor Sarzi Sartori creato durante il suo tempo libero.
+La ragione di un simile software, nasce dall'esigenza di poter giocare a carte sul computer 
+come alla Cuperativa Nazionale o all'Acli della Breda.
+Ultimamente si sta affermando come punto d'incontro in cui poter ancora giocare
+i giochi che si giocavano fino a poco tempo fa alla Breda. 
+
+

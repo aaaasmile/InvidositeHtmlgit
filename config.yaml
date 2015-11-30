@@ -1,0 +1,11 @@
+---
+# File di configurazione personalizzato
+website.lang: it
+
+default_processing_pipeline:
+  Page: textile,redcloth,erb,tags,blocks,fragments
+  
+#file.copy_handler.paths: ["**/*.ico", "**/*.css", "**/*.js", "**/*.jpg", "**/*.png", "**/*.gif", "**/*.zip", "**/*.txt"]
+patterns:
+   Copy:
+     add: ["**/*.ico", "**/*.css", "**/*.js", "**/*.jpg", "**/*.png", "**/*.gif", "**/*.zip", "**/*.txt"]

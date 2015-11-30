@@ -1,0 +1,32 @@
+---
+directory_name: Prog. Cuperativa
+title:  Cuperativa
+in_menu: true
+sort_info: 61
+---
+
+h2. Cuperativa
+
+La Cuperativa è una suite per giocare alle carte. I giochi supportati sono:
+
+ * <a href="{relocatable: /briscola.html}">briscola in due</a>
+ * "la mariazza":mariazza.html
+ * "lo spazzino":spazzino.html
+ * la scopa in due
+ * Tombolon in due
+ * Tressette in due
+ * Briscolone in due
+
+È possibile giocare contro il computer, ma principalmente,
+il programma è ideato per *giocare in rete*. La versione per windows la si scarica con
+<a href="{relocatable: /download/cuperativa_download.html}">download cuperativa</a>
+
+Utilizzando i sorgenti si può usare il programma anche sotto Linux.
+
+<img src="{relocatable: /images/cuperativa/tombolon070_small.png}">
+
+Il manuale completo di cuperativa con la descrizione di tutti i giochi si trova su:
+<a href="{relocatable: /manuale/Contents.html}">manuale della cuperativa</a>
+
+
+

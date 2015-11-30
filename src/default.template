@@ -1,0 +1,122 @@
+--- name:content
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Download della briscola, il programma cuperativa, del programma invido e diversi solitari. Giochi di carte online" />
+    <meta name="keywords" content="briscola download,briscola online,tressette download,cuperativa,invido,breda cisoni,igor sarzi sartori,mariazza,tressette,tresette" />
+    <meta name="author" content="Igor Sarzi Sartori" />
+	<link rel="stylesheet" href="{relocatable: default.css}" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
+    <title>{title:}</title>
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div id="sitename">
+        <h1>Invido.it</h1>
+        <h2>san nu mia voia, a cuminci gnanca</h2>
+      </div>
+
+      <div id="mainmenu">
+        {menu: {max_levels: 1, used_nodes: files}}
+        <div class="webgen-menu-vert webgen-menu">
+         <ul>
+          <li><a href="http://stesosopra.blogspot.co.at/">Igor Blog</a></li> 
+         </ul>
+        </div>
+        
+      </div>
+
+      <div id="wrap">
+
+        <div id="leftside">
+          <% if context.content_node.level > 1 %>
+          <h1>Sotto Menu</h1>
+		  <div class="webgen-menu-vert webgen-menu">
+          {menu: {start_level: 2, max_levels: 3, used_nodes: files}}
+		  </div>
+          <% end %>
+
+          
+          <h1>Benvenuti!</h1>
+  <p>Il sito invido.it è  dedicato al gioco
+          delle carte, specialmente
+          quelli che si giocano a Breda Cisoni, ma non solo. Il sito prende il nome
+          dall'omonimo gioco <b>L'Invido</b>, un gioco divertente della bassa mantovana e casalasca.</p>
+          <p>Solo qui si possono trovare giochi originali gratis e open source
+          come la mariazza, lo spazzino e l'invido.
+          Quasi tutti messi nella <b>Cuperativa</b> un software per giocare a
+          carte.</p>
+          
+  <h1>Consigli</h1>
+  <ul class="list">
+    <li>Cuperativa è il programma di invido.it per giocare a
+            <a href="{relocatable: /briscola.html}">briscola</a>,
+            scopa, mariazza, spazzino e tombolon in internet.</li>
+    <li>Invido è un gioco di carte che deriva dal famoso gioco Truco argentino</li>
+  </ul>
+          
+        </div>
+        
+        <div id="rightside">
+          
+         
+          
+          <h1>Cuperativa news</h1>
+			<p>
+	            <strong>09.1.2012</strong><br />
+	            Pubblicata la nuova versione 0.7.4 del Tresstte
+			</p>
+            <p>
+	            <strong>28.11.2011</strong><br />
+	            Pubblicata la nuova versione 0.7.0 dell'Invido
+			</p>
+           <p>
+            <strong>08.11.2012</strong><br />
+            Pubblicata la nuova versione 0.8.2 della cuperativa
+    Aloa Verde contente il gioco del tressette.
+          </p>
+          <h1>Invido.it special</h1>
+          <ul class="linklist">
+            <li><a href="blog_old.html">Blogs restii all'oblio</a></li>
+          </ul>
+          <h1>Links esterni:</h1>
+          <ul class="linklist">
+            <li><a href="http://sourceforge.net/projects/tressette/">Tressette su sourceforge</a></li>
+            <li><a href="http://www.dnaiele.blogspot.com/">Il Blog del San</a></li>
+			<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>
+          </ul>
+        </div>
+
+        <div id="navbar" class="content">
+          <span class="leftbox"> {breadcrumb_trail: }</span>
+          <div class="clearingdiv">&nbsp;</div>
+        </div>
+
+        <div id="content">
+          <webgen:block name="content" />
+        </div>
+        <div class="clearingdiv">&nbsp;</div>
+
+      </div>
+    </div>
+
+    <div id="footer">&copy; 2001 - 2015 Igor</a>
+    <p>Ultima modifica {date: {format: %d/%m/%Y %H:%M:%S}} CET</p></div>
+<!-- Analytics di google per invido.it -->
+<script type="text/javascript">
+var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-335642-1");
+pageTracker._trackPageview();
+</script>
+<!-- Analytics di google fine -->
+
+  </body>          
+</html>
+

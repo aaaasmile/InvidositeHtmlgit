@@ -1,0 +1,18 @@
+---
+directory_name: Screenshots
+title: Screenshots Invido
+in_menu: true
+sort_info: 83
+---
+
+h2. Invido screenshots
+
+<a href="{relocatable: /images/invido/invido800.jpg}">
+  <img src="{relocatable: /images/invido/invido250.jpg}">
+</a>
+
+In partita
+
+<img src="{relocatable: /images/invido/in_partita_small.jpg}">
+
+L'invido con lo sfondo della cuperativa

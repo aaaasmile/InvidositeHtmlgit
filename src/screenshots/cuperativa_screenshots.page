@@ -1,0 +1,28 @@
+---
+directory_name: Screenshots
+title: Screenshots Cuperativa
+in_menu: true
+sort_info: 82
+---
+
+h2. Cuperativa screenshots
+
+<a href="{relocatable: /images/cuperativa/tombolon070_big.png}">
+  <img src="{relocatable: /images/cuperativa/tombolon070_small.png}">
+</a>
+  
+<a href="{relocatable: /images/cuperativa/mariazza070_big.png}">
+  <img src="{relocatable: /images/cuperativa/mariazza070_small.png}">
+</a>
+  
+<a href="{relocatable: /images/cuperativa/spazzino070_big.png}">
+  <img src="{relocatable: /images/cuperativa/spazzino070_small.png}">
+</a>
+  
+<a href="{relocatable: /images/cuperativa/inrete070_big.png}">
+  <img src="{relocatable: /images/cuperativa/inrete070_small.png}">
+</a>
+  
+<a href="{relocatable: /images/cuperativa/briscola070_big.png}">
+  <img src="{relocatable: /images/cuperativa/briscola070_small.png}">
+</a>

@@ -1,0 +1,6 @@
+User-agent: googlebot
+Disallow: /_cancme
+Disallow: /_cancme2
+Disallow: /uploads
+Disallow: /other
+Disallow: /cuperativa

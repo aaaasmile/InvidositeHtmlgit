@@ -1,0 +1,32 @@
+---
+directory_name: Screenshots
+title: Screenshots Tressette
+in_menu: true
+sort_info: 85
+---
+
+h2. Tressette screenshots
+
+<a href="{relocatable: /images/tressette/tressette_800.jpg}">
+  <img src="{relocatable: /images/tressette/tressette_200.jpg}">
+</a>
+
+In partita
+
+<a href="{relocatable: /images/tressette/screenshot01.jpg}">
+  <img src="{relocatable: /images/tressette/screenshot01_small.jpg}">
+</a>
+
+La scelta dei mazzi di carte
+
+<a href="{relocatable: /images/tressette/screenshot02.jpg}">
+  <img src="{relocatable: /images/tressette/screenshot02_small.jpg}">
+</a>
+
+In partita
+
+<a href="{relocatable: /images/tressette/screenshot03.jpg}">
+  <img src="{relocatable: /images/tressette/screenshot03_small.jpg}">
+</a>
+
+La schermata iniziale

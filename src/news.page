@@ -1,0 +1,195 @@
+---
+title: News
+in_menu: true
+directory_name: invido
+sort_info: 1
+---
+h2. News
+
+h3(#news-2010-11-08). 08.11.2010 - Cuperativa Aloa Verde 0.8.2
+
+In questa versione sono corretti degli errori.
+
+Changelog:
+
+  * salvataggio settings
+  * posizione carte prese nel tressette
+
+h3(#news-2010-10-27). 27.10.2010 - Cuperativa Aloa Verde 0.8.1
+
+In questa versione sono corretti degli errori.
+
+Changelog:
+
+  * - migliorato algoritmo della scopetta
+  * - migliorie al gioco in rete
+
+
+h3(#news-2010-10-15). 15.10.2010 - Cuperativa 0.8.0
+
+In questa versione è stato aggiunto il gioco del tressette.
+
+Changelog:
+
+  * - gioco del tressette
+  * - migliorato algoritmo della scopetta
+  * - migliorie al gioco in rete
+
+
+h3(#news-2010-05-03). 03.05.2010 - Cuperativa 0.7.5
+
+In questa versione è stato aggiunto il gioco del briscolone.
+
+Changelog:
+
+  * - gioco del briscolone
+  * - ogni partita viene lanciata in una nuova finestra
+  * - effetti sonori
+  * - migliorate le animazioni nel gioco della scopetta e spazzino
+
+
+h3(#news-2009-06-30). 30.06.2009 - Cuperativa 0.7.1
+
+In questa versione sono stati corretti numerosi bugs.
+
+Changelog:
+
+  * - mostra utenti online
+  * - tombolon: distribuisce le carte in modo corretto
+  * - tombolon: chi raggiunge per primo i 31 punti vince
+  * - update via cuperativa server funziona di nuovo
+  * - migliorata la velocità del gioco della mariazza
+  * - briscola: mostra il numero delle carte rimanenti nel mazzo
+  * - online: chat del tavolo sempre visibile
+
+h3(#news-2009-06-06). 06.06.2009 - Cuperativa 0.7.0
+
+In questa versione è stato introdotto il gioco del tombolon a due giocatori.
+
+Changelog:
+
+  * - Aggiunto il gioco del tombolon
+  * - Possibilità di giocare online con la classifica
+  * - Cambiato il la grafica dei giochi
+  * - Migliorato il tempo di partenza del programma
+
+
+h3(#news-2008-12-24). 24.12.2008 - Cuperativa 0.6.1
+
+In questa versione è stato introdotto il gioco della scopa a due giocatori.
+
+Changelog:
+
+  * - Aggiunto il gioco della scopa
+  * - Cambiate le animazioni nella briscola
+  * - Cambiato il la grafica della mariazza
+  * - Corretto un errore sulla presa delle carte multiple nello spazzino
+  * - Migliorie alla grafica nello spazzino e nelle opzioni di rete
+
+h3(#news-2008-11-20). 20.11.2008 - Cuperativa 0.6.0
+
+In questa versione è stato introdotto il gioco dello spazzino.
+Lo spazzino è una variante della scopa a due giocatori.
+
+Changelog:
+
+  * - Aggiunto lo spazzino
+  * - Aggiunto la modalità gioco privato online
+  * - Migliorato il layout del programma
+  * - Migliorato l'aggiornamento automatico via server
+
+
+h3(#news-2008-06-07). 07.06.2008 - Cuperativa 0.5.4
+
+Con questa nuova versione del programma è ora possibile manipolare il codice
+sorgente del programma ed aggiornarlo automaticamente online, oppure offline.
+
+Changelog:
+
+  * Migliorato il layout grafico della briscola
+  * Aggiunto animazioni durante la presa
+  * Separato il codice sorgente dal file eseguibile
+  * Ottimizzazione del gioco di una carta
+  * Feedback quando giocare una carta non è ammesso
+  * Aggiornamento automatico rapido, online e offline
+  * BUGFIX: briscola non conosce il pareggio
+
+h3(#news-2008-03-06). 06.03.2008 - Cuperativa 0.5.0
+
+A partire dalla versione 0.5.0 il programma Cuperativa contiene
+anche il gioco della briscola in due.
+
+Changelog:
+
+    * - Flick free: doppio buffering sul canvas
+    * - Nuovo gioco: Briscola in 2 in modalità contro il computer e in rete
+
+h3(#news-2008-02-28). 28.02.2008 - Cuperativa 0.4.7
+
+Rilasciata la nuova versione del programma Cuperativa. Corretti molti bug ed
+implementato una GUI più intuitiva. Aggiunti numerosi mazzi di carte tra i quali
+il mazzo Napoletano e le carte Bergamasche.
+La versione 0.4.7 supporta in pieno il nuovo server versione 3.1
+
+Con questa nuova versione è tornato online il server della Cuperativa che gestisce
+le partite in rete. Le vecchie versioni del programma non sono più compatibili.
+
+Nella nuova versione ho aggiunto nuovi mazzi di carte, corretto alcuni bugs del
+gioco ed aggiunto una migliore gestione della partita in rete. Al momento il server
+è disponibile da mezzogiorno all'una di notte. La lista completa del changelog si
+trova di seguito.
+
+    * - Algoritmo di gioco migliore
+    * - Chat tavolo non finisce quando finisce la partita:
+    * - Aggiunti nuovi stati per gestire il dopo partita
+    * - Aggiunti comandi generici client gioco in rete:
+    
+          * lascia il tavolo
+          * abbandona gioco
+          * rivincita
+    * - Icons sui pulsanti di comando
+    * - Opzioni: carte, nomi
+    * - Mazzi di carte: bergamo, milano, napoli, sicilia, treviso
+    * - BUG: Correzione bug algoritmo dichiarazione mariazza di seconda mano
+    * - user name "ricu al satradur" non reso bene nella chat
+    * - Suono inizio partita a richiesta
+    * - Game recorder
+    * - Unit test
+    * - BUGFIX: viene offerto di cambiare il sette anche quando la briscola non è più in tavola in quanto siamo alle ultime 5 carte.
+    * - Miglioria: log Scambio briscola OK _7s -> _As
+    * - Scambio briscola confermato con la dialogbox
+    * - Redisign della gui:
+    
+          * Pulsante connessione
+          * Disabilita i tasti Disconnetti e Crea quando non si e' connessi
+          * Aggiunta una label in alto come titolo, invece di scrivere sulla titlebar
+    * Setup per installare la versione windows
+
+
+h3(#news-2007-12-10). 12.10.2007 - Cuperativa 0.4.1
+
+Nella versione 0.4.1 è possibile giocare in rete usando un server remoto
+
+h3(#news-2007-11-11). 11.11.2007 - Cuperativa 0.3.1
+
+In questa nuova versione della cuperativa, è possibile giocare alla mariazza in
+rete collegandosi ad un server, che al momento non è ancora pubblico.
+E' stato cambiato leggermente il layout del gioco e sono stati corretti
+numerosi errori nella grafica.
+
+Changelog:
+
+    * - mariazza vale sempre 20 punti, 40 quella di briscola
+    * - carta giocata sovrapposta alla briscola con risoluzioni dello schermo alte
+    * - mariazza si dichiara solo quando si è primi di mano
+
+Migliorie:
+
+    * - Tolta la finestra dos di log nell'exe della versione windows
+
+
+h3(#news-2007-10-09). 09.10.2007 - Cuperativa 0.2.1
+
+Pubblicata la prima versione del programma Cuperativa contente il gioco
+della Mariazza.
+ 

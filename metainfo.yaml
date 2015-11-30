@@ -1,0 +1,77 @@
+index.page:
+  orderInfo: 1
+
+news.page:
+  orderInfo: 2
+
+Igor-sarzi-sartori.page:
+  orderInfo: 3
+
+download/:
+  orderInfo: 4
+
+progetti/:
+  orderInfo: 5
+
+screenshots/:
+  orderInfo: 6
+
+faq/:
+  orderInfo: 9
+  
+finestraweb/:
+  orderInfo: 10
+  
+sitemap.page:
+  orderInfo: 11
+
+faq/index.page:
+  orderInfo: 1
+
+faq/invido.page:
+  orderInfo: 2
+  
+faq/briscola_net.page:
+  orderInfo: 3
+  
+progetti/index.page:
+  orderInfo: 1
+
+progetti/cuperativa:
+  orderInfo: 2
+
+progetti/tressette_progetto.page:
+  orderInfo: 3
+
+progetti/invido_progetto.page:
+  orderInfo: 4
+
+progetti/solitario_progetto.page:
+  orderInfo: 5
+
+progetti/briscola_net_progetto.page:
+  orderInfo: 6
+  
+download/index.page:
+  orderInfo: 1
+
+download/cuperativa_download.page:
+  orderInfo: 2
+
+download/tressette_download.page:
+  orderInfo: 3
+  
+download/invido_download.page:
+  orderInfo: 4
+
+download/solitari_download.page:
+  orderInfo: 5
+  
+download/briscola_net_download.page:
+  orderInfo: 6
+
+download/tools_download.page:
+  orderInfo: 7
+  
+---
+

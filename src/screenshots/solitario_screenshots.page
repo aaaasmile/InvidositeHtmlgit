@@ -1,0 +1,21 @@
+---
+directory_name: Screenshots
+title: Screenshots Solitario
+in_menu: true
+sort_info: 84
+---
+
+h2. Solitario screenshots
+
+
+<a href="{relocatable: /images/solitario/windows/solita_big.jpg}">
+  <img src="{relocatable: /images/solitario/windows/in_partita_small.jpg}">
+</a>
+
+Solitario win Ver 1.4
+
+<a href="{relocatable: /images/solitario/special/scr_solit_2_0_400.jpg}">
+  <img src="{relocatable: /images/solitario/special/in_partita_small.jpg}">
+</a>
+
+Italian Special Solitaire
