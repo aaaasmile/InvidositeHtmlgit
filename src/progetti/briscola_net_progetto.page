@@ -1,0 +1,29 @@
+---
+directory_name: Progetti
+title: Progetto Briscola_net
+in_menu: true
+sort_info: 65
+---
+
+h2. Briscola_Net
+
+<img src="{relocatable: /images/briscola_net/start_small.jpg}">
+
+Briscola Net è un programma per giocare a briscola da soli contro il computer,
+oppure contro un avversario collegato in rete.
+
+Il progetto è nato dall'esigenza di testare la tecnologia ActiveX realizzando
+un piccolo programma di prova. Il programma utilizza ActiveX per la gestione
+del mazzo delle carte, mentre il gioco è realizzato utilizzando le librerie MFC.
+Dato l'uso massiccio di tecnologie prettamente Microsoft, il gioco è disponibile
+solo in versione Windows.
+
+NOTA: *Il gioco della briscola è presente anche nel programma "Cuperativa":cuperativa/index.html
+in una versione più aggiornata e con la modalità di rete molto più semplice*.
+
+Programma, mazzi di carte  e sorgenti si possono scaricare da
+<a href="{relocatable: /download/briscola_net_download.html}">download briscola_net</a>
+
+<img src="{relocatable: /images/briscola_net/in_rete_small.jpg}">
+<img src="{relocatable: /images/briscola_net/in_partita_small.jpg}">
+
