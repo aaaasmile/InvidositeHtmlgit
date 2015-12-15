@@ -9,13 +9,13 @@ h2. Invido
 
 <img src="{relocatable: /images/invido/in_partita_small.jpg}">
 
-Invido Ã¨ un gioco di carte molto divertente, probabilmente derivato dal gioco
+Invido è un gioco di carte molto divertente, probabilmente derivato dal gioco
 envido argentino.
 
-Ho realizzato il gioco cosÃ¬ come viene giocato a Breda Cisoni, vale a dire in
-dialetto bredese. La versione in italiano Ã¨ puramente artificiale.
+Ho realizzato il gioco così come viene giocato a Breda Cisoni, vale a dire in
+dialetto bredese. La versione in italiano è puramente artificiale.
 
-Il software puÃ² essere scaricato da
+Il software può essere scaricato da
 <a href="{relocatable: /download/invido_download.html}">download invido</a>
 
 h2. Regole del gioco dell'Invido
@@ -27,28 +27,28 @@ Lo scopo del gioco dell'Invido consiste nel raggiungere o superare i 24 punti.
 h3. Svolgimento del gioco (2 giocatori)
 
 Il gioco si svolge con un mazzo di carte da briscola ridotto a 32 carte.
-Il mazzo per l'Invido Ã¨ lo stesso come per la briscola, ma senza i 4 e 5.
+Il mazzo per l'Invido è lo stesso come per la briscola, ma senza i 4 e 5.
 
-L'ordine d'importanza delle carte Ã¨ lo stesso che per il gioco del tressette,
-il 3 Ã¨ la carta piÃ¹ alta poi segue il 2, l'asso, il re, il cavallo, il fante il
+L'ordine d'importanza delle carte è lo stesso che per il gioco del tressette,
+il 3 è la carta più alta poi segue il 2, l'asso, il re, il cavallo, il fante il
 sette e il sei. Una volta mescolate le carte, il mazziere distribuisce 3 carte
 all'avversario e 3 per se. A questo punto, la giocata ha inizio.
-Il punteggio della giocata parte da 1 punto (canÃ¨la), ma puÃ² variare a seconda
+Il punteggio della giocata parte da 1 punto (canèla), ma può variare a seconda
 delle chiamate. I possibili punteggi della giocata sono: 1 (valore iniziale),
 3 (vale la chiamata "invido"), 6 (vale la chiamata "tras mas"), 9
 (vale la chiamata "tras mas nof"), 12 (vale la chiamata "fuori gioco"),
 24 (chiamata "partita") oppure 0 in caso di giocata andata "a monte".
-Il giocatore che non ha il mazzo inizia la mano, egli puÃ² giocare una carta
+Il giocatore che non ha il mazzo inizia la mano, egli può giocare una carta
 oppure effettuare una chiamata. La chiamata serve per cambiare il punteggio
 corrente della giocata (per i dettagli vedi sezione Chiamate).
 La mano ha termine, quando entrambi i giocatori hanno giocato una carta.
-La mano Ã¨ assegnata al giocatore che ha giocato la carta piÃ¹ alta. Se le carte
+La mano è assegnata al giocatore che ha giocato la carta più alta. Se le carte
 giocate hanno lo stesso valore, la mano finisce patta. Una giocata ha termine,
 quando un giocatore vince 2 mani, oppure, in caso di una mano patta, quando un
 giocatore ha conquistato la prima mano.
 
 Nel caso in cui tutte e tre le mani terminano patte, anche la giocata si
-conclude patta e non assegna nessun punto. Al termine della giocata, Ã¨ assegnato
+conclude patta e non assegna nessun punto. Al termine della giocata, è assegnato
 il punteggio in palio al giocatore che l'ha vinta.
 
 h3. Esempio di giocata (1)
@@ -60,22 +60,22 @@ G2 : chiama " a monte" in quanto le sue carte sono basse
 Ora tocca al giocatore 1 rispondere (G1)<br/>
 G1: risponde con "No" in quanto le sue carte sono buone<br/>
 G2: gioca il re di denari<br/>
-G1: gioca l' asso di spade e vince la mano (asso Ã¨ piÃ¹ grande del re)<br/>
-A questo la prima mano Ã¨ finita e vinta da G1.
-G1 ha in mano un 3 e non puÃ² piÃ¹ perdere la giocata (anche se G2 avesse un 3 la
+G1: gioca l' asso di spade e vince la mano (asso è più grande del re)<br/>
+A questo la prima mano è finita e vinta da G1.
+G1 ha in mano un 3 e non può più perdere la giocata (anche se G2 avesse un 3 la
 mano sarebbe patta ma G1 ha vinto la prima mano che comunque gli
 fa vincere la giocata). E' tutto interesse di G1 aumentare la posta in gioco
 con una chiamata a "Invido"<br/>
 G1: chiama "Invido"<br/>
-G2 ha carte basse, in piÃ¹ sa che un 3 in mano all'avversario non gli
+G2 ha carte basse, in più sa che un 3 in mano all'avversario non gli
 lascerebbe scampo, quindi tenta di annullare la giocata
 con una chiamata "a monte".<br/>
 G2 chiama "A monte".<br/>
 G1 risponde "No".<br/>
-Ora G2 puÃ² accettare l'Invido oppure andare via senza giocare le carte perdendo
+Ora G2 può accettare l'Invido oppure andare via senza giocare le carte perdendo
 il punteggio attuale (1 punto).<br/>
 G2 dice "Vado via".<br/>
-La giocata Ã¨ terminata e G1 vince un punto.
+La giocata è terminata e G1 vince un punto.
 
 
 h3. Esempio di giocata (2)
@@ -83,9 +83,9 @@ h3. Esempio di giocata (2)
 Giocatore 1 : re spade, 2 bastoni, 6 coppe <br/>
 Giocatore 2 : 7 spade, 3 denari, fante di bastoni<br/>
 Tocca a G1<br/>
-Per cercare di prendere la prima mano, G1 gioca la carta piÃ¹ alta: il due<br/>
+Per cercare di prendere la prima mano, G1 gioca la carta più alta: il due<br/>
 G1 gioca il 2 di bastoni<br/>
-G2 puÃ² prendere il 2 e vincere la prima mano,
+G2 può prendere il 2 e vincere la prima mano,
 un buon requisito per chiamare "Invido"<br/>
 G2 chiama "Invido"<br/>
 G1 deve rispondere: se accetta la chiamata deve essere convinto di vincere 2 mani.
@@ -93,10 +93,10 @@ Perdendo la prima mano dovrebbe riuscire a guadagnare due mani con il 6 di
 coppe e il re di spade, impresa molto improbabile.
 Meglio un diversivo con la chiamata "A monte" <br/>
 G1 chiama "A monte" <br/>
-G2 sa di vincere la prima mano perchÃ© prende il 2 di bastoni con il 3 di denari,
-ma la probabilitÃ  di perdere le altre due col 7 e col fante, Ã¨ molto alta.
+G2 sa di vincere la prima mano perché prende il 2 di bastoni con il 3 di denari,
+ma la probabilità di perdere le altre due col 7 e col fante, è molto alta.
 G2 pensa che se rifiuta "A monte" e G1 gioca l'"Invido" quasi sicuramente
-perderÃ , in piÃ¹ l'avversario puÃ² aumentare ulteriormente la posta con
+perderà, in più l'avversario può aumentare ulteriormente la posta con
 una chiamata "Tras mas".<br/>
 G2 allora accetta la chiamata "A monte" di G1 e dice "va bene"<br/>
 La giocata termina "a monte", come se non fosse mai giocata, e nessun punto
@@ -107,13 +107,13 @@ h3. Esempio di giocata (3)
 Giocatore 1 : re spade, 2 bastoni, 1 coppe <br/>
 Giocatore 2 : 2 spade, 3 denari, fante di bastoni <br/>
 Tocca a G1<br/>
-Per cercare di prendere la prima mano, G1 gioca la propria carta piÃ¹ alta: il due <br/>
+Per cercare di prendere la prima mano, G1 gioca la propria carta più alta: il due <br/>
 G1 gioca il 2 di bastoni<br/>
 G2 gioca il 2 di spade<br/>
 La prima mano termina patta. Il giocatore che conquista la seconda mano,
 oppure in caso di ulteriore patta, la terza mano, conquista la giocata.
 G2 ha un grosso vantaggio in quanto gioca dopo avere visto la carta
-dell'avversario, in piÃ¹ Ã¨ sicuro di non perdere la seconda mano con un 3.<br/>
+dell'avversario, in più è sicuro di non perdere la seconda mano con un 3.<br/>
 G1 gioca d'anticipo ed effettua una chiamata un po' ardita.<br/>
 G1 chiama "Invido"<br/>
 G2 non teme l'aumento della posta e dice "Va bene"<br/>
@@ -122,12 +122,12 @@ G2 chiama "tras mas"<br/>
 G2 sa bene di avere vinto e tenta di alzare ulteriormente la posta in palio.
 G1 deve solo sperare che G2 non abbia almeno un asso e che G2 stia bleffando.<br/>
 G1 chiama "Tras mas nof"<br/>
-G1 Ã¨ convinto che G2 stia bluffando, non solo accetta il "tras mas" con una
+G1 è convinto che G2 stia bluffando, non solo accetta il "tras mas" con una
 chiamata di accettazione implicita, ma chiede un ulteriore innalzamento
 della posta. G2 non aspetta altro e rilancia di nuovo.<br/>
 G2 chiama "Fuori gioco"<br/>
-A questo punto il punteggio della giocata Ã¨ 9 punti e una chiamata a 12 Ã¨ in
-bilico. G1 puÃ² continuare con la sua convinzione, oppure andarsene e perdere 9 punti.<br/>
+A questo punto il punteggio della giocata è 9 punti e una chiamata a 12 è in
+bilico. G1 può continuare con la sua convinzione, oppure andarsene e perdere 9 punti.<br/>
 G1 chiama "Partita"<br/>
 G1 rilancia ancora chiedendo di portare la posta al massimo consentito.<br/>
 G2 dice "va bene" <br/>
@@ -135,7 +135,7 @@ G2 gioca il 3 e vince giocata e partita <br/>
 
 h3. Chiamate
 
-Ãˆ possibile raggiungere i 24 punti senza mai chiamare nulla, semplicemente
+È possibile raggiungere i 24 punti senza mai chiamare nulla, semplicemente
 giocando le carte assegnando di volta in volta un solo punto. In pratica questo
 caso non si verifica mai e durante la partita avvengono spesso delle chiamate.
 
@@ -148,45 +148,45 @@ attuale della giocata e le chiamate di risposta. Le chiamate di punteggio sono:
  * "Fuori gioco" (12 punti),
  * "Partita" (24 punti).
  
-Ad una chiamata di punteggio si puÃ² rispondere con:
+Ad una chiamata di punteggio si può rispondere con:
 
  * "Va bene",
  * "Vado via"
  * una controchiamata di punteggio
  * oppure con una chiama "A monte".
  
-La chiamata di punteggio Ã¨ ammessa solo se il punteggio chiamato Ã¨ immediatamente
-superiore a quello corrente. Ad esempio, all'inizio, quando il punteggio Ã¨ 1 punto,
-la chiamata di punteggio ammessa Ã¨ quella di "Invido". Quando il punteggio
-della giocata Ã¨ invido, la chiamata ammessa Ã¨ "Tras mas" e cosÃ¬ via fino a partita.
+La chiamata di punteggio è ammessa solo se il punteggio chiamato è immediatamente
+superiore a quello corrente. Ad esempio, all'inizio, quando il punteggio è 1 punto,
+la chiamata di punteggio ammessa è quella di "Invido". Quando il punteggio
+della giocata è invido, la chiamata ammessa è "Tras mas" e così via fino a partita.
 
-Un'altra condizione per l'ammissibilitÃ  della chiamata Ã¨ che la chiamata avvenga
+Un'altra condizione per l'ammissibilità della chiamata è che la chiamata avvenga
 dal giocatore avversario che ha effettuato l'innalzamento della posta. Ad esempio:
 se il giocatore 1 ha chiamato "Invido", il giocatore 2 ha detto "Va bene",
-la chiamata a "Tras mas" Ã¨ ammessa solo se Ã¨ il giocatore 2 ad effettuarla.
+la chiamata a "Tras mas" è ammessa solo se è il giocatore 2 ad effettuarla.
 
 Ad una chiamata di punteggio bisogna dare una risposta, nel caso non si volesse
 accettare l'innalzamento della posta non rimane altro che rispondere con
 un "Vado via" perdendo il punteggio della giocata al momento della chiamata.
 Ad esempio: giocatore chiama "Invido", giocatore risponde con "Trasmas".
 Giocatore 1 risponde "Vado via" e il giocatore 2 vince 3 punti, il punteggio
-della giocata al momento della chiamata "Trasmas". La chiamata "A monte" puÃ² essere
-effettuata in qualsiasi momento e, se Ã¨ accettata, annulla la giocata in corso.
+della giocata al momento della chiamata "Trasmas". La chiamata "A monte" può essere
+effettuata in qualsiasi momento e, se è accettata, annulla la giocata in corso.
 Ad esempio: G1 chiama "Invido", G2 risponde con "Tras mas" G1 controbatte con
 "A monte" e G2 accetta con "Va bene". La chiamata "A monte" sospende l'attuale
-svolgimento del gioco fino alla risposta. Se la risposta Ã¨ negativa,
-il gioco riprende dal punto in cui Ã¨ stato interrotto con la chiamata "A monte".
+svolgimento del gioco fino alla risposta. Se la risposta è negativa,
+il gioco riprende dal punto in cui è stato interrotto con la chiamata "A monte".
 
-h3. ParticolaritÃ 
+h3. Particolarità
 
-Esiste un punteggio particolare che Ã¨ quello di 23-23. Quando una giocata termina
+Esiste un punteggio particolare che è quello di 23-23. Quando una giocata termina
 ed entrambi i giocatori si trovano sul 23 pari, la partita non termina ai 24 punti,
 ma si azzera il punteggio e la partita si svolge agli 8 punti. Nel caso in cui i
 2 giocatori si trovassero poi sul punteggio di 7 pari, il punteggio si azzererebbe
 e la partita continuerebbe come se si fosse raggiunto il punteggio di 23 pari.
 Si continua in questo modo fino a quando un giocatore raggiunge o supera gli
 8 punti senza andare sul 7 pari ( sul 7-7 come 23-23 il punteggio viene azzerato).
-Ãˆ importante notare che l'azzeramento dovuto al 7-7 avviene solo se si Ã¨ prima
+È importante notare che l'azzeramento dovuto al 7-7 avviene solo se si è prima
 raggiunto il punteggio di 23-23 nel corso della stessa partita.
 
 h3. Limitazioni del programma
@@ -196,12 +196,12 @@ la giocata "Vado dentro" con una carta. Esse viene effettuata quando un
 giocatore vuole forzare la presa del giocatore avversario senza che egli possa
 vedere la carta.
 
-Sulle chiamate "A monte", per semplicitÃ , le sole risposte ammesse sono "No" e
+Sulle chiamate "A monte", per semplicità, le sole risposte ammesse sono "No" e
 "Va bene". In partite reali non di rado vi sono risposte negative implicite e
-ad un "A monte" si puÃ² sentire la risposta "Invido" (implica la risposta "No" e
+ad un "A monte" si può sentire la risposta "Invido" (implica la risposta "No" e
 la successiva chiamata "Invido").
 
-Non Ã¨ supportata la risposta implicita "Va bene" quando si gioca una carta alla
+Non è supportata la risposta implicita "Va bene" quando si gioca una carta alla
 domanda di punteggio. Prima di giocare una carta, bisogna avere risposto a tutte
 le domande in sospeso.
 
@@ -215,7 +215,7 @@ un click col pulsante sinistro del mouse sulla carta stessa.
 
 Al fianco delle
 carte, 3 led segnalano lo stato attuale della giocata, un led verde chiaro
-significa che la mano Ã¨ stata vinta, un led blu significa che la mano Ã¨ stata
+significa che la mano è stata vinta, un led blu significa che la mano è stata
 pareggiata, mentre un led rosso segnala mano persa. L'asso di spade punta
 sempre il giocatore che deve giocare al momento.
 
@@ -223,8 +223,8 @@ h3. Punteggio riportato
 
 __Invido.exe__ riporta costantemente il punteggio della partita. Il punteggio
 dei due giocatori viene mostrato nella parte destra con la notazione propria
-dell'invido. Al posto dei numeri vengono usati due simboli: la linea (canÃ¨la)
+dell'invido. Al posto dei numeri vengono usati due simboli: la linea (canèla)
 e l'ovetto (oef). Una linea rappresenta 1 punto, mentre l'ovetto rappresenta
-3 punti. Il punteggio attuale di ciascun giocatore Ã¨ la somma totale dei punti
+3 punti. Il punteggio attuale di ciascun giocatore è la somma totale dei punti
 associati a ciascun ovetto e linea.
 

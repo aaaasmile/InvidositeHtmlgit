@@ -1,9 +1,9 @@
 --- name:content
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
     <meta name="description" content="Download della briscola, il programma cuperativa, del programma invido e diversi solitari. Giochi di carte online" />
     <meta name="keywords" content="briscola download,briscola online,tressette download,cuperativa,invido,breda cisoni,igor sarzi sartori,mariazza,tressette,tresette" />
     <meta name="author" content="Igor Sarzi Sartori" />
@@ -40,54 +40,15 @@
 		  </div>
           <% end %>
 
-          
-          <h1>Benvenuti!</h1>
-  <p>Il sito invido.it è  dedicato al gioco
-          delle carte, specialmente
-          quelli che si giocano a Breda Cisoni, ma non solo. Il sito prende il nome
-          dall'omonimo gioco <b>L'Invido</b>, un gioco divertente della bassa mantovana e casalasca.</p>
-          <p>Solo qui si possono trovare giochi originali gratis e open source
-          come la mariazza, lo spazzino e l'invido.
-          Quasi tutti messi nella <b>Cuperativa</b> un software per giocare a
-          carte.</p>
-          
-  <h1>Consigli</h1>
-  <ul class="list">
-    <li>Cuperativa è il programma di invido.it per giocare a
-            <a href="{relocatable: /briscola.html}">briscola</a>,
-            scopa, mariazza, spazzino e tombolon in internet.</li>
-    <li>Invido è un gioco di carte che deriva dal famoso gioco Truco argentino</li>
-  </ul>
-          
+       
         </div>
         
         <div id="rightside">
           
          
-          
-          <h1>Cuperativa news</h1>
-			<p>
-	            <strong>09.1.2012</strong><br />
-	            Pubblicata la nuova versione 0.7.4 del Tresstte
-			</p>
-            <p>
-	            <strong>28.11.2011</strong><br />
-	            Pubblicata la nuova versione 0.7.0 dell'Invido
-			</p>
-           <p>
-            <strong>08.11.2012</strong><br />
-            Pubblicata la nuova versione 0.8.2 della cuperativa
-    Aloa Verde contente il gioco del tressette.
-          </p>
-          <h1>Invido.it special</h1>
+          <h1>Supporters:</h1>
           <ul class="linklist">
-            <li><a href="blog_old.html">Blogs restii all'oblio</a></li>
-          </ul>
-          <h1>Links esterni:</h1>
-          <ul class="linklist">
-            <li><a href="http://sourceforge.net/projects/tressette/">Tressette su sourceforge</a></li>
-            <li><a href="http://www.dnaiele.blogspot.com/">Il Blog del San</a></li>
-			<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>
+        	<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>
           </ul>
         </div>
 

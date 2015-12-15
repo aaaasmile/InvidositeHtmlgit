@@ -8,17 +8,17 @@ sort_info: 41
 h2. Cuperativa Download 
 
 
-Download: "Cuperativa Aloa Verde 0.8.2":http://kickers.fabbricadigitale.it/cuperativa/update_packages/cuperativa_082_setup.exe
+Download: "Cuperativa Aloa Verde 0.8.2":https://sourceforge.net/projects/cuperativa/files/latest/download
 
-*Descrizione*: La cuperativa Ã¨ il programma per giocare a carte, da soli oppure in
-internet.
+*Descrizione*: La cuperativa è il programma per giocare a carte, da soli oppure in
+internet (il servizio in rete però non funziona più da molto tempo e non verrà ripristinato).
 Nella Cuperativa sono presenti i seguenti giochi:
 _Tressette, Tombolon, Scopetta, Spazzino, Mariazza, Briscolone e Briscola_.
 Il tombolon e spazzino sono della varianti molto interessanti della scopa.
-La mariazza Ã¨ una bella variante della briscola a 5 carte.  Tutti i giochi sono
+La mariazza è una bella variante della briscola a 5 carte.  Tutti i giochi sono
 per due giocatori.
 
-Il programma Ã¨ open source, disponibile con i suoi sorgenti, la migliore garanzia di
+Il programma è open source, disponibile con i suoi sorgenti, la migliore garanzia di
 per un software sicuro.
 
 |*Dimensione*:| 9,7 MB|
@@ -33,14 +33,14 @@ per un software sicuro.
 h2. Cuperativa Codice Sorgente
 
 Il codice sorgente del programma permette di giocare sulle piattoforme Linux, Windows e Mac.
-Il programma Ã¨ stato sviluppato su piattaforma Linux (Ubuntu 8.04) e quindi
+Il programma è stato sviluppato su piattaforma Linux (Ubuntu 8.04) e quindi
 posso garantire che il gioco sotto linux funziona molto bene.
 Su Mac, in linea teorica, partendo dai sorgenti dovrebbe possibile eseguire
 il programma cuperativa.
 
 Download: "Cuperativa codice sorgente ver 0.8.2":http://kickers.fabbricadigitale.it/cuperativa/update_packages/ver_0_8_2_full.tar.gz
 
-|*Sistema Operativo*:| Linux, Windows, Mac|
+|*Sistema Operativo*:| Linux, Windows|
 |*Linguaggio*:| Ruby|
 |*Licenza*:| Ruby Licenza|
 
@@ -70,10 +70,10 @@ I mazzi si trovano:
   * "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
   * "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip
 
-Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove Ã¨ installato il programma
+Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
 Cuperativa (per esempio C:\cuperativa\ver_0_8_2\app\res\carte).
-Poi fare partire il programma e nelle opzioni delle carte ora comparirÃ  il mazzo dello
-zip che potrÃ  essere selezionato come tutti gli altri.
+Poi fare partire il programma e nelle opzioni delle carte ora comparirà il mazzo dello
+zip che potrà essere selezionato come tutti gli altri.
 
 Esempio carte romagnole:
 

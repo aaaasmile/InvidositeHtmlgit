@@ -16,7 +16,7 @@ Di seguito i dettagli dei cambiamenti del nuovo programma:
 
   * Corretti i problemi con i files delle voci
   * Migliorato di molto l'algoritmo di gioco
-  * Installazione piÃ¹ semplice per mezzo del file che si scarica, non piÃ¹ via zip
+  * Installazione più semplice per mezzo del file che si scarica, non più via zip
 
 h3. Dettaglio del download
 
@@ -39,7 +39,7 @@ Una volta terminato il setup, andare nei programmi e lanciare il programma Invid
 h3. Come si gioca
 
 Un volta fatto partire il programma scegliere il menu "Inizia" per iniziare una nuova partita.
-Tramite il menu "Opzioni" Ã¨ possibile scegliere diversi parametri come la lingua, per esempio il 
+Tramite il menu "Opzioni" è possibile scegliere diversi parametri come la lingua, per esempio il 
 dialetto bredesse.
 Per le regole del gioco vedi "il progetto Invido":../progetti/invido_progetto.html.
 

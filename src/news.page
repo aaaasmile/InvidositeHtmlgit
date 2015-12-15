@@ -27,7 +27,7 @@ Changelog:
 
 h3(#news-2010-10-15). 15.10.2010 - Cuperativa 0.8.0
 
-In questa versione Ã¨ stato aggiunto il gioco del tressette.
+In questa versione è stato aggiunto il gioco del tressette.
 
 Changelog:
 
@@ -38,7 +38,7 @@ Changelog:
 
 h3(#news-2010-05-03). 03.05.2010 - Cuperativa 0.7.5
 
-In questa versione Ã¨ stato aggiunto il gioco del briscolone.
+In questa versione è stato aggiunto il gioco del briscolone.
 
 Changelog:
 
@@ -58,25 +58,25 @@ Changelog:
   * - tombolon: distribuisce le carte in modo corretto
   * - tombolon: chi raggiunge per primo i 31 punti vince
   * - update via cuperativa server funziona di nuovo
-  * - migliorata la velocitÃ  del gioco della mariazza
+  * - migliorata la velocità del gioco della mariazza
   * - briscola: mostra il numero delle carte rimanenti nel mazzo
   * - online: chat del tavolo sempre visibile
 
 h3(#news-2009-06-06). 06.06.2009 - Cuperativa 0.7.0
 
-In questa versione Ã¨ stato introdotto il gioco del tombolon a due giocatori.
+In questa versione è stato introdotto il gioco del tombolon a due giocatori.
 
 Changelog:
 
   * - Aggiunto il gioco del tombolon
-  * - PossibilitÃ  di giocare online con la classifica
+  * - Possibilità di giocare online con la classifica
   * - Cambiato il la grafica dei giochi
   * - Migliorato il tempo di partenza del programma
 
 
 h3(#news-2008-12-24). 24.12.2008 - Cuperativa 0.6.1
 
-In questa versione Ã¨ stato introdotto il gioco della scopa a due giocatori.
+In questa versione è stato introdotto il gioco della scopa a due giocatori.
 
 Changelog:
 
@@ -88,20 +88,20 @@ Changelog:
 
 h3(#news-2008-11-20). 20.11.2008 - Cuperativa 0.6.0
 
-In questa versione Ã¨ stato introdotto il gioco dello spazzino.
-Lo spazzino Ã¨ una variante della scopa a due giocatori.
+In questa versione è stato introdotto il gioco dello spazzino.
+Lo spazzino è una variante della scopa a due giocatori.
 
 Changelog:
 
   * - Aggiunto lo spazzino
-  * - Aggiunto la modalitÃ  gioco privato online
+  * - Aggiunto la modalità gioco privato online
   * - Migliorato il layout del programma
   * - Migliorato l'aggiornamento automatico via server
 
 
 h3(#news-2008-06-07). 07.06.2008 - Cuperativa 0.5.4
 
-Con questa nuova versione del programma Ã¨ ora possibile manipolare il codice
+Con questa nuova versione del programma è ora possibile manipolare il codice
 sorgente del programma ed aggiornarlo automaticamente online, oppure offline.
 
 Changelog:
@@ -110,7 +110,7 @@ Changelog:
   * Aggiunto animazioni durante la presa
   * Separato il codice sorgente dal file eseguibile
   * Ottimizzazione del gioco di una carta
-  * Feedback quando giocare una carta non Ã¨ ammesso
+  * Feedback quando giocare una carta non è ammesso
   * Aggiornamento automatico rapido, online e offline
   * BUGFIX: briscola non conosce il pareggio
 
@@ -122,21 +122,21 @@ anche il gioco della briscola in due.
 Changelog:
 
     * - Flick free: doppio buffering sul canvas
-    * - Nuovo gioco: Briscola in 2 in modalitÃ  contro il computer e in rete
+    * - Nuovo gioco: Briscola in 2 in modalità contro il computer e in rete
 
 h3(#news-2008-02-28). 28.02.2008 - Cuperativa 0.4.7
 
 Rilasciata la nuova versione del programma Cuperativa. Corretti molti bug ed
-implementato una GUI piÃ¹ intuitiva. Aggiunti numerosi mazzi di carte tra i quali
+implementato una GUI più intuitiva. Aggiunti numerosi mazzi di carte tra i quali
 il mazzo Napoletano e le carte Bergamasche.
 La versione 0.4.7 supporta in pieno il nuovo server versione 3.1
 
-Con questa nuova versione Ã¨ tornato online il server della Cuperativa che gestisce
-le partite in rete. Le vecchie versioni del programma non sono piÃ¹ compatibili.
+Con questa nuova versione è tornato online il server della Cuperativa che gestisce
+le partite in rete. Le vecchie versioni del programma non sono più compatibili.
 
 Nella nuova versione ho aggiunto nuovi mazzi di carte, corretto alcuni bugs del
 gioco ed aggiunto una migliore gestione della partita in rete. Al momento il server
-Ã¨ disponibile da mezzogiorno all'una di notte. La lista completa del changelog si
+è disponibile da mezzogiorno all'una di notte. La lista completa del changelog si
 trova di seguito.
 
     * - Algoritmo di gioco migliore
@@ -155,7 +155,7 @@ trova di seguito.
     * - Suono inizio partita a richiesta
     * - Game recorder
     * - Unit test
-    * - BUGFIX: viene offerto di cambiare il sette anche quando la briscola non Ã¨ piÃ¹ in tavola in quanto siamo alle ultime 5 carte.
+    * - BUGFIX: viene offerto di cambiare il sette anche quando la briscola non è più in tavola in quanto siamo alle ultime 5 carte.
     * - Miglioria: log Scambio briscola OK _7s -> _As
     * - Scambio briscola confermato con la dialogbox
     * - Redisign della gui:
@@ -168,12 +168,12 @@ trova di seguito.
 
 h3(#news-2007-12-10). 12.10.2007 - Cuperativa 0.4.1
 
-Nella versione 0.4.1 Ã¨ possibile giocare in rete usando un server remoto
+Nella versione 0.4.1 è possibile giocare in rete usando un server remoto
 
 h3(#news-2007-11-11). 11.11.2007 - Cuperativa 0.3.1
 
-In questa nuova versione della cuperativa, Ã¨ possibile giocare alla mariazza in
-rete collegandosi ad un server, che al momento non Ã¨ ancora pubblico.
+In questa nuova versione della cuperativa, è possibile giocare alla mariazza in
+rete collegandosi ad un server, che al momento non è ancora pubblico.
 E' stato cambiato leggermente il layout del gioco e sono stati corretti
 numerosi errori nella grafica.
 
@@ -181,7 +181,7 @@ Changelog:
 
     * - mariazza vale sempre 20 punti, 40 quella di briscola
     * - carta giocata sovrapposta alla briscola con risoluzioni dello schermo alte
-    * - mariazza si dichiara solo quando si Ã¨ primi di mano
+    * - mariazza si dichiara solo quando si è primi di mano
 
 Migliorie:
 

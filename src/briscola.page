@@ -6,23 +6,23 @@ in_menu: false
 
 h2. La briscola in 2
 
-La briscola Ã¨ un popolare gioco di carte di origine italiana giocato con 
-un mazzo di 40 carte, di quattro semi. Nella Cuperativa Ã¨ implementato il gioco 
+La briscola è un popolare gioco di carte di origine italiana giocato con 
+un mazzo di 40 carte, di quattro semi. Nella Cuperativa è implementato il gioco 
 con due giocatori.
 
 h3(#brisc201). Scopo
 
 Si gioca con un mazzo di 40 carte diviso in 4 semi di 10 carte ciascuno. 
 I punti disponibili per ciascun gioco sono in totale 120, vince chi ne realizza almeno 61; 
-se i punti sono 60 il gioco Ã¨ pari. 
+se i punti sono 60 il gioco è pari. 
 
-Il gioco puÃ² essere costituito da una singola partita, e quindi chi si aggiudica la partita si aggiudica il gioco, oppure da piÃ¹ partite consecutive, che in Cuperativa sono denominate \e{segni}. 
+Il gioco può essere costituito da una singola partita, e quindi chi si aggiudica la partita si aggiudica il gioco, oppure da più partite consecutive, che in Cuperativa sono denominate \e{segni}. 
 Il gioco viene allora assegnato a colui che si aggiudica il numero prefissato all'inizio di \e{segni}.
 
 h3(#brisc202). Punteggio
 
 I punti disponibili per ciascun gioco sono in totale 120. Ogni carta, ordinata per valore decrescente,
- ha un singolo punteggio cosÃ¬ ripartito:
+ ha un singolo punteggio così ripartito:
 
   * Asso: punti 11
   * Tre: punti 10
@@ -31,18 +31,18 @@ I punti disponibili per ciascun gioco sono in totale 120. Ogni carta, ordinata p
   * Fante: punti 2
   * Altre carte (7,6,5,4,3,2): punti 0
 
-Il punteggio conseguito da un giocatore alla fine della partita Ã¨ calcolato sommando tutti i valori
+Il punteggio conseguito da un giocatore alla fine della partita è calcolato sommando tutti i valori
 delle singole carte prese dal giocatore stesso.
 
 h3(#brisc203). Svolgimento
 
 Ogni giocatore riceve 3 carte, la briscola viene poi estratta dal mazzo e posta visibile sotto 
 le carte rimanenti. A turno ogni giocatore gioca una carta. Parte il giocatore di fronte
-al mazziere, poi Ã¨ il giocatore che ha effettuato l'ultima presa che inizia per primo.
+al mazziere, poi è il giocatore che ha effettuato l'ultima presa che inizia per primo.
 Quando entrambi i giocatori hanno giocato la propria carta, si assegna la presa. 
 Le carte giocate vengono assegnate a chi ha giocato
-la carta dal valore piÃ¹ alto del primo seme giocato. Se uno dei giocatori ha giocato una briscola,
-la presa viene effettuata da chi ha giocato la briscola piÃ¹ alta. 
+la carta dal valore più alto del primo seme giocato. Se uno dei giocatori ha giocato una briscola,
+la presa viene effettuata da chi ha giocato la briscola più alta. 
 Quando tutti i giocatori hanno giocato la propria carta, assegnata la presa, allora si procede
 a pescare una carta dal mazzo. Pesca per primo chi ha effettuato la presa. 
 Quando tutte le carte sono state pescate, allora si giocano le carte rimaste in mano al giocatore

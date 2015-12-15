@@ -7,7 +7,7 @@ sort_info: 61
 
 h2. Cuperativa
 
-La Cuperativa Ã¨ una suite per giocare alle carte. I giochi supportati sono:
+La Cuperativa è una suite per giocare alle carte. I giochi supportati sono:
 
  * <a href="{relocatable: /briscola.html}">briscola in due</a>
  * "la mariazza":mariazza.html
@@ -17,11 +17,11 @@ La Cuperativa Ã¨ una suite per giocare alle carte. I giochi supportati sono:
  * Tressette in due
  * Briscolone in due
 
-Ãˆ possibile giocare contro il computer, ma principalmente,
-il programma Ã¨ ideato per *giocare in rete*. La versione per windows la si scarica con
+È possibile giocare contro il computer, ma principalmente,
+il programma è ideato per *giocare in rete*. La versione per windows la si scarica con
 <a href="{relocatable: /download/cuperativa_download.html}">download cuperativa</a>
 
-Utilizzando i sorgenti si puÃ² usare il programma anche sotto Linux.
+Utilizzando i sorgenti si può usare il programma anche sotto Linux.
 
 <img src="{relocatable: /images/cuperativa/tombolon070_small.png}">
 

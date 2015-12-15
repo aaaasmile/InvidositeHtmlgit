@@ -6,18 +6,28 @@ directory_name: invido
 sort_info: 0
 ---
 
+h2. Aggiornamento
+
+p(data). martedÏ, 15 dicembre 2015
+
+Dopo una luga pausa, ho aggiornato questo sito aggiungendo il download del programma 
+<a href="{relocatable: /download/briscola_net_download.html}">Briscola_net</a>.
+Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aaaasmile, per cui Ë probabile, dopo una lunga pausa, che 
+ci siano delle novit‡ riguardante i giochi di carte in un prossimo futuro.
+
+
  
-h2. Dove √® finito Invido.it?
+h2. Dove Ë finito Invido.it?
 
 p(data). sabato, 22 novembre 2014
 
-Il contenuto del sito che prima si trovava su invido.it si √® 
-trasferito qui. Il server per giocare alla cuperativa non √® pi√π attivo e ha chiuso i battenti.
+Il contenuto del sito che prima si trovava su invido.it si Ë 
+trasferito qui. Il server per giocare alla cuperativa non Ë pi˘ attivo e ha chiuso i battenti.
 Ringrazio tutti quelli che hanno contribuito a renderlo attivo tutti questi anni. 
-I software per giocare a carte in modalit√† singola contro il computer si trovano sempre
+I software per giocare a carte in modalit‡ singola contro il computer si trovano sempre
 su questo sito alla sezione <a href="{relocatable: /download/index.html}">download</a>. 
 
-Il mio blog si trova √® trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
+Il mio blog si trova Ë trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
 
 
 h2. Tornato il Tressette su sf.net
@@ -25,39 +35,39 @@ h2. Tornato il Tressette su sf.net
 Dopo svariato tempo ho pubblicato su sf.net una nuova versione del "tressette":http://sourceforge.net/projects/tressette/. 
 Si tratta di un bugfixing di qualche imprecisione che era rimasta in sospeso. 
 Per l'occasione ho aggiornato le librerie del suono, che ora funzionano con le nuove versioni del sistema operativo windows. 
-I sorgenti del programma si trovano ora in svn e non pi√π in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
+I sorgenti del programma si trovano ora in svn e non pi˘ in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
 
 
 <img src="{relocatable: /images/tressette/screenshot02_small.jpg}">
 
 h2. Nuova versione dell'Invido: the best(ia))!
 
-p(data). luned√¨, 28 novembre 2011
+p(data). lunedÏ, 28 novembre 2011
 
 <img src="{relocatable: /images/invido/in_partita_small.jpg}">
 
 Qualche settimana fa, dopo una visita al campo di allenamento del Breda calcio, mi sono fermato
-a bere una birra offerta dall'allenatore. Quello che mi ha colpito di pi√π, di quel bar della campagna casalasca,
-√® stato che, ad un tavolo quattro imperterriti giocatori si sfidavano a "Invido":progetti/invido_progetto.html. 
+a bere una birra offerta dall'allenatore. Quello che mi ha colpito di pi˘, di quel bar della campagna casalasca,
+Ë stato che, ad un tavolo quattro imperterriti giocatori si sfidavano a "Invido":progetti/invido_progetto.html. 
 Che bella sorpresa, dovevo andare a Quattrocase per assistere ad uno spettacolo simile.
-Da l√¨ ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
+Da lÏ ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
 C'erano alcune cose da sistemare nel software datato 2005, come le voci del programma e la forza di gioco.
-Ora il programma √® molto pi√π forte
-e, se non si presta attenzione, √® anche facile essere "attacati" come dei manifesti. Ma lascio a voi provare.
+Ora il programma Ë molto pi˘ forte
+e, se non si presta attenzione, Ë anche facile essere "attacati" come dei manifesti. Ma lascio a voi provare.
 La nuova versione del gioco "the best(ia)" si scarica da qui: "Invido 0.7.0":/download/invido_download.html
 
 
-h2. Il sito dell'invido √® tornato dalle ferie
+h2. Il sito dell'invido Ë tornato dalle ferie
 
-p(data). gioved√¨, 1 settembre 2011
+p(data). giovedÏ, 1 settembre 2011
 
 Qualche aggiornamento per quanto riguarda il software della *cuperativa*. Sto lavorando
-ad una nuova versione che contiene il tressette a 4 giocatori. Non √® ancora finita ma,
-tra una corsa e l'altra, penso che riuscir√≤. 
+ad una nuova versione che contiene il tressette a 4 giocatori. Non Ë ancora finita ma,
+tra una corsa e l'altra, penso che riuscirÚ. 
 
 h2. Nuovo mazzi di carte per il programma Cuperativa
 
-p(data). gioved√¨, 5 gennaio 2011
+p(data). giovedÏ, 5 gennaio 2011
 
 Ho aggiunto nuovi mazzi di carte per il gioco cuperativa.
 Essi sono: il bellissimo mazzo di carte del Tarocco Piemontese creato da Domenico Starna,
@@ -75,10 +85,10 @@ I mazzi si trovano:
   * "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
   * "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip
 
-Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove √® installato il programma
+Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove Ë installato il programma
 Cuperativa (per esempio C:\cuperativa\ver_0_8_2\app\res\carte).
-Poi fare partire il programma e nelle opzioni delle carte ora comparir√† il mazzo dello
-zip che potr√† essere selezionato come tutti gli altri.
+Poi fare partire il programma e nelle opzioni delle carte ora comparir‡ il mazzo dello
+zip che potr‡ essere selezionato come tutti gli altri.
 
 Esempio carte romagnole:
 
@@ -90,23 +100,23 @@ A questo punto tutti i giochi di carte saranno eseguiti usando il mazzo delle ca
 
 h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.2
 
-p(data). luned√¨, 08 novembre 2010
+p(data). lunedÏ, 08 novembre 2010
 
 La cuperativa ha corretto nuovi errori che alcuni utenti  mi hanno cortesemente segnalato,
 come il mancato salvataggio dei settings.
 Il setup completo si trova su:
 "Cuperativa 0.8.2 Aloa verde":http://kickers.fabbricadigitale.it/cuperativa/update_packages/cuperativa_082_setup.exe
 Collegandosi al server della cuperativa con una versione precedente del programma,
-si pu√≤ fare un aggiornamento automatico. 
+si puÚ fare un aggiornamento automatico. 
 
 h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.1 
 
-p(data). venerd√¨, 27 ottobre 2010
+p(data). venerdÏ, 27 ottobre 2010
 
-La cuperativa non si ferma mai e cos√¨ ho trovato il tempo per correggere
-alcuni errori, che gli utenti pi√π affezionati mi hanno cortesemente segnalato.
+La cuperativa non si ferma mai e cosÏ ho trovato il tempo per correggere
+alcuni errori, che gli utenti pi˘ affezionati mi hanno cortesemente segnalato.
 Collegandosi al server della cuperativa con una versione precedente del programma,
-si pu√≤ fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
+si puÚ fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
 il programma riceve anche un nome in codice. Questa volta si chiama "Aloa Verde",
 un profumo che emrge dallo sfondo del gioco del tressette. Buon divertimento e
 continuate pure a segnalare problemi, informazioni e richieste varie che riguardano il
@@ -115,7 +125,7 @@ gioco della cuperativa.
 
 h2. Pubblicata nuova versione della cuperativa col Tressette
 
-p(data). venerd√¨, 15 ottobre 2010
+p(data). venerdÏ, 15 ottobre 2010
 
 <a href="{relocatable: /images/cuperativa/tre_080_big.png}">
   <img src="{relocatable: /images/cuperativa/tre_080_small.png}">
@@ -125,9 +135,9 @@ Dopo avere terminato la mia prima maratona non poteva mancare una nuova
 versione del programma Cuperativa. Questa volta ho aggiunto il gioco
 del tressette a due giocatori. Tra le altre migliorie al programma, ho aumentato
 la forza del giocatore computer quando gioca a scopa.
-Chi possiede la versione 0.7.5 pu√≤ aggiornare il programma alla versione 0.8.0,
+Chi possiede la versione 0.7.5 puÚ aggiornare il programma alla versione 0.8.0,
 semplicemente collegandosi al server della cuperativa e seguire le istruzioni che compariranno.
-Il programa, una volta attualizzato, ripartir√† in modo automatico. Versioni precedenti alla 0.7.5
+Il programa, una volta attualizzato, ripartir‡ in modo automatico. Versioni precedenti alla 0.7.5
 richiedono l'update via setup.exe sopra riportato.
 
 
@@ -138,9 +148,9 @@ p(data). domenica, 26 Settembre 2010
 Guardando le statistiche del programma tressette, che ho pubblicato su "sf.net":http://sourceforge.net/projects/tressette/
 qualche tempo fa (tre.exe), mi sono accorto che presto saranno raggiunti i 10000 download.
 Per l'occasione, mi sembra il minimo dover aggiungere il gioco del tressette a due giocatori
-nella suite della cuperativa. Alcuni mi hanno chiesto quando ci sar√† una nuova versione
-del programma tre.exe. Questo non accadr√† a breve termine, ma mi piacerebbe tornare a rivisitare
-il gioco programmando di nuovo in c++, magari con la possibilit√† di collegarsi al server
+nella suite della cuperativa. Alcuni mi hanno chiesto quando ci sar‡ una nuova versione
+del programma tre.exe. Questo non accadr‡ a breve termine, ma mi piacerebbe tornare a rivisitare
+il gioco programmando di nuovo in c++, magari con la possibilit‡ di collegarsi al server
 della cuperativa per il gioco in rete.
 E' nella calma la vera forza della cuperativa.
 

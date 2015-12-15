@@ -1,3 +1,11 @@
+== 15.12.2014
+Ho aggiornato il sito usando la repository su github, ho usato webgen 0.5.17
+sotto windows 7. Con la codifica utf8 non riesco a fare andare i files html su fabbrica digitale.
+Tutti i caratteri accentati sono resi male. Allora con notepad++ ho cambiato la codifica
+di tutti i sorgenti *.page usando il formato ANSI (Menu Encoding -> Convert to Ansi).
+Il problema c'è anche nel manuale della Cuperativa. Quindi quando verrà rigenerato, per
+piacere cambia il formato da UTF a iso-8859-1.
+
 == 22.11.2014
 Sto sempre usando webgen 0.5.17 sotto windows e ho messo redcloth in config.yaml
 Ho tolto tutti i rifermienti a progetti vecchi come briscola_net e ho spostato
