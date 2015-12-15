@@ -8,4 +8,4 @@ default_processing_pipeline:
 #file.copy_handler.paths: ["**/*.ico", "**/*.css", "**/*.js", "**/*.jpg", "**/*.png", "**/*.gif", "**/*.zip", "**/*.txt"]
 patterns:
    Copy:
-     add: ["**/*.ico", "**/*.css", "**/*.js", "**/*.jpg", "**/*.png", "**/*.gif", "**/*.zip", "**/*.txt"]
+     add: ["**/*.ico", "**/*.css", "**/*.js", "**/*.jpg", "**/*.png", "**/*.gif", "**/*.zip", "**/*.txt", "**/*.xml"]
