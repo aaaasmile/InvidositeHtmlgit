@@ -15,13 +15,13 @@ Il mio 2015 non finisce senza una nuova versione del programma _Cuperativa_. La 
 presenta una nuova grafica, pur mantenendo lo stile retrò targato fine anni novanta.
 
 Puoi scaricare subito la nuova versione 1.2.7 subito usando questo link "Cuperativa 1.2.7":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
-I cambiamenti e novità rispetto alla versione precendete sono:
+I cambiamenti e novità rispetto alla versione precedente sono:
 * migliorata la grafica
 * setup compatibile con Win7, Win8.1 e WinXP
 * senza dubbio creato il più forte giocatore artificiale di Mariazza
-* semplificato l'intefaccia grafica togliendo l'obsoleto supporto di rete
+* semplificato l'interfaccia grafica togliendo l'obsoleto supporto di rete
 * giochi supportati a due giocatori contro il computer: _briscola_, _mariazza_, _scopetta_, _spazzino_, _briscolone_, _tombolon_ e _tressette_
-* codice sorgete completo publicato su "GitHub CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
+* codice sorgete completo pubblicato su "GitHub CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
 
  Maggiori informazioni le puoi trovare su <a href="{relocatable: /progetti/cuperativa/index.html}">Progetto Cuperativa</a>.
 
@@ -33,7 +33,7 @@ h2. Aggiornamento
 
 p(data). martedì, 15 dicembre 2015
 
-Dopo una luga pausa, ho aggiornato questo sito aggiungendo il download del programma 
+Dopo una lunga pausa, ho aggiornato questo sito aggiungendo il download del programma 
 <a href="{relocatable: /download/briscola_net_download.html}">Briscola_net</a>.
 Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aaaasmile, per cui è probabile, dopo una lunga pausa, che 
 ci siano delle novità riguardante i giochi di carte in un prossimo futuro.
@@ -76,7 +76,7 @@ Che bella sorpresa, dovevo andare a Quattrocase per assistere ad uno spettacolo 
 Da lì ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
 C'erano alcune cose da sistemare nel software datato 2005, come le voci del programma e la forza di gioco.
 Ora il programma è molto più forte
-e, se non si presta attenzione, è anche facile essere "attacati" come dei manifesti. Ma lascio a voi provare.
+e, se non si presta attenzione, è anche facile essere "attaccati" come dei manifesti. Ma lascio a voi provare.
 La nuova versione del gioco "the best(ia)" si scarica da qui: "Invido 0.7.0":/download/invido_download.html
 
 
@@ -143,7 +143,7 @@ alcuni errori, che gli utenti più affezionati mi hanno cortesemente segnalato.
 Collegandosi al server della cuperativa con una versione precedente del programma,
 si può fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
 il programma riceve anche un nome in codice. Questa volta si chiama "Aloa Verde",
-un profumo che emrge dallo sfondo del gioco del tressette. Buon divertimento e
+un profumo che emerge dallo sfondo del gioco del tressette. Buon divertimento e
 continuate pure a segnalare problemi, informazioni e richieste varie che riguardano il
 gioco della cuperativa.
 
@@ -162,7 +162,7 @@ del tressette a due giocatori. Tra le altre migliorie al programma, ho aumentato
 la forza del giocatore computer quando gioca a scopa.
 Chi possiede la versione 0.7.5 può aggiornare il programma alla versione 0.8.0,
 semplicemente collegandosi al server della cuperativa e seguire le istruzioni che compariranno.
-Il programa, una volta attualizzato, ripartirà in modo automatico. Versioni precedenti alla 0.7.5
+Il programma, una volta attualizzato, ripartirà in modo automatico. Versioni precedenti alla 0.7.5
 richiedono l'update via setup.exe sopra riportato.
 
 
