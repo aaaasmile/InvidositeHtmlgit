@@ -41,6 +41,10 @@ Tutti i sorgenti del programma si trovano su "github":https://github.com/aaaasmi
 Per lo sviluppo della versione 1.2.7 ho usato Visual Studio 2015 (_edit_, _github_ e _search_ supporto) e l'ormai introvabile Arachno IDE 0.7.13 (_edit_ e _navigation_).
 Alcune funzioni le ho sviluppate in ambiente Linux con Ubuntu 14.04 e Visual Studio Code.
 
+h3. Storia
+
+Vedi "Bar Cooperativa":bar.html
+
 h3. Licenza
 
 Con la pubblicazione della versione 1.2.7, sono passato alla licenza "MIT":https://it.wikipedia.org/wiki/Licenza_MIT.
