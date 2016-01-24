@@ -1,3 +1,8 @@
+== 24.01.2016
+Quando si inserisce un nuovo file .page, bisogna prestare attenzione che sia in formato ANSI,
+altrimenti webgen con ruby 1.8.6 non funziona. Notepad++ e Visual Studio generano file in UTF8 per default
+e vanno convertiti in ANSI esplicitamente.
+
 == 15.12.2014
 Ho aggiornato il sito usando la repository su github, ho usato webgen 0.5.17
 sotto windows 7. Con la codifica utf8 non riesco a fare andare i files html su fabbrica digitale.

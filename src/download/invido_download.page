@@ -7,16 +7,16 @@ sort_info: 43
 
 h2. Invido download 
 
-Scarica qui: "Invido ver 0.7.0":http://sourceforge.net/projects/invido/files/latest/download?source=directory
+Scarica qui: "Invido 0.7.0":http://sourceforge.net/projects/invido/files/latest/download?source=directory
 
 h3. Sulla versione 0.7.0 the best(ia)
 
 Questa versione risulta notevolmente migliorata nella forza di gioco.
 Di seguito i dettagli dei cambiamenti del nuovo programma:
 
-  * Corretti i problemi con i files delle voci
-  * Migliorato di molto l'algoritmo di gioco
-  * Installazione più semplice per mezzo del file che si scarica, non più via zip
+* Corretti i problemi con i files delle voci
+* Migliorato l'algoritmo di gioco
+* Semplificata l'installazione
 
 h3. Dettaglio del download
 
@@ -32,14 +32,14 @@ h3. Dettaglio del download
 
 h3. Installazione
 
-Scaricare il programma e lanciarlo e poi seguire le istruzioni che 
+Scarica il programma, lancialo e segui le istruzioni che 
 compariranno sullo schermo.
-Una volta terminato il setup, andare nei programmi e lanciare il programma Invido.
+Una volta terminato il setup, vai nel menu dei programmi e lancia il programma Invido.
 
 h3. Come si gioca
 
-Un volta fatto partire il programma scegliere il menu "Inizia" per iniziare una nuova partita.
-Tramite il menu "Opzioni" è possibile scegliere diversi parametri come la lingua, per esempio il 
-dialetto bredesse.
+Un volta fatto partire il programma scegli il menu "Inizia" per iniziare una nuova partita.
+Tramite il menu "Opzioni" puoi scegliere diversi parametri come la lingua, per esempio il 
+dialetto bredese.
 Per le regole del gioco vedi "il progetto Invido":../progetti/invido_progetto.html.
 
