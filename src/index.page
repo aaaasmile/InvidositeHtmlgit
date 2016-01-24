@@ -14,9 +14,10 @@ p(data). domenica, 24 gennaio 2016
 
 Ho iniziato una campagna di divulgazione dei giochi di carte che ho visto, e ancora vedo giocare, al bar di Breda Cisoni.
 Il primo video della serie, mostra come si fa a giocare a _Mariasa_, in italiano Mariazza in altre parti denominato Mariazzo. 
+
 Se anche tu vuoi provare a giocare a _Mariasa_, ci sono due possibilità. La più affascinante è quella di trasferirti a la Breda,
 frequentare regolarmente il bar dopo i pasti, osservare i giocatori e alla fine sperare di essere invitato a svolgere una partita.
-La seconda, più immediata, è quella di scaricarti il software della "Cuperativa":cuperativa/index.html seguendo quello che
+La seconda, più immediata, è quella di scaricarti il software della "Cuperativa":progetti/cuperativa/index.html seguendo quello che
 è mostrato nel video.
 
 
@@ -41,7 +42,7 @@ Puoi scaricare subito la nuova versione 1.2.7 subito usando questo link "Cuperat
 I cambiamenti e novità rispetto alla versione precedente sono:
 * migliorata la grafica
 * setup compatibile con Win7, Win8.1 e WinXP
-* senza dubbio creato il più forte giocatore artificiale di Mariazza
+* senza dubbio creato il più forte giocatore artificiale di _Mariasa_
 * semplificato l'interfaccia grafica togliendo l'obsoleto supporto di rete
 * giochi supportati a due giocatori contro il computer: _briscola_, _mariazza_, _scopetta_, _spazzino_, _briscolone_, _tombolon_ e _tressette_
 * codice sorgete completo pubblicato su "GitHub CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
