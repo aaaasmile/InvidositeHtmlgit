@@ -1,4 +1,5 @@
 webgen.cache
 out
+/.vs
 /.vs/InvidoSite/v14/.suo
-applicationhost.config
+/.vs/config/applicationhost.config

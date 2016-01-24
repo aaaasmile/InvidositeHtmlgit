@@ -8,12 +8,12 @@ piacere cambia il formato da UTF a iso-8859-1.
 
 == 22.11.2014
 Sto sempre usando webgen 0.5.17 sotto windows e ho messo redcloth in config.yaml
-Ho tolto tutti i rifermienti a progetti vecchi come briscola_net e ho spostato
+Ho tolto tutti i riferimenti a progetti vecchi come briscola_net e ho spostato
 tutto su kickers.fabbricadigitale.it
 
 
 == 10.12.2012
-Sto usando webgen 0.5.17 che ho installato manulamente scaricando tutti
+Sto usando webgen 0.5.17 che ho installato manualmente scaricando tutti
 i pacchetti gem necessari su ruby 1.8.6.
 
 === Dal 01.2012
@@ -42,7 +42,7 @@ Nella directory ho creato config.yaml e metainfo.yaml in modo da cambiare delle
 funzionalità di default. metainfo.yaml è usato per cambiare l'ordine dei menu.
 config.yaml è usato per cambiare la lingua di default.
 
-Per quanto riguarda il formato da usare esso è redcloth, textile. Il refiremento
+Per quanto riguarda il formato da usare esso è redcloth, textile. Il riferimento
 si trova su :
 http://hobix.com/textile/
 
@@ -81,7 +81,7 @@ NOTA: L'Ip di invido.it è al 2012: 46.163.74.64
 Se si vuole avere questi files html sul server hosteurope, allora bisogna
 avere i files in utf8. Come ho fatto a farlo andare? Basta caricare i
 files di invido.it su 92.51.146.97 usando ftp con l'utente del dominio
-di default, nel caso della prova igorvivace col domininio vivacesoft.com.
+di default, nel caso della prova igorvivace col dominio vivacesoft.com.
 Da notare che lasciando i files di default che ha creato Plesk, usando
 http://92.51.146.97/ non si vede nulla. Cancellando questi files e 
 caricando i miei invece ha funzionato. La prima volta ho anche dovuto
