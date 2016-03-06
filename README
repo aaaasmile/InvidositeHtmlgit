@@ -22,6 +22,9 @@ Fetching: rack-1.6.4.gem (100%)
 Fetching: ramaze-2008.06.gem (100%)
 Fetching: kramdown-1.10.0.gem (100%)
 
+L'editor da usare per i files .page è Visual Studio Code. I files .page vanno riaperti in
+formato ISO 8859-1. Questo per due motivi, il primo è che webgen 0.5.17 non sa cosa sia UTF8,
+il secondo è che il server su fabbrica digitale usa ISO 8859-1.
 
 == 24.01.2016
 Quando si inserisce un nuovo file .page, bisogna prestare attenzione che sia in formato ANSI,
