@@ -1,3 +1,28 @@
+== 6.03.2016
+Provato su ubuntu 14.04. Su questo sistema uso rbenv per selzionare la versione di ruby, nel
+mio caso la ruby 1.8.7 (2013-12-22 patchlevel 375) [i686-linux].
+Bisogna installare la versione 0.5.17. Prima però bisogna installare una versione
+di facets compatibile, vale a dire la 2.4.1, e redcloth questo con:
+gem install facets --version 2.4.1
+gem install RedCloth
+ora si lancia
+gem install webgen --version 0.5.17
+
+Il programma webgen va poi copiato da ~/.rbenv/versions/1.8.7-p375/bin in 
+~/.rbenv/shims
+
+Questi sono gli altri gems che sono stati installati, li metto come referenza
+nel caso, come successo con facets, che le nuove versioni non siano più compatibili
+con quelle vecchie.
+Fetching: RedCloth-4.2.9.gem (100%)
+Fetching: cmdparse-2.0.6.gem (100%)
+Fetching: maruku-0.7.2.gem (100%)
+Fetching: rake-10.5.0.gem (100%)
+Fetching: rack-1.6.4.gem (100%)
+Fetching: ramaze-2008.06.gem (100%)
+Fetching: kramdown-1.10.0.gem (100%)
+
+
 == 24.01.2016
 Quando si inserisce un nuovo file .page, bisogna prestare attenzione che sia in formato ANSI,
 altrimenti webgen con ruby 1.8.6 non funziona. Notepad++ e Visual Studio generano file in UTF8 per default
