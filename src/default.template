@@ -33,31 +33,15 @@
       </div>
 
       <div id="wrap">
-
-        <div id="leftside">
-          <% if context.content_node.level > 1 %>
-          <h1>Sotto Menu</h1>
-		  <div class="webgen-menu-vert webgen-menu">
-          {menu: {options: {sort: true, mi: {in_menu: true}, absolute_levels: [2,3], used_nodes: files}}}
-		  </div>
-          <% end %>
-
-       
-        </div>
-        
         <div id="rightside">
           
-         
           <h1>Supporters:</h1>
           <ul class="linklist">
         	<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>
           </ul>
         </div>
 
-        <div id="navbar" class="content">
-          <span class="leftbox"> {breadcrumb_trail: }</span>
-          <div class="clearingdiv">&nbsp;</div>
-        </div>
+        
 
         <div id="content">
           <webgen:block name="content" />
