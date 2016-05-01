@@ -1,0 +1,7 @@
+/igor_blog/:
+
+/igor_blog/index.html:
+  title: Igor Blog
+  in_menu: true
+  orderInfo: 11
+  dest_path: http://stesosopra.blogspot.co.at

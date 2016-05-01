@@ -2,9 +2,11 @@
 /**/*.page:
   blocks: {defaults: {pipeline: [redcloth,erb,tags,blocks,fragments]}}
   io_open_mode: r:ISO-8859-1
-
+  
+  
 --- alcn  
-[/download/, /progetti/, /screenshots/, /bredacisoni/, /faq/]: 
+ 
+[/download/, /progetti/, /screenshots/, /bredacisoni/, /faq/, /igor_blog/]: 
   in_menu: true 
     
 index.page:
@@ -30,6 +32,7 @@ faq/:
   
 bredacisoni/:
   orderInfo: 10
+  title: Breda Cisoni
   
 faq/index.page:
   orderInfo: 1
