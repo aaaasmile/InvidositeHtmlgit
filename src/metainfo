@@ -3,7 +3,10 @@
   blocks: {defaults: {pipeline: [redcloth,erb,tags,blocks,fragments]}}
   io_open_mode: r:ISO-8859-1
 
---- alcn    
+--- alcn  
+[/download/, /progetti/, /screenshots/, /bredacisoni/, /faq/]: 
+  in_menu: true 
+    
 index.page:
   orderInfo: 1
 
@@ -13,7 +16,7 @@ news.page:
 Igor-sarzi-sartori.page:
   orderInfo: 3
 
-download/:
+download/index.page:
   orderInfo: 4
 
 progetti/:
@@ -28,9 +31,6 @@ faq/:
 bredacisoni/:
   orderInfo: 10
   
-sitemap.page:
-  orderInfo: 11
-
 faq/index.page:
   orderInfo: 1
 

@@ -22,7 +22,8 @@
       </div>
 
       <div id="mainmenu">
-        {menu: {options: {sort: true, mi: {in_menu: true}, absolute_levels: 1}}}
+        {menu: {options: {sort: true, mi: {in_menu: true}, siblings: [0, -1]}}}
+        
         <div class="webgen-menu-vert webgen-menu">
          <ul>
           <li><a href="http://stesosopra.blogspot.co.at/">Igor Blog</a></li> 
@@ -37,7 +38,7 @@
           <% if context.content_node.level > 1 %>
           <h1>Sotto Menu</h1>
 		  <div class="webgen-menu-vert webgen-menu">
-          {menu: {start_level: 2, max_levels: 3, used_nodes: files}}
+          {menu: {options: {sort: true, mi: {in_menu: true}, absolute_levels: [2,3], used_nodes: files}}}
 		  </div>
           <% end %>
 
