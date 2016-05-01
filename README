@@ -1,3 +1,11 @@
+== 01.05.2016
+Ho aggiornato a webgen 1.4.0 e ruby 2.2.4. Il problema principale è il
+cambiamento del file webgen.config e del file metainfo nella directory src.
+Con 1.4.0 si passa a UTF8 di default, ma tutti i miei sorgenti sono in ISO e 
+anche l'output deve essere ISO. Questo si ottiene mettendo il file open iso in
+metainfo. Anche la pipeline di redcloth va messa in metainfo.
+I menu sono cambiati pesantemente e vanno adattati.
+
 == 6.03.2016
 Provato su ubuntu 14.04. Su questo sistema uso rbenv per selzionare la versione di ruby, nel
 mio caso la ruby 1.8.7 (2013-12-22 patchlevel 375) [i686-linux].
