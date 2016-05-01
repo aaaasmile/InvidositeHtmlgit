@@ -22,7 +22,7 @@
       </div>
 
       <div id="mainmenu">
-        {menu: {max_levels: 1, used_nodes: files}}
+        {menu: {options: {sort: true, mi: {in_menu: true}, absolute_levels: 1}}}
         <div class="webgen-menu-vert webgen-menu">
          <ul>
           <li><a href="http://stesosopra.blogspot.co.at/">Igor Blog</a></li> 
@@ -67,7 +67,7 @@
     </div>
 
     <div id="footer">&copy; 2001 - 2016 Igor</a>
-    <p>Ultima modifica {date: {format: %d/%m/%Y %H:%M:%S}} CET</p></div>
+    <p>Ultima modifica {date: {format: '%A, %Y-%m-%d'}} CET</p></div>
 <!-- Analytics di google per invido.it -->
 <script type="text/javascript">
 var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
