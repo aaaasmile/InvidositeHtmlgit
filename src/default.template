@@ -7,10 +7,11 @@
     <meta name="description" content="Download della briscola, il programma cuperativa, del programma invido e diversi solitari. Giochi di carte online" />
     <meta name="keywords" content="briscola download,briscola online,tressette download,cuperativa,invido,breda cisoni,igor sarzi sartori,mariazza,tressette,tresette" />
     <meta name="author" content="Igor Sarzi Sartori" />
-	<meta name="google-site-verification" content="5_4h9kML2-bcrf27Yhgq9NdqDu6ZEMuicWGNhQQVnzM" />
-	<link rel="stylesheet" href="{relocatable: default.css}" type="text/css" media="screen" />
+	  <meta name="google-site-verification" content="5_4h9kML2-bcrf27Yhgq9NdqDu6ZEMuicWGNhQQVnzM" />
+	  <link rel="stylesheet" href="{relocatable: default.css}" type="text/css" media="screen" />
     <link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
     <title>{title:}</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -33,8 +34,6 @@
         	<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>
           </ul>
         </div>
-
-        
 
         <div id="content">
           <webgen:block name="content" />
