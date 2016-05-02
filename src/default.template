@@ -8,19 +8,22 @@
     <meta name="keywords" content="briscola download,briscola online,tressette download,cuperativa,invido,breda cisoni,igor sarzi sartori,mariazza,tressette,tresette" />
     <meta name="author" content="Igor Sarzi Sartori" />
 	  <meta name="google-site-verification" content="5_4h9kML2-bcrf27Yhgq9NdqDu6ZEMuicWGNhQQVnzM" />
-	  <link rel="stylesheet" href="{relocatable: default.css}" type="text/css" media="screen" />
-    <link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
+	  <link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
+    <link rel="stylesheet" href="{relocatable: /slicknav/slicknav.min.css}" />
+    <script src="{relocatable: /slicknav/jquery-2.1.1.min.js}"></script>
+    <script src="{relocatable: /slicknav/jquery.slicknav.min.js}"></script>
+    <link rel="stylesheet" href="{relocatable: default.css}" type="text/css" media="screen" />
     <title>{title:}</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
   </head>
 
   <body>
     <div id="container">
-
       <div id="sitename">
         <h1>Invido.it</h1>
         <h2><i>san nu mia voia, a cuminci gnanca</i></h2>
       </div>
+      <div id="menu_toggle"></div>
 
       <nav id="mainmenu">
         {menu: {options: {sort: true, mi: {in_menu: true}, siblings: [0, -1]}}}
@@ -45,14 +48,22 @@
 
     <div id="footer">&copy; 2001 - 2016 Igor</a>
     <p>Ultima modifica {date: {format: '%A, %Y-%m-%d'}} CET</p></div>
+    <script>
+      $(function(){
+        $('#mainmenu').slicknav({
+          label: '',
+          prependTo: '#menu_toggle'
+        });
+      });
+    </script>
 <!-- Analytics di google per invido.it -->
 <script type="text/javascript">
-var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-335642-1");
-pageTracker._trackPageview();
+  var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-335642-1");
+  pageTracker._trackPageview();
 </script>
 <!-- Analytics di google fine -->
 
