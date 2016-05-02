@@ -213,8 +213,10 @@ p {
         border: 1px solid #b0b0b0;
         /* ISS: tolto per avere anche le immagini nel riquadro bianco*/
         /* float:left; */
-        margin: 5px 15px 6px;
+        margin: 3px;
         padding: 5px;
+        max-width: 100%;
+        height: auto;
     }
 
 /*** Footer ***/
@@ -321,7 +323,9 @@ iframe {
 
 @media only screen and (min-width: 46.875em) {
 
-    
+    #content img, #contentalt img {
+        margin: 5px 15px 6px;
+    }
     #content {
         max-width: 960px;
         margin: 0 200px;
