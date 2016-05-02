@@ -299,8 +299,7 @@ p {
 
 /*sidebars */
 #rightside {
-    visibility: collapse;
-    height: 0px;
+    display: none;
 }
 
 /*Video*/
@@ -326,6 +325,7 @@ iframe {
     #content img, #contentalt img {
         margin: 5px 15px 6px;
     }
+
     #content {
         max-width: 900px;
         margin: 0 200px 0 40px;
@@ -335,25 +335,17 @@ iframe {
         margin: 0 200px 0 20px;
     }
 
-    #leftside, #rightside {
+    #rightside {
         margin: 0;
         padding: 0 10px 10px;
-        width: 165px;
-    }
-
-    #leftside {
-        float: left;
-        margin-right: 10px;
-    }
-
-    #rightside {
-        visibility: visible;
+        min-width: 165px;
+        display: block;
         float: right;
         margin-left: 10px;
         height: 100%;
     }
 
-        #leftside h1, #rightside h1 {
+        #rightside h1 {
             color: #505050;
             font-size: 1.6em;
             font-weight: bold;
@@ -361,37 +353,28 @@ iframe {
             margin: 0 0 12px;
         }
 
-        #leftside h2, #rightside h2 {
+        #rightside h2 {
             font-size: 1.1em;
             margin: 0 0 20px;
         }
 
 
-        #leftside p, #leftside ul.list, #rightside p {
+        #rightside p {
             font-size: 0.9em;
             line-height: 1.4em;
             margin: 0 0 16px 10px;
         }
 
-    #leftside ul.list {
-        margin: 0px;
-        padding: 0px;
-    }
 
-        #leftside ul.list li {
-            margin: 0 0 8px 25px;
+        #rightside ul.list {
+            margin: 0px;
             padding: 0px;
         }
 
-    #rightside ul.list {
-        margin: 0px;
-        padding: 0px;
-    }
-
-        #rightside ul.list li {
-            margin: 0 0 8px 25px;
-            padding: 0px;
-        }
+            #rightside ul.list li {
+                margin: 0 0 8px 25px;
+                padding: 0px;
+            }
 
 
     .linklist {

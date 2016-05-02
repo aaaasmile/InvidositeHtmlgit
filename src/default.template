@@ -22,9 +22,9 @@
         <h2><i>san nu mia voia, a cuminci gnanca</i></h2>
       </div>
 
-      <div id="mainmenu">
+      <nav id="mainmenu">
         {menu: {options: {sort: true, mi: {in_menu: true}, siblings: [0, -1]}}}
-      </div>
+      </nav>
 
       <div id="wrap">
         <div id="rightside">
