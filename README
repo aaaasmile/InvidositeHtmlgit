@@ -4,7 +4,14 @@ cambiamento del file webgen.config e del file metainfo nella directory src.
 Con 1.4.0 si passa a UTF8 di default, ma tutti i miei sorgenti sono in ISO e 
 anche l'output deve essere ISO. Questo si ottiene mettendo il file open iso in
 metainfo. Anche la pipeline di redcloth va messa in metainfo.
+Il file metainfo è fondamentale, mentre webgen.config serve solo per settare la lingua.
 I menu sono cambiati pesantemente e vanno adattati.
+Se un file va copiato, ma non viene fatto di default allora va messo in metainfo con l'handler settato a copy
+Per i sort va usata la chiave sort_info.
+Per avere la directory cuperativa nell'elenco dei progetti nel  menu a sinistra, usare metainfo con 
+la chiave in_menu: true.
+Per i menu su dispositivi mobile, ho usato lo js slicknav
+
 
 == 6.03.2016
 Provato su ubuntu 14.04. Su questo sistema uso rbenv per selzionare la versione di ruby, nel

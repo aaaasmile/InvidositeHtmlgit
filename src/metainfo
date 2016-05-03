@@ -2,7 +2,14 @@
 /**/*.page:
   blocks: {defaults: {pipeline: [redcloth,erb,tags,blocks,fragments]}}
   io_open_mode: r:ISO-8859-1
-  
+/htaccess.txt:
+   handler: copy
+/robots.txt:
+   handler: copy
+/sitemap.xml:
+   handler: copy
+
+
   
 --- alcn  
  
@@ -10,77 +17,79 @@
   in_menu: true 
     
 index.page:
-  orderInfo: 1
+  sort_info: 1
 
 news.page:
-  orderInfo: 2
+  sort_info: 2
 
 Igor-sarzi-sartori.page:
-  orderInfo: 3
+  sort_info: 3
 
 download/index.page:
-  orderInfo: 4
+  sort_info: 4
 
-progetti/:
-  orderInfo: 5
-
-screenshots/:
-  orderInfo: 6
+/screenshots/:
+  sort_info: 6
 
 faq/:
-  orderInfo: 9
+  sort_info: 9
   
 bredacisoni/:
-  orderInfo: 10
+  sort_info: 10
   title: Breda Cisoni
   
 faq/index.page:
-  orderInfo: 1
+  sort_info: 1
 
 faq/invido.page:
-  orderInfo: 2
+  sort_info: 2
   
 faq/briscola_net.page:
-  orderInfo: 3
+  sort_info: 3
+  
+/progetti/:
+  sort_info: 5
   
 progetti/index.page:
-  orderInfo: 1
-
-progetti/cuperativa:
-  orderInfo: 2
+  sort_info: 1
 
 progetti/tressette_progetto.page:
-  orderInfo: 3
+  sort_info: 3
 
 progetti/invido_progetto.page:
-  orderInfo: 4
+  sort_info: 4
 
 progetti/solitario_progetto.page:
-  orderInfo: 5
+  sort_info: 5
 
 progetti/briscola_net_progetto.page:
-  orderInfo: 6
+  sort_info: 6
+
+/progetti/cuperativa/:
+  sort_info: 80
+  in_menu: true
+
   
 download/index.page:
-  orderInfo: 1
+  sort_info: 1
 
 download/cuperativa_download.page:
-  orderInfo: 2
+  sort_info: 2
 
 download/tressette_download.page:
-  orderInfo: 3
+  sort_info: 3
   
 download/invido_download.page:
-  orderInfo: 4
+  sort_info: 4
 
 download/solitari_download.page:
-  orderInfo: 5
+  sort_info: 5
   
 download/briscola_net_download.page:
-  orderInfo: 6
+  sort_info: 6
 
 download/tools_download.page:
-  orderInfo: 7
+  sort_info: 7
   
 ---
 
