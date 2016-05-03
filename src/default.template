@@ -26,12 +26,18 @@
       <div id="menu_toggle"></div>
 
       <nav id="mainmenu">
-        {menu: {options: {sort: true, mi: {in_menu: true}, siblings: [0, -1]}}}
+        {menu: {options: {sort: true, mi: {in_menu: true}, siblings: [0, 1]}}}
       </nav>
 
       <div id="wrap">
+        <div id="leftside">
+          <% if context.content_node.level > 1 %>
+          <div class="webgen-menu-vert webgen-menu">
+            {menu: {options: {sort: true, mi: {in_menu: true}, siblings: [2, 2]}}}
+		      </div>
+          <% end %>
+        </div>
         <div id="rightside">
-          
           <h1>Supporters:</h1>
           <ul class="linklist">
         	<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>

@@ -232,7 +232,7 @@ p {
 }
 
 /*sidebars */
-#rightside {
+#leftside, #rightside {
     display: none;
 }
 
@@ -311,12 +311,54 @@ iframe {
 
     #content {
         max-width: 900px;
-        margin: 0 200px 0 40px;
+        margin: 0 200px 0 170px;
     }
 
     #contentalt {
         margin: 0 200px 0 20px;
     }
+
+    /*** Sidebar menu ***/
+    #leftside {
+        float: left;
+        margin-right: 10px;
+        margin: 0;
+        display: block;
+        padding: 0 10px 10px;
+        width: 165px;
+    }
+
+        #leftside .webgen-menu ul {
+            margin: 0 0 10px 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        #leftside .webgen-menu a, #leftside .webgen-menu span {
+            background: #e8e9ea;
+            border: 1px solid #b0b0b0;
+            color: #606060;
+            display: block;
+            margin-top: 4px;
+            padding: 2px 4px 2px 4px;
+            position: relative;
+            width: 140px;
+        }
+
+        #leftside .webgen-menu span {
+            font-weight: bold;
+        }
+
+        #leftside .webgen-menu a:hover, #leftside .webgen-menu li.webgen-menu-item-selected > a, #leftside .webgen-menu li.webgen-menu-item-selected > span, #leftside .webgen-menu li.webgen-menu-submenu-inhierarchy > a, #leftside .webgen-menu li.webgen-menu-submenu-inhierarchy > span {
+            background: #f8f9fa;
+            border: 1px solid #909090;
+            color: #303030;
+            text-decoration: none;
+        }
+
+        #leftside .webgen-menu ul ul {
+            margin-left: 8px;
+        }
 
     #rightside {
         margin: 0;
@@ -328,7 +370,7 @@ iframe {
         height: 100%;
     }
 
-        #rightside h1 {
+        #leftside h1, #rightside h1 {
             color: #505050;
             font-size: 1.6em;
             font-weight: bold;
@@ -336,28 +378,38 @@ iframe {
             margin: 0 0 12px;
         }
 
-        #rightside h2 {
+        #leftside h2, #rightside h2 {
             font-size: 1.1em;
             margin: 0 0 20px;
         }
 
 
-        #rightside p {
+        #leftside p, #leftside ul.list, #rightside p {
             font-size: 0.9em;
             line-height: 1.4em;
             margin: 0 0 16px 10px;
         }
 
+    #leftside ul.list {
+        margin: 0px;
+        padding: 0px;
+    }
 
-        #rightside ul.list {
-            margin: 0px;
+        #leftside ul.list li {
+            margin: 0 0 8px 25px;
             padding: 0px;
         }
 
-            #rightside ul.list li {
-                margin: 0 0 8px 25px;
-                padding: 0px;
-            }
+
+    #rightside ul.list {
+        margin: 0px;
+        padding: 0px;
+    }
+
+        #rightside ul.list li {
+            margin: 0 0 8px 25px;
+            padding: 0px;
+        }
 
 
     .linklist {
