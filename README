@@ -11,6 +11,9 @@ Per i sort va usata la chiave sort_info.
 Per avere la directory cuperativa nell'elenco dei progetti nel  menu a sinistra, usare metainfo con 
 la chiave in_menu: true.
 Per i menu su dispositivi mobile, ho usato lo js slicknav
+Su windows per avere i colori nella console, basta copiare i files di 
+https://github.com/adoxa/ansicon v1.66 releases in un posto inserito nel path.
+Meglio usare sempre il comando 'webgen -v' per avere più informazioni se qualcosa non quadra.
 
 
 == 6.03.2016
