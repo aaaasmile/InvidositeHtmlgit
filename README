@@ -1,3 +1,13 @@
+== 09.05.2016
+RedCloth sotto windows va installato usando devkit:
+gem install RedCloth --platform=ruby
+Poi va copiato la lib redcloth_scan.so nella directory 2.3 da creare
+D:\ruby_2_3_0\lib\ruby\gems\2.3.0\gems\RedCloth-4.3.0\lib\2.3
+Con ansicon si può anche colorare la cmd sotto windows.
+Basta copiare i files released in https://github.com/adoxa/ansicon 
+che va e lanciare 
+ansicon -i
+
 == 01.05.2016
 Ho aggiornato a webgen 1.4.0 e ruby 2.2.4. Il problema principale è il
 cambiamento del file webgen.config e del file metainfo nella directory src.
