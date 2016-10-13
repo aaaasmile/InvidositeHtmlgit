@@ -1,10 +1,20 @@
+== 13.10.2016
+I files del sito invido.it vanno tenuti in ISO-8859-1 per via del server apache di invido.it.
+Quindi è meglio evitare di usare Visual Studio Code che converte tutto in UTF8 appena si salva.
+Notepad++, invece, va beissimo.
+
 == 09.05.2016
 RedCloth sotto windows va installato usando devkit:
 gem install RedCloth --platform=ruby
 Poi va copiato la lib redcloth_scan.so nella directory 2.3 da creare
 D:\ruby_2_3_0\lib\ruby\gems\2.3.0\gems\RedCloth-4.3.0\lib\2.3
+Se si usa ruby 2.2.4, il file che si trova in
+D:\ruby_2_3_0\lib\ruby\gems\2.3.0\gems\RedCloth-4.3.0\lib\redcloth_scan.so 
+va messo nella nuova directory (da creare manualmente):
+D:\ruby_2_3_0\lib\ruby\gems\2.3.0\gems\RedCloth-4.3.0\lib\2.2
+ 
 Con ansicon si può anche colorare la cmd sotto windows.
-Basta copiare i files released in https://github.com/adoxa/ansicon 
+Basta copiare i files released da https://github.com/adoxa/ansicon/releases 
 che va e lanciare 
 ansicon -i
 

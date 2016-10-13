@@ -8,7 +8,7 @@ sort_info: 41
 h2. Cuperativa Download 
 
 
-Download: "Cuperativa 1.2.9":https://sourceforge.net/projects/cuperativa/files/latest/download
+Download: "Cuperativa 1.2.10":https://sourceforge.net/projects/cuperativa/files/latest/download
 
 *Descrizione*: La cuperativa è il programma per giocare a diversi giochi di carte contro il computer.
 Nella Cuperativa sono presenti i seguenti giochi:
@@ -20,12 +20,12 @@ per due giocatori.
 Il programma è open source, disponibile con i suoi sorgenti e l'ho creato per divertimento.
 
 |*Dimensione*:| 14 MB|
-|*Versione*:| 1.2.9|
+|*Versione*:| 1.2.10|
 |*Tipo file*:| Setup eseguibile|
-|*Sistema Operativo*:| Win 8.1, Win 7, Windows Xp|
+|*Sistema Operativo*:| Win 10, Win 8.1, Win 7, Windows Xp|
 |*Autore*:| Igor Sarzi Sartori|
-|*Licenza*:| GPL Open Source|
-|*Data*:| 09.01.2016|
+|*Licenza*:| MIT Open Source|
+|*Data*:| 13.10.2016|
 |*Screenshot*:| <img width="200" src="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}">|
 
 h2. Cuperativa Codice Sorgente
@@ -66,15 +66,15 @@ I mazzi si trovano:
 * "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip
 
 Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
-Cuperativa (per esempio %localappdata%\Invido_it\Cuperativa\1_2_6\app\res\carte).
-Poi fare partire il programma e nelle opzioni delle carte ora comparirà il mazzo dello
-zip che potrà essere selezionato come tutti gli altri.
+Cuperativa (per esempio %localappdata%\Invido_it\Cuperativa\1_2_10\app\res\carte).
+Poi fare partire il programma Cuperativa, e nelle opzioni delle carte comparirà il nuovo mazzo scompattato dallo
+zip, mazzo che potrà essere selezionato come tutti gli altri precedenti.
 
 Esempio carte romagnole:
 
 * Scaricare lo zip romagna.zip
 * Scompattare lo zip in modo che si crei la directory <localappdata>res\carte\romagna con all'interno tutte le immagini delle carte
-* Lanciare il programma cuperativa, selezionare il menu opzioni, mazzi di carte, selezionare carte romagnole e premere il pulsante [applica].
+* Lanciare il programma Cuperativa, selezionare il menu opzioni, mazzi di carte, selezionare carte romagnole e premere il pulsante [applica].
 
 A questo punto tutti i giochi di carte saranno eseguiti usando il mazzo delle carte romagnole.
 
