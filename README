@@ -1,3 +1,11 @@
+== 03.09.2016
+Uso webgen webgen-1.4.0, che ho installato con ruby 2.2.3.
+Comando per inizializzare ruby: 
+set PATH=D:\ruby\ruby_2_3_0\bin;%PATH%
+Poi nella dir si lancia
+D:\Projects\GItHub\InvidositeHtmlgit>webgen
+
+
 == 13.10.2016
 I files del sito invido.it vanno tenuti in ISO-8859-1 per via del server apache di invido.it.
 Quindi è meglio evitare di usare Visual Studio Code che converte tutto in UTF8 appena si salva.

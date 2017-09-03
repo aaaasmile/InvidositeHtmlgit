@@ -6,6 +6,10 @@ sort_info: 1
 ---
 h2. News
 
+h3. 02.09.2017 - Tressette 0.7.5
+
+* Corretto salvataggio opzioni su windows 10.
+
 h3. 23.10.2016 - Cuperativa 1.2.10
 
 * Corretto errore caricamento settings.

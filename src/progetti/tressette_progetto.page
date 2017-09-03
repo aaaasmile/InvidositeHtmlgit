@@ -24,7 +24,6 @@ h3. Sommario
     * "Il punteggio":#prj_tre_punteggio
     * "Localizzazioni":#prj_tre_locale
     * "Algoritmo di gioco":#prj_tre_algoritmo
-    * "Sviluppi futuri":#prj_tre_sviluppi
 
 h3(#prj_tre_giocatori). Giocatori
 
@@ -98,8 +97,3 @@ h3(#prj_tre_algoritmo). Algoritmo di gioco
 
 L'algoritmo di gioco si ispira alle soluzioni adottate nel gioco del bridge. L'implementazione attuale (ver 0.69) è lontana dall'essere efficiente in tutte le fasi del gioco. L'idea alla base è quella di utilizzare un algoritmo alpha-beta, come quello che viene usato nei programmi di scacchi. La differenza con gli scacchi è che, nel caso del tressette, le carte dell'avversario non sono conosciute e devono essere supposte, per esempio a caso. Se si riescono a fare numerose supposizioni e per ognuna di esse, si calcola l'algoritmo, si può avere come risultato una strategia che, a lungo andare, può essere vincente (metodo montecarlo). Il problema da risolvere, nell'implementazione corrente, è la limitatezza del tempo di calcolo di una giocata. Tempi superiori a qualche secondo non sono tollerati durante il gioco del tressette.
 
-h3(#prj_tre_sviluppi). Sviluppi futuri
-
-Il gioco Tre non è completo, esso era stato pensato come gioco che supportasse
-numerosi varianti locali. Esse sarebbero le varianti che si giocano veramente nei
-circoli e nelle città d'Italia.  
