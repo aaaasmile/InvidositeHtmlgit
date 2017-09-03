@@ -4,7 +4,7 @@ Comando per inizializzare ruby:
 set PATH=D:\ruby\ruby_2_3_0\bin;%PATH%
 Poi nella dir si lancia
 D:\Projects\GItHub\InvidositeHtmlgit>webgen
-
+Sistema usato: Laptop-Toni
 
 == 13.10.2016
 I files del sito invido.it vanno tenuti in ISO-8859-1 per via del server apache di invido.it.
