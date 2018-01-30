@@ -11,6 +11,18 @@ sort_info: 0
 <a href="{relocatable: /index_03.html}"> 02 </a> |
 <a href="{relocatable: /index_archived.html}"> Archivio ]</a>
 
+h2. Runner tool
+
+p(data). mercoledì, 31 gennaio 2018
+
+Uno degli strumenti che uso maggiormanete è il "Runner Tool":https://runners-tool.firebaseapp.com/, che è la raccolta 
+di diverse funzioni per il bravo corridore amatore. Inizialmente l'avevo sviluppato come applicazione 
+per il browser Chrome (extension packged), ma Google ha deciso di non supportare più questo tipo di applicazioni. 
+Così l'ho trasformata in un'applicazione Progressive Web Apps (progetto su "PWAPP-runner-tool":https://github.com/aaaasmile/PWAPP-runner-tool). 
+Questo tipo di appllicazione può funzionare anche offline e può essere salvata all'interno dell'elenco App similmente
+alla mia "vecchia extension packaged":https://github.com/aaaasmile/corsa_tool. 
+
+<a href="{relocatable: /images/runner-tool/runner-tool.PNG}"><img width="250" src="{relocatable: /images/runner-tool/runner-tool.PNG}"></a>
 
 h2. Tressette 0.7.5
 
@@ -26,10 +38,14 @@ h2. Cuperativa 1.2.10
 
 p(data). sabato, 09 gennaio 2016
 
+<div>
+<a 
+  href="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"></a>
 Ecco puntuale come un orologio la nuova versione della Cuperativa versione 1.2.10.
 Fatta per correggere un errore nel caricamento dei settings e perfettamente funzionante 
 anche sotto il sistema operativo windows 10.
 Scarica qui la "Cuperativa 1.2.10":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
+</div>
 
 h2. Storia di Breda Cisoni
 
@@ -38,7 +54,8 @@ p(data). sabato, 5 marzo 2016
 Non so come mai, ma tra passaggi di siti, nuovi e scomparsi, la storia di Breda Cisoni scritta da Beach è scomparsa.
 Ho rimediato <a href="{relocatable: /bredacisoni/index.html}">ripresentandola</a> su questo sito aggiungendoci qualche foto dal mio archivio.
 
-<a href="{relocatable: /bredacisoni/index.html}"><img width="250" src="{relocatable: /images/breda/stemmabreda_800.jpg}"></a>
+<a 
+   href="{relocatable: /bredacisoni/index.html}"><img width="250" src="{relocatable: /images/breda/stemmabreda_800.jpg}"></a>
 
 h2. Come giocare a "_Mariasa_"
 
