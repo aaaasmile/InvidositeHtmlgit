@@ -1,6 +1,6 @@
-/igor_blog/:
+/runners_tool/:
 
-/igor_blog/index.html:
-  title: Igor Blog
+/runners_tool/index.html:
+  title: Runners Tool
   in_menu: true
-  dest_path: http://stesosopra.blogspot.co.at
+  dest_path: https://runners-tool.firebaseapp.com/

@@ -4,8 +4,8 @@ in_menu: false
 directory_name: invido
 ---
 
-<a href="{relocatable: /index_02.html}"> < Precedente </a>
-
+<a href="{relocatable: /index_02.html}"> < Precedente </a> |
+<a href="{relocatable: /index_archived.html}"> Archivio </a>
 
 
 h2. Giochi di carte online

@@ -1,4 +1,10 @@
 == 30.01.2017
+Per usare Visual Studio Code, bisogna fare in modo di impostare l'ambiente di lavoro come Windows 1252 (Einstellungen -> Einstellungen -> "files.encoding":"windows1252"). 
+Così i files rimangono in ansi e webgen funziona.
+Con powershell uso:
+$env:path += "D:\ruby\ruby_2_3_0\bin"
+Poi ho lanciato:
+webgen
 Ho fatto una prova con ruby 2.3.1 dove ho installato webgen 1.4.1 che come sempre 
 non ha funzionato. Quindi usa webgen 1.4.0 con ruby 2.3.0
 
