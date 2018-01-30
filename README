@@ -1,10 +1,18 @@
+== 30.01.2017
+Ho fatto una prova con ruby 2.3.1 dove ho installato webgen 1.4.1 che come sempre 
+non ha funzionato. Quindi usa webgen 1.4.0 con ruby 2.3.0
+
 == 03.09.2016
-Uso webgen webgen-1.4.0, che ho installato con ruby 2.2.3.
+Uso webgen webgen-1.4.0, che ho installato con ruby 2.3.0.
 Comando per inizializzare ruby: 
 set PATH=D:\ruby\ruby_2_3_0\bin;%PATH%
+D:\Projects\GItHub\InvidositeHtmlgit>ruby -v
+ruby 2.3.0p0 (2015-12-25 revision 53290) [i386-mingw32]
+
 Poi nella dir si lancia
 D:\Projects\GItHub\InvidositeHtmlgit>webgen
 Sistema usato: Laptop-Toni
+
 
 == 13.10.2016
 I files del sito invido.it vanno tenuti in ISO-8859-1 per via del server apache di invido.it.
