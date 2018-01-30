@@ -6,6 +6,12 @@ directory_name: invido
 sort_info: 0
 ---
 
+<a href="{relocatable: /index.html}">[</a> Indice |
+<a href="{relocatable: /index_02.html}"> 01 </a> |
+<a href="{relocatable: /index_03.html}"> 02 </a> |
+<a href="{relocatable: /index_archived.html}"> Archivio ]</a>
+
+
 h2. Tressette 0.7.5
 
 p(data). sabato, 2 settembre 2017
@@ -51,38 +57,6 @@ La seconda, più immediata, è quella di scaricarti il software della "Cuperativa"
 è mostrato nel video.
 
 
-h2. Cuperativa 1.2.9
-
-p(data). sabato, 09 gennaio 2016
-
-Sentivo il bisogno di aggiornare la forza dell'algoritmo della Mariazza e così ho pubblicato una nuova
-versione della cuperativa:
-"Cuperativa 1.2.9":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
-
-
-
-h2. Nuova versione Cuperativa 1.2.7
-
-p(data). giovedì, 31 dicembre 2015
-
-Il mio 2015 non finisce senza una nuova versione del programma _Cuperativa_. La nuova versione 1.2.7
-presenta una nuova grafica, pur mantenendo lo stile retrò targato fine anni novanta.
-
-Puoi scaricare subito la nuova versione 1.2.7 subito usando questo link "Cuperativa 1.2.7":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
-I cambiamenti e novità rispetto alla versione precedente sono:
-* migliorata la grafica
-* setup compatibile con Win7, Win8.1 e WinXP
-* senza dubbio creato il più forte giocatore artificiale di _Mariasa_
-* semplificato l'interfaccia grafica togliendo l'obsoleto supporto di rete
-* giochi supportati a due giocatori contro il computer: _briscola_, _mariazza_, _scopetta_, _spazzino_, _briscolone_, _tombolon_ e _tressette_
-* codice sorgete completo pubblicato su "GitHub CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
-
- Maggiori informazioni le puoi trovare su <a href="{relocatable: /progetti/cuperativa/index.html}">Progetto Cuperativa</a>.
-
- <br />
- <a href="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"></a>
- <a href="{relocatable: /images/cuperativa/start_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/start_1_2_6.JPG}"></a>
-
 h2. Aggiornamento
 
 p(data). martedì, 15 dicembre 2015
@@ -93,7 +67,6 @@ Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aa
 ci siano delle novità riguardante i giochi di carte in un prossimo futuro.
 
 
- 
 h2. Dove è finito Invido.it?
 
 p(data). sabato, 22 novembre 2014
@@ -133,14 +106,6 @@ Ora il programma è molto più forte
 e, se non si presta attenzione, è anche facile essere "attaccati" come dei manifesti. Ma lascio a voi provare.
 La nuova versione del gioco "the best(ia)" si scarica da qui: "Invido 0.7.0":/download/invido_download.html
 
-
-h2. Il sito dell'invido è tornato dalle ferie
-
-p(data). giovedì, 1 settembre 2011
-
-Qualche aggiornamento per quanto riguarda il software della *cuperativa*. Sto lavorando
-ad una nuova versione che contiene il tressette a 4 giocatori. Non è ancora finita ma,
-tra una corsa e l'altra, penso che riuscirò. 
 
 h2. Nuovo mazzi di carte per il programma Cuperativa
 
@@ -187,21 +152,6 @@ Il setup completo si trova su:
 Collegandosi al server della cuperativa con una versione precedente del programma,
 si può fare un aggiornamento automatico. 
 
-
-h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.1 
-
-p(data). venerdì, 27 ottobre 2010
-
-La cuperativa non si ferma mai e così ho trovato il tempo per correggere
-alcuni errori, che gli utenti più affezionati mi hanno cortesemente segnalato.
-Collegandosi al server della cuperativa con una versione precedente del programma,
-si può fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
-il programma riceve anche un nome in codice. Questa volta si chiama "Aloa Verde",
-un profumo che emerge dallo sfondo del gioco del tressette. Buon divertimento e
-continuate pure a segnalare problemi, informazioni e richieste varie che riguardano il
-gioco della cuperativa.
-
-
 h2. Pubblicata nuova versione della cuperativa col Tressette
 
 p(data). venerdì, 15 ottobre 2010
@@ -235,4 +185,7 @@ E' nella calma la vera forza della cuperativa.
 
 
 
-<a href="{relocatable: /index_02.html}"> Segue > </a>
+<a href="{relocatable: /index.html}">[</a> Indice |
+<a href="{relocatable: /index_02.html}"> 01 </a> |
+<a href="{relocatable: /index_03.html}"> 02 </a> |
+<a href="{relocatable: /index_archived.html}"> Archivio ]</a>

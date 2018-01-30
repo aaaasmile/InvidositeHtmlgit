@@ -4,8 +4,9 @@ in_menu: false
 directory_name: invido
 ---
 
-<a href="{relocatable: /index_02.html}"> < Precedente </a> |
-<a href="{relocatable: /index_archived.html}"> Archivio </a>
+<a href="{relocatable: /index.html}">[ Indice </a> |
+<a href="{relocatable: /index_02.html}"> 01 </a> | 02 |
+<a href="{relocatable: /index_archived.html}"> Archivio ]</a>
 
 
 h2. Giochi di carte online
@@ -173,4 +174,6 @@ Le funzioni più importanti del programma sono:
 
 Il programma utilizza la libreria open source SDL. 
 
-<a href="{relocatable: /index_02.html}"> < Precedente </a>
+<a href="{relocatable: /index.html}">[ Indice </a> |
+<a href="{relocatable: /index_02.html}"> 01 </a> | 02 |
+<a href="{relocatable: /index_archived.html}"> Archivio ]</a>

@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <div id="footer">&copy; 2001 - 2017 Igor</a>
+    <div id="footer">&copy; 2001 - {date: {format: '%Y'}} Igor</a>
     <p>Ultima modifica {date: {format: '%A, %Y-%m-%d'}} CET</p></div>
     <script>
       $(function(){

@@ -4,8 +4,9 @@ in_menu: false
 directory_name: invido
 ---
 
-<a href="{relocatable: /index.html}"> < Precedente </a> |
-<a href="{relocatable: /index_03.html}"> Segue > </a>
+<a href="{relocatable: /index.html}">[ Indice </a> | 01 |
+<a href="{relocatable: /index_03.html}"> 02 </a> |
+<a href="{relocatable: /index_archived.html}"> Archivio ]</a>
 
 h2. Creato un nuovo Blog
 
@@ -13,29 +14,6 @@ p(data). domenica, 5 Settembre 2010
 
 Ho creato un nuovo blog personale alla pagina "stesosopra.blogspot.com/":http://stesosopra.blogspot.com/
 
-
-h2. Nuova versione 0.7.5 del programma Cuperativa
-
-p(data). lunedì, 3 Maggio 2010
-
-<a href="{relocatable: /images/cuperativa/0_7_5mariazza_big.png}">
-  <img src="{relocatable: /images/cuperativa/0_7_5mariazza_small.png}">
-</a>
-
-<a href="{relocatable: /images/cuperativa/0_7_5mainrete_big.png}">
-  <img src="{relocatable: /images/cuperativa/0_7_5mainrete_small.png}">
-</a>
-
-<a href="{relocatable: /images/cuperativa/0_7_5briscolone_big.png}">
-  <img src="{relocatable: /images/cuperativa/0_7_5briscolone_small.png}">
-</a>
-
-
-Ho pubblicato una nuova versione del programma Cuperativa, la 0.7.5.
-Contiene il nuovo gioco del briscolone, effetti sonori e una grafica migliorata.
-
-
-Il gioco in rete funziona solo con la versione 0.7.5.
 
 h2. Cuperativa
 
@@ -51,7 +29,7 @@ p(data). Venerdì, 17 Ottobre 2009
 
 L'autunno non è ancora iniziato che è già inverno. Tempo per una versione
 del  programma Cuperativa che uscirà presto.
-Ci sono alcune migliorie all'intefaccia
+Ci sono alcune migliorie all'interfaccia
 grafica, così come un nuovo gioco: il briscolone. Il briscolone è una variante
 della briscola, si gioca con 5 carte e non ha la briscola. L'idea è venuta dopo
 una partita a briscola con Jason.
@@ -79,49 +57,6 @@ recarsi nei locali sopra citati. Per tutti gli altri basta collegarsi al server
 della cuperativa e crecare un avversario col quale giocare.
 
 
-
-
-h2. Nuova versione di Cuperativa: 0.7.1
-
-<img src="{relocatable: /images/cuperativa/mariazza_title_trasp.png}">
-
-In questa versione sono stati corretti numerosi bugs. Primo fra tutti la possibilità
-di effettuare un update in modo automatico e senza la necessità di scaricare 9Mb
-del setup. La lista degli utenti online è ora di nuovo funzionante. I giochi del
-Tombolon e della Mariazza sono stati corretti. Nella Briscola ora si possono
-vedere quante carte sono rimaste da pescare.
-
-
-
-h2. Nuova versione di Cuperativa: 0.7.0
-
-p(data). Domenica, 7 Giugno 2009
-
-<a href="{relocatable: /images/cuperativa/cup070_big.png}">
-  <img src="{relocatable: /images/cuperativa/cup070_small.png}">
-</a>
-
-Con grande piacere annuncio la pubblicazione della nuova versione del software 
-Cuperativa 0.7.0
-
-Nella versione 0.7.0 è ora possibile giocare per la classifica. 
-
-Da subito, per giocare gratuitamente in internet sul server della cuperativa,
-è necessario registrarsi. La registrazione gratuita avviene in modo molto semplice
-sul sito "cuperativa.invido.it":http://cuperativa.invido.it. Su cuperativa.invido.it
-ho messo anche un piccolo forum, che può essere usato anche per segnalare problemi o suggerimenti.
-
-In questa versione ho aggiunto il gioco del Tombolon. Questo gioco è stato 
-curato, per quanto riguarda le regole e il suo funzionamento, da Domenico Starna.
-Domenico ha potuto constatare, direttamente nei bar e nei circoli
-di Rovigo, come il gioco funzioni veramente.
-
-Le versioni precedenti della cuperativa non possono più giocare col server in internet.
-Per giocare online è quindi necessario l'aggiornamento all'ultima versione.
-Questo aggiornamento va fatto scaricado il programma setup. Nelle prossime versioni
-sarà di nuovo  disponibile l'aggiornamento automatico.
-
-
 h2. Cuperativa alla stretta finale 
 
 p(data). Sabato, 09 Maggio 2009
@@ -145,20 +80,6 @@ ma non ho scelto di lasciarne i ricordi; ma quanto è difficile trattenerli se il
 la voce, il sorriso non ci sono più.
 
 
-h2. Registrazione utenti
-
-p(data). Sabato, 28 Febbraio 2009
-
-Tutti i giochi di carte online hanno la possibilità di registrare gli utenti
-che vi partecipano e di fornire punteggi con classifiche. Cuperativa non ha ancora questa
-possibilità, ma è arrivato il momento di offrire questa possibilità anche nella cuperativa.
-Nella prossima versione, oltre al gioco del Tombolon, sarà possibile registrarsi
-sul sito e giocare con un punteggio. Ho preso in considerazione di usare
-servizi come Facebook, Google friend e openid. Nessun servizio mi ha convinto del tutto
-ed allora, per il momento, la registrazione verrà fatta su questo sito.
-
-
-
 h2. Tombolon: il prossimo gioco della cuperativa
 
 p(data). Martedì, 25 Gennaio 2009
@@ -169,25 +90,6 @@ spazzino assomiglia un po' al gioco del Tombolon giocato a Rovigo. Mi ha spiegat
 le regole e sto provando ad implementarle. Quindi fans del Tombolon rovigiano state in campana.
 Nel frattempo ho tolto le aggiunte di google friend al sito, che erano fine a se stesse.
 Se qualcuno ne sente la mancanza me lo faccia sapere.
-
-h2. Google friend connect
-
-p(data). Martedì, 30 Dicembre 2008
-
-Non c'è nulla di più noiso che registrarsi, per l'ennesima volta, su un sito per accedere
-ai servizi che esso offre. 
-Sto provando diversi metodi per accedere al sito invido.it e al gioco della
-Cuperativa. Facebook e Google Friend Connect sono due sistemi interessanti
-per accedere a diversi siti riutilizzando lo stesso account. Per ora ho messo
-la possibilità di commentare le varie pagine del sito invido.it utilizzando
-un account supportato da google friend connect (per esempio google, yahoo, openid,...).
-Su ogni pagina del sito è ora possibile inserire un commento e un voto.
-Per il gioco della Cuperativa, invece, sto pensando di usare l'account di
-Facebook. Fino a quel momento, però, il gioco della cuperativa non prevede
-nessun tipo di riconoscimento centrale, ma lascia ad ogni giocatore la
-libertà di scegliere un nome a piacere.
-
-Buon Anno a tutti.
 
 
 h2. Pubblicato il gioco della Scopa - Cuperativa 0.6.1
@@ -264,7 +166,7 @@ Questo il dettaglio della versione 0_6_0:
 
 
 
-
-<a href="{relocatable: /index.html}"> < Precedente </a> |
-<a href="{relocatable: /index_03.html}"> Segue > </a>
+<a href="{relocatable: /index.html}">[ Indice </a> | 01 |
+<a href="{relocatable: /index_03.html}"> 02 </a> |
+<a href="{relocatable: /index_archived.html}"> Archivio ]</a>
 
