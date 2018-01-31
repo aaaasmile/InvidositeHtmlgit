@@ -8,6 +8,17 @@ webgen
 Ho fatto una prova con ruby 2.3.1 dove ho installato webgen 1.4.1 che come sempre 
 non ha funzionato. Quindi usa webgen 1.4.0 con ruby 2.3.0
 
+== Deploy
+Con la WLC su win10 ho provato a fare il deploy usando git-ftp (https://github.com/git-ftp/git-ftp)
+Ho crato una nuova repository locale su D:\scratch\git-ftp\invidosite
+copiando tutti files della dir /out ed aggiungendoli alla repository (git init invidosite; git add .;git commit -m "update").
+Poi ho configurato git-ftp come da help, conl'url, user e password.
+Per il deploy ho usato il comando (che serve all'inizio dopo aver settato  url):
+git ftp init
+Successivamente per ogni cambio e deploy si usa, dopo il commit,
+git ftp push
+ATTENZIONE: l'url deve essere corretta ed è lunga.
+
 == 03.09.2016
 Uso webgen webgen-1.4.0, che ho installato con ruby 2.3.0.
 Comando per inizializzare ruby: 
