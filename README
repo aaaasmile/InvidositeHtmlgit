@@ -18,6 +18,10 @@ git ftp init
 Successivamente per ogni cambio e deploy si usa, dopo il commit,
 git ftp push
 ATTENZIONE: l'url deve essere corretta ed è lunga.
+Ho cambiato la destinazione mettendo in web.config:
+destination: ["file_system",'D:/scratch/git-ftp/invidosite']
+Per vedere tutti i config:
+webgen show config
 
 == 03.09.2016
 Uso webgen webgen-1.4.0, che ho installato con ruby 2.3.0.
