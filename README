@@ -1,3 +1,22 @@
+== Quello che bisogna fare per aggiornare Invido.it
+
+vai nella dir D:\Projects\GItHub\InvidositeHtmlgit e apri powershell
+$env:path = "D:\ruby\ruby_2_3_1\bin"
+vedi se ruby -v funzione e anche webgen.
+Ora con notepad++ modifica i files .page della sottodirectory src
+Ricorda di usare la codifica ANSI e mai la UTF8.
+Lancia webgen e vedi il risultato nella directory D:\scratch\git-ftp\invidosite
+Quando il risultato locale va bene, aggiorna il sito su http://kickers.fabbricadigitale.it/index.html?year=2018
+in questo modo:
+WLC vai nella dir 
+cd /mnt/d/scratch/git-ftp/invidosite/
+git add .
+git commit -m "update"
+git ftp push
+
+In definitiva sono due repository git. La prima che gestisce la sotto dir src, la seconda la sottodir out.
+La prima è su github, la seconda è un ftp su http://kickers.fabbricadigitale.it.
+
 == 14.02.18
 ho aggiornato webgen alla versione 1.4.1 e funziona. Così come ruby 2.3.1
 $env:path = "D:\ruby\ruby_2_3_1\bin"
