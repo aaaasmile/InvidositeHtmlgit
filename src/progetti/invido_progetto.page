@@ -18,6 +18,8 @@ dialetto bredese. La versione in italiano è puramente artificiale.
 Il software può essere scaricato da
 <a href="{relocatable: /download/invido_download.html}">download invido</a>
 
+Il codice sorgente del programma si trovano su "github invido":https://github.com/aaaasmile/invidocpp
+
 h2. Regole del gioco dell'Invido
 
 h3. Introduzione
@@ -177,7 +179,7 @@ Ad esempio: G1 chiama "Invido", G2 risponde con "Tras mas" G1 controbatte con
 svolgimento del gioco fino alla risposta. Se la risposta è negativa,
 il gioco riprende dal punto in cui è stato interrotto con la chiamata "A monte".
 
-h3. Particolarità
+h3. Particolarità del gioco
 
 Esiste un punteggio particolare che è quello di 23-23. Quando una giocata termina
 ed entrambi i giocatori si trovano sul 23 pari, la partita non termina ai 24 punti,
@@ -189,12 +191,7 @@ Si continua in questo modo fino a quando un giocatore raggiunge o supera gli
 È importante notare che l'azzeramento dovuto al 7-7 avviene solo se si è prima
 raggiunto il punteggio di 23-23 nel corso della stessa partita.
 
-h3. Limitazioni del programma
-
-Il programma Invido, alla versione attuale, non consente di effettuare
-la giocata "Vado dentro" con una carta. Esse viene effettuata quando un
-giocatore vuole forzare la presa del giocatore avversario senza che egli possa
-vedere la carta.
+h3. Particolarità del programma
 
 Sulle chiamate "A monte", per semplicità, le sole risposte ammesse sono "No" e
 "Va bene". In partite reali non di rado vi sono risposte negative implicite e
@@ -207,11 +204,11 @@ le domande in sospeso.
 
 h3. Uso del programma
 
-__Invido.exe__ rispecchia fedelmente le regole di gioco dell'Invido esposte con
-le limitazioni sopra citate. Le chiamate vengono effettuate usando i pulsanti che
-via via compaiono sulla parte destra della finestra, oppure con la console
-digitando la chiamata in modo completo. Per giocare una carta basta effettuare
+__Invido.exe__ rispecchia fedelmente le regole di gioco dell'Invido. 
+Le chiamate vengono effettuate usando i pulsanti che
+via via compaiono sulla parte destra della finestra. Per giocare una carta basta effettuare
 un click col pulsante sinistro del mouse sulla carta stessa.
+Con il tasto destro del mouse sulla carta, è possibile avere nuove funzioni, come "Vado Dentro".
 
 Al fianco delle
 carte, 3 led segnalano lo stato attuale della giocata, un led verde chiaro

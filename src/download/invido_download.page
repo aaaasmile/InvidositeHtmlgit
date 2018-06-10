@@ -7,34 +7,45 @@ sort_info: 43
 
 h2. Invido download 
 
-Scarica qui: "Invido 0.7.0":http://sourceforge.net/projects/invido/files/latest/download?source=directory
+Scarica qui: "Invido 2.1.0":http://sourceforge.net/projects/invido/files/latest/download?source=directory
 
-h3. Sulla versione 0.7.0 the best(ia)
+h3. Sulla versione 2.1.0 
 
-Questa versione risulta notevolmente migliorata nella forza di gioco.
+Questa versione risulta notevolmente migliorata nella forza di gioco e supporta
+la funzione "Vado Dentro"
 Di seguito i dettagli dei cambiamenti del nuovo programma:
 
-* Corretti i problemi con i files delle voci
+* Aggiunto il comando "Vado dentro"
+* Usa SDL 2.0 (Visual Studio 2015 su Windows 10)
 * Migliorato l'algoritmo di gioco
-* Semplificata l'installazione
+* Nuova grafica e musica
 
 h3. Dettaglio del download
 
 |*Descrizione*:| Simulazione del gioco dell'Invido in versione singolo giocatore. |
-|*Dimensione*:| 3893 Kb|
-|*Versione*:| 0.7.0|
-|*Tipo file*:| msi|
-|*Sistema Operativo*:| Windows 7, XP|
+|*Dimensione*:| 4996 Kb|
+|*Versione*:| 2.1.0|
+|*Tipo file*:| exe|
+|*Piattaforma*:| x64|
+|*Sistema Operativo*:| Windows 10|
 |*Autore*:| Igor|
 |*Licenza*:| Freeware|
-|*Data*:| 28.11.2011|
-|*Screenshot*:| <img src="{relocatable: /images/invido/in_partita_small.jpg}">|
+|*Licenza Sorgenti*:| Ruby|
+|*Data*:| 10.06.2018|
+|*Screenshot*:| <img width="300" src="{relocatable: /images/invido/tasto_destro.PNG}">|
 
 h3. Installazione
 
 Scarica il programma, lancialo e segui le istruzioni che 
 compariranno sullo schermo.
 Una volta terminato il setup, vai nel menu dei programmi e lancia il programma Invido.
+
+h3. Sistemi Operativi Supportati
+
+Il programma è stato sviluppato e testato sotto Windows 10 versione a 64 bit, vale a dire una 
+piattaforma attuale nell'anno 2018. Su versioni più datate di windows a 64 bit dovrebbe funzionare
+senza problemi. Nessuna possibilità, invece, per i vecchi sietemi a 32 bit. Per questi sistemi
+bisogna usare la vecchia versione dell' "Invido vecchio":https://sourceforge.net/projects/invido/files/Old/InvidoSetup_0_7_0.msi/download.
 
 h3. Come si gioca
 

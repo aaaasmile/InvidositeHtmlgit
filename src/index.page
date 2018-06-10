@@ -23,6 +23,23 @@ sort_info: 0
 </ul>
 </div>
 
+h2. Invido: finalmente la nuova versione 2.0.1!
+
+p(data). domenica, 10 giugno 2018
+
+<a href="{relocatable: /images/invido/Invido_home.PNG}"><img width="300" src="{relocatable: /images/invido/Invido_home.PNG}"></a>
+  
+Finalmente la nuova versione del gioco dell'Invido che ora supporta la funzione "Vado Dentro". Basta usare il tasto destro
+sulla carta con la quale si vuole andare dentro. Ora il gioco dell'Invido è completo in tutte le funzionalità ed è ancora più forte.
+Per la nuova versione ho fatto una revisione del "codice sorgente":https://github.com/aaaasmile/invidocpp, aggiornando la libreria SDL alla versione 2.0. 
+Sempre col tasto destro è possibile invitare il computer a chiamare di più, oppure dargli del 'bortolo'. Se poi questo invito viene accettato è tutto da provare.
+Maggiori informazioni sul progetto del gioco dell'Invido si trovano su "Progetto Invido":progetti/invido_progetto.html.
+Ho cambiato anche la musica in sottofondo pesscando una tra le più belle performance registrate della leggenda bredese Wolmer Beltrami.
+
+<a href="{relocatable: /images/invido/tasto_destro.PNG}"><img width="300" src="{relocatable: /images/invido/tasto_destro.PNG}"></a>
+
+Il programma si può scaricare da questo link: "Invido 2.0.1":https://sourceforge.net/projects/invido/files/Invido_210_setup.exe/download.
+ 
 h2. Runner tool
 
 p(data). mercoledì, 31 gennaio 2018

@@ -1,7 +1,9 @@
 == 14.02.18
 ho aggiornato webgen alla versione 1.4.1 e funziona. Così come ruby 2.3.1
-$env:path += "D:\ruby\ruby_2_3_1\bin"
+$env:path = "D:\ruby\ruby_2_3_1\bin"
 Quello che non mi ha funzionato sono gli accenti nel file default.template.
+Ricorda che webgen genera la directory di out in D:/scratch/git-ftp/invidosite.
+Essa va poi aggiornata con ftp su fabbricadigitale usando WLC (vedi sezione deploy). Non c'è bisogno di copiare nulla.
 
 == 30.01.2018
 Per usare Visual Studio Code, bisogna fare in modo di impostare l'ambiente di lavoro come Windows 1252 (Einstellungen -> Einstellungen -> "files.encoding":"windows1252"). 
