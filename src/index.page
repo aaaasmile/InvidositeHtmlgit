@@ -18,27 +18,27 @@ p(data). domenica, 10 giugno 2018
 
 <a href="{relocatable: /images/invido/Invido_home.PNG}"><img width="300" src="{relocatable: /images/invido/Invido_home.PNG}"></a>
 
-Il programma si può scaricare da questo link: "Invido 2.0.1":https://sourceforge.net/projects/invido/files/Invido_210_setup.exe/download.
+Il programma si puÃ² scaricare da questo link: "Invido 2.0.1":https://sourceforge.net/projects/invido/files/Invido_210_setup.exe/download.
   
 Finalmente la nuova versione del gioco dell'Invido che ora supporta la funzione "Vado Dentro". Basta usare il tasto destro
-sulla carta con la quale si vuole andare dentro. Ora il gioco dell'Invido è completo in tutte le funzionalità ed è ancora più forte.
+sulla carta con la quale si vuole andare dentro. Ora il gioco dell'Invido Ã¨ completo in tutte le funzionalitÃ  ed Ã¨ ancora piÃ¹ forte.
 Per la nuova versione ho fatto una revisione del "codice sorgente":https://github.com/aaaasmile/invidocpp, aggiornando la libreria SDL alla versione 2.0. 
-Sempre col tasto destro è possibile invitare il computer a chiamare di più, oppure dargli del 'bortolo'. Se poi questo invito viene accettato è tutto da provare.
+Sempre col tasto destro Ã¨ possibile invitare il computer a chiamare di piÃ¹, oppure dargli del 'bortolo'. Se poi questo invito viene accettato Ã¨ tutto da provare.
 Maggiori informazioni sul progetto del gioco dell'Invido si trovano su "Progetto Invido":progetti/invido_progetto.html.
-Ho cambiato anche la musica in sottofondo pesscando una tra le più belle performance registrate della leggenda bredese Wolmer Beltrami.
+Ho cambiato anche la musica in sottofondo pesscando una tra le piÃ¹ belle performance registrate della leggenda bredese Wolmer Beltrami.
 
 <a href="{relocatable: /images/invido/tasto_destro.PNG}"><img width="300" src="{relocatable: /images/invido/tasto_destro.PNG}"></a>
 
  
 h2. Runner tool
 
-p(data). mercoledì, 31 gennaio 2018
+p(data). mercoledÃ¬, 31 gennaio 2018
 
-Uno degli strumenti che uso maggiormanete è il "Runner Tool":https://runners-tool.firebaseapp.com/, che è la raccolta 
+Uno degli strumenti che uso maggiormanete Ã¨ il "Runner Tool":https://runners-tool.firebaseapp.com/, che Ã¨ la raccolta 
 di diverse funzioni per il bravo corridore amatore. Inizialmente l'avevo sviluppato come applicazione 
-per il browser Chrome (extension packged), ma Google ha deciso di non supportare più questo tipo di applicazioni. 
-Così l'ho trasformata in un'applicazione Progressive Web Apps (progetto su "PWAPP-runner-tool":https://github.com/aaaasmile/PWAPP-runner-tool). 
-Questo tipo di appllicazione può funzionare anche offline e può essere salvata all'interno dell'elenco App similmente
+per il browser Chrome (extension packged), ma Google ha deciso di non supportare piÃ¹ questo tipo di applicazioni. 
+CosÃ¬ l'ho trasformata in un'applicazione Progressive Web Apps (progetto su "PWAPP-runner-tool":https://github.com/aaaasmile/PWAPP-runner-tool). 
+Questo tipo di appllicazione puÃ² funzionare anche offline e puÃ² essere salvata all'interno dell'elenco App similmente
 alla mia "vecchia extension packaged":https://github.com/aaaasmile/corsa_tool. Buone corse.
 
 <a href="{relocatable: /images/runner-tool/runner-tool.PNG}"><img width="250" src="{relocatable: /images/runner-tool/runner-tool.PNG}"></a>
@@ -49,9 +49,9 @@ p(data). sabato, 2 settembre 2017
 
 Dopo aver settato una Virtual Machine con il mitico Windows XP, ho ritrovato il feeling per creare una nuova versione del programma 
 "Tressette":http://sourceforge.net/projects/tressette/files/latest/download, che sotto windows 10 non riusciva a salvare 
-le opzioni cambiate dall'utente. È stata anche l'occasione per migliorarne anche la grafica. La prima versione è stata dodici anni fa,
-ma il programma ha sempre funzionato in tutti i nuovi sistemi operativi che sono seguiti. Solo lo sviluppo del programma è diventato via via sempre 
-più difficoltoso, ma ripristinando Windows Xp e Visual Studio 2008 la compilazione dei sorgenti non è stata più un problema.   
+le opzioni cambiate dall'utente. Ãˆ stata anche l'occasione per migliorarne anche la grafica. La prima versione Ã¨ stata dodici anni fa,
+ma il programma ha sempre funzionato in tutti i nuovi sistemi operativi che sono seguiti. Solo lo sviluppo del programma Ã¨ diventato via via sempre 
+piÃ¹ difficoltoso, ma ripristinando Windows Xp e Visual Studio 2008 la compilazione dei sorgenti non Ã¨ stata piÃ¹ un problema.   
 
 h2. Cuperativa 1.2.10
 
@@ -70,7 +70,7 @@ h2. Storia di Breda Cisoni
 
 p(data). sabato, 5 marzo 2016
 
-Non so come mai, ma tra passaggi di siti, nuovi e scomparsi, la storia di Breda Cisoni scritta da Beach è scomparsa.
+Non so come mai, ma tra passaggi di siti, nuovi e scomparsi, la storia di Breda Cisoni scritta da Beach Ã¨ scomparsa.
 Ho rimediato <a href="{relocatable: /bredacisoni/index.html}">ripresentandola</a> su questo sito aggiungendoci qualche foto dal mio archivio.
 
 <a 
@@ -87,33 +87,33 @@ p(data). domenica, 24 gennaio 2016
 Ho iniziato una campagna di divulgazione dei giochi di carte che ho visto, e ancora vedo giocare, al bar di Breda Cisoni.
 Il primo video della serie, mostra come si fa a giocare a _Mariasa_, in italiano Mariazza in altre parti denominato Mariazzo. 
 
-Se anche tu vuoi provare a giocare a _Mariasa_, ci sono due possibilità. La più affascinante è quella di trasferirti a la Breda,
+Se anche tu vuoi provare a giocare a _Mariasa_, ci sono due possibilitÃ . La piÃ¹ affascinante Ã¨ quella di trasferirti a la Breda,
 frequentare regolarmente il bar dopo i pasti, osservare i giocatori e alla fine sperare di essere invitato a svolgere una partita.
-La seconda, più immediata, è quella di scaricarti il software della "Cuperativa":progetti/cuperativa/index.html seguendo quello che
-è mostrato nel video.
+La seconda, piÃ¹ immediata, Ã¨ quella di scaricarti il software della "Cuperativa":progetti/cuperativa/index.html seguendo quello che
+Ã¨ mostrato nel video.
 
 
 h2. Aggiornamento
 
-p(data). martedì, 15 dicembre 2015
+p(data). martedÃ¬, 15 dicembre 2015
 
 Dopo una lunga pausa, ho aggiornato questo sito aggiungendo il download del programma 
 <a href="{relocatable: /download/briscola_net_download.html}">Briscola_net</a>.
-Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aaaasmile, per cui è probabile, dopo una lunga pausa, che 
-ci siano delle novità riguardante i giochi di carte in un prossimo futuro.
+Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aaaasmile, per cui Ã¨ probabile, dopo una lunga pausa, che 
+ci siano delle novitÃ  riguardante i giochi di carte in un prossimo futuro.
 
 
-h2. Dove è finito Invido.it?
+h2. Dove Ã¨ finito Invido.it?
 
 p(data). sabato, 22 novembre 2014
 
-Il contenuto del sito che prima si trovava su invido.it si è 
-trasferito qui. Il server per giocare alla cuperativa non è più attivo e ha chiuso i battenti.
+Il contenuto del sito che prima si trovava su invido.it si Ã¨ 
+trasferito qui. Il server per giocare alla cuperativa non Ã¨ piÃ¹ attivo e ha chiuso i battenti.
 Ringrazio tutti quelli che hanno contribuito a renderlo attivo tutti questi anni. 
-I software per giocare a carte in modalità singola contro il computer si trovano sempre
+I software per giocare a carte in modalitÃ  singola contro il computer si trovano sempre
 su questo sito alla sezione <a href="{relocatable: /download/index.html}">download</a>. 
 
-Il mio blog si trova è trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
+Il mio blog si trova Ã¨ trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
 
 
 h2. Tornato il Tressette su sf.net
@@ -121,31 +121,31 @@ h2. Tornato il Tressette su sf.net
 Dopo svariato tempo ho pubblicato su sf.net una nuova versione del "tressette":http://sourceforge.net/projects/tressette/. 
 Si tratta di un bugfixing di qualche imprecisione che era rimasta in sospeso. 
 Per l'occasione ho aggiornato le librerie del suono, che ora funzionano con le nuove versioni del sistema operativo windows. 
-I sorgenti del programma si trovano ora in svn e non più in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
+I sorgenti del programma si trovano ora in svn e non piÃ¹ in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
 
 
 <img src="{relocatable: /images/tressette/screenshot02_small.jpg}">
 
 h2. Nuova versione dell'Invido: the best(ia))!
 
-p(data). lunedì, 28 novembre 2011
+p(data). lunedÃ¬, 28 novembre 2011
 
 <img src="{relocatable: /images/invido/in_partita_small.jpg}">
 
 Qualche settimana fa, dopo una visita al campo di allenamento del Breda calcio, mi sono fermato
-a bere una birra offerta dall'allenatore. Quello che mi ha colpito di più, di quel bar della campagna casalasca,
-è stato che, ad un tavolo quattro imperterriti giocatori si sfidavano a "Invido":progetti/invido_progetto.html. 
+a bere una birra offerta dall'allenatore. Quello che mi ha colpito di piÃ¹, di quel bar della campagna casalasca,
+Ã¨ stato che, ad un tavolo quattro imperterriti giocatori si sfidavano a "Invido":progetti/invido_progetto.html. 
 Che bella sorpresa, dovevo andare a Quattrocase per assistere ad uno spettacolo simile.
-Da lì ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
+Da lÃ¬ ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
 C'erano alcune cose da sistemare nel software datato 2005, come le voci del programma e la forza di gioco.
-Ora il programma è molto più forte
-e, se non si presta attenzione, è anche facile essere "attaccati" come dei manifesti. Ma lascio a voi provare.
+Ora il programma Ã¨ molto piÃ¹ forte
+e, se non si presta attenzione, Ã¨ anche facile essere "attaccati" come dei manifesti. Ma lascio a voi provare.
 La nuova versione del gioco "the best(ia)" si scarica da qui: "Invido 0.7.0":/download/invido_download.html
 
 
 h2. Nuovo mazzi di carte per il programma Cuperativa
 
-p(data). giovedì, 5 gennaio 2011
+p(data). giovedÃ¬, 5 gennaio 2011
 
 Ho aggiunto nuovi mazzi di carte per il gioco cuperativa.
 Essi sono: il bellissimo mazzo di carte del Tarocco Piemontese creato da Domenico Starna,
@@ -163,10 +163,10 @@ I mazzi si trovano:
 * "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
 * "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip.
 
-Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
+Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove Ã¨ installato il programma
 Cuperativa (per esempio C:\cuperativa\ver_0_8_2\app\res\carte).
-Poi fare partire il programma e nelle opzioni delle carte ora comparirà il mazzo dello
-zip che potrà essere selezionato come tutti gli altri.
+Poi fare partire il programma e nelle opzioni delle carte ora comparirÃ  il mazzo dello
+zip che potrÃ  essere selezionato come tutti gli altri.
 
 Esempio carte romagnole:
 
@@ -179,18 +179,18 @@ A questo punto tutti i giochi di carte saranno eseguiti usando il mazzo delle ca
 
 h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.2
 
-p(data). lunedì, 08 novembre 2010
+p(data). lunedÃ¬, 08 novembre 2010
 
 La cuperativa ha corretto nuovi errori che alcuni utenti  mi hanno cortesemente segnalato,
 come il mancato salvataggio dei settings.
 Il setup completo si trova su:
 "Cuperativa 0.8.2 Aloa verde":http://kickers.fabbricadigitale.it/cuperativa/update_packages/cuperativa_082_setup.exe
 Collegandosi al server della cuperativa con una versione precedente del programma,
-si può fare un aggiornamento automatico. 
+si puÃ² fare un aggiornamento automatico. 
 
 h2. Pubblicata nuova versione della cuperativa col Tressette
 
-p(data). venerdì, 15 ottobre 2010
+p(data). venerdÃ¬, 15 ottobre 2010
 
 <a href="{relocatable: /images/cuperativa/tre_080_big.png}">
   <img src="{relocatable: /images/cuperativa/tre_080_small.png}">
@@ -200,9 +200,9 @@ Dopo avere terminato la mia prima maratona non poteva mancare una nuova
 versione del programma Cuperativa. Questa volta ho aggiunto il gioco
 del tressette a due giocatori. Tra le altre migliorie al programma, ho aumentato
 la forza del giocatore computer quando gioca a scopa.
-Chi possiede la versione 0.7.5 può aggiornare il programma alla versione 0.8.0,
+Chi possiede la versione 0.7.5 puÃ² aggiornare il programma alla versione 0.8.0,
 semplicemente collegandosi al server della cuperativa e seguire le istruzioni che compariranno.
-Il programma, una volta attualizzato, ripartirà in modo automatico. Versioni precedenti alla 0.7.5
+Il programma, una volta attualizzato, ripartirÃ  in modo automatico. Versioni precedenti alla 0.7.5
 richiedono l'update via setup.exe sopra riportato.
 
 
@@ -213,9 +213,9 @@ p(data). domenica, 26 Settembre 2010
 Guardando le statistiche del programma tressette, che ho pubblicato su "sf.net":http://sourceforge.net/projects/tressette/
 qualche tempo fa (tre.exe), mi sono accorto che presto saranno raggiunti i 10000 download.
 Per l'occasione, mi sembra il minimo dover aggiungere il gioco del tressette a due giocatori
-nella suite della cuperativa. Alcuni mi hanno chiesto quando ci sarà una nuova versione
-del programma tre.exe. Questo non accadrà a breve termine, ma mi piacerebbe tornare a rivisitare
-il gioco programmando di nuovo in c++, magari con la possibilità di collegarsi al server
+nella suite della cuperativa. Alcuni mi hanno chiesto quando ci sarÃ  una nuova versione
+del programma tre.exe. Questo non accadrÃ  a breve termine, ma mi piacerebbe tornare a rivisitare
+il gioco programmando di nuovo in c++, magari con la possibilitÃ  di collegarsi al server
 della cuperativa per il gioco in rete.
 E' nella calma la vera forza della cuperativa.
 

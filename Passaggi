@@ -1,4 +1,14 @@
-== Quello che bisogna fare per aggiornare Invido.it
+== Deploy di invido.it
+Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a UTF-8.
+Oltre ad aver convertito tutti i files .page in UTF-8 con notepad++, ho cambiato anche 
+il file metainfo di webgen per avere UTF-8.
+Ora si pu√≤ editare i files in Visual Code. Per il deploy sul server usare il comando rsync 
+in WLC. Il comando da usato √®:
+rsync -av /mnt/d/Projects/GItHub/InvidositeHtmlgit/out/snapshot/ <user>@invido.it:/var/www/invido.it/html
+
+
+== Inizio sezione Obsoleta:
+Quello che bisogna fare per aggiornare Invido.it (Sito  http://kickers.fabbricadigitale.it)
 
 vai nella dir D:\Projects\GItHub\InvidositeHtmlgit e apri powershell
 $env:path = "D:\ruby\ruby_2_3_1\bin;c:\Program files\git\bin"
@@ -15,19 +25,19 @@ git commit -m "update"
 git ftp push
 
 In definitiva sono due repository git. La prima che gestisce i sorgenti sotto la dir src ed usa github come repository, 
-la seconda Ë, invece, la sottodir out.
-La prima Ë su github, la seconda Ë un ftp su http://kickers.fabbricadigitale.it.
+la seconda √®, invece, la sottodir out.
+La prima √® su github, la seconda √® un ftp su http://kickers.fabbricadigitale.it.
 
 == 14.02.18
-Ho aggiornato webgen alla versione 1.4.1 e funziona. CosÏ come ruby 2.3.1
+Ho aggiornato webgen alla versione 1.4.1 e funziona. Cos√¨ come ruby 2.3.1
 $env:path = "D:\ruby\ruby_2_3_1\bin"
 Quello che non mi ha funzionato sono gli accenti nel file default.template.
 Ricorda che webgen genera la directory di out in D:/scratch/git-ftp/invidosite.
-Essa va poi aggiornata con ftp su fabbricadigitale usando WLC (vedi sezione deploy). Non c'Ë bisogno di copiare nulla.
+Essa va poi aggiornata con ftp su fabbricadigitale usando WLC (vedi sezione deploy). Non c'√® bisogno di copiare nulla.
 
 == 30.01.2018
 Per usare Visual Studio Code, bisogna fare in modo di impostare l'ambiente di lavoro come Windows 1252 (Einstellungen -> Einstellungen -> "files.encoding":"windows1252"). 
-CosÏ files rimangono in ansi e webgen funziona (solo se perÚ il file originale Ë in iso-8859-1 e non Ë stato salvato erroneamente in UTF-8).
+Cos√¨ files rimangono in ansi e webgen funziona (solo se per√≤ il file originale √® in iso-8859-1 e non √® stato salvato erroneamente in UTF-8).
 Con powershell uso:
 $env:path += "D:\ruby\ruby_2_3_0\bin"
 Poi ho lanciato:
@@ -71,7 +81,7 @@ Sistema usato: Laptop-Toni
 
 == 13.10.2016
 I files del sito invido.it vanno tenuti in ISO-8859-1 per via del server apache di invido.it.
-Quindi Ë meglio evitare di usare Visual Studio Code che converte tutto in UTF8 appena si salva.
+Quindi √® meglio evitare di usare Visual Studio Code che converte tutto in UTF8 appena si salva.
 Notepad++, invece, va beissimo.
 
 == 09.05.2016
@@ -84,18 +94,18 @@ D:\ruby_2_3_0\lib\ruby\gems\2.3.0\gems\RedCloth-4.3.0\lib\redcloth_scan.so
 va messo nella nuova directory (da creare manualmente):
 D:\ruby_2_3_0\lib\ruby\gems\2.3.0\gems\RedCloth-4.3.0\lib\2.2
  
-Con ansicon si puÚ anche colorare la cmd sotto windows.
+Con ansicon si pu√≤ anche colorare la cmd sotto windows.
 Basta copiare i files released da https://github.com/adoxa/ansicon/releases 
 che va e lanciare 
 ansicon -i
 
 == 01.05.2016
-Ho aggiornato a webgen 1.4.0 e ruby 2.2.4. Il problema principale Ë il
+Ho aggiornato a webgen 1.4.0 e ruby 2.2.4. Il problema principale √® il
 cambiamento del file webgen.config e del file metainfo nella directory src.
 Con 1.4.0 si passa a UTF8 di default, ma tutti i miei sorgenti sono in ISO e 
 anche l'output deve essere ISO. Questo si ottiene mettendo il file open iso in
 metainfo. Anche la pipeline di redcloth va messa in metainfo.
-Il file metainfo Ë fondamentale, mentre webgen.config serve solo per settare la lingua.
+Il file metainfo √® fondamentale, mentre webgen.config serve solo per settare la lingua.
 I menu sono cambiati pesantemente e vanno adattati.
 Se un file va copiato, ma non viene fatto di default allora va messo in metainfo con l'handler settato a copy
 Per i sort va usata la chiave sort_info.
@@ -104,13 +114,13 @@ la chiave in_menu: true.
 Per i menu su dispositivi mobile, ho usato lo js slicknav
 Su windows per avere i colori nella console, basta copiare i files di 
 https://github.com/adoxa/ansicon v1.66 releases in un posto inserito nel path.
-Meglio usare sempre il comando 'webgen -v' per avere pi˘ informazioni se qualcosa non quadra.
+Meglio usare sempre il comando 'webgen -v' per avere pi√π informazioni se qualcosa non quadra.
 
 
 == 6.03.2016
 Provato su ubuntu 14.04. Su questo sistema uso rbenv per selzionare la versione di ruby, nel
 mio caso la ruby 1.8.7 (2013-12-22 patchlevel 375) [i686-linux].
-Bisogna installare la versione 0.5.17. Prima perÚ bisogna installare una versione
+Bisogna installare la versione 0.5.17. Prima per√≤ bisogna installare una versione
 di facets compatibile, vale a dire la 2.4.1, e redcloth questo con:
 gem install facets --version 2.4.1
 gem install RedCloth
@@ -121,7 +131,7 @@ Il programma webgen va poi copiato da ~/.rbenv/versions/1.8.7-p375/bin in
 ~/.rbenv/shims
 
 Questi sono gli altri gems che sono stati installati, li metto come referenza
-nel caso, come successo con facets, che le nuove versioni non siano pi˘ compatibili
+nel caso, come successo con facets, che le nuove versioni non siano pi√π compatibili
 con quelle vecchie.
 Fetching: RedCloth-4.2.9.gem (100%)
 Fetching: cmdparse-2.0.6.gem (100%)
@@ -131,9 +141,9 @@ Fetching: rack-1.6.4.gem (100%)
 Fetching: ramaze-2008.06.gem (100%)
 Fetching: kramdown-1.10.0.gem (100%)
 
-L'editor da usare per i files .page Ë Visual Studio Code. I files .page vanno riaperti in
-formato ISO 8859-1. Questo per due motivi, il primo Ë che webgen 0.5.17 non sa cosa sia UTF8,
-il secondo Ë che il server su fabbrica digitale usa ISO 8859-1.
+L'editor da usare per i files .page √® Visual Studio Code. I files .page vanno riaperti in
+formato ISO 8859-1. Questo per due motivi, il primo √® che webgen 0.5.17 non sa cosa sia UTF8,
+il secondo √® che il server su fabbrica digitale usa ISO 8859-1.
 
 == 24.01.2016
 Quando si inserisce un nuovo file .page, bisogna prestare attenzione che sia in formato ANSI,
@@ -145,7 +155,7 @@ Ho aggiornato il sito usando la repository su github, ho usato webgen 0.5.17
 sotto windows 7. Con la codifica utf8 non riesco a fare andare i files html su fabbrica digitale.
 Tutti i caratteri accentati sono resi male. Allora con notepad++ ho cambiato la codifica
 di tutti i sorgenti *.page usando il formato ANSI (Menu Encoding -> Convert to Ansi).
-Il problema c'Ë anche nel manuale della Cuperativa. Quindi quando verr‡ rigenerato, per
+Il problema c'√® anche nel manuale della Cuperativa. Quindi quando verr√† rigenerato, per
 piacere cambia il formato da UTF a iso-8859-1.
 
 == 22.11.2014
@@ -159,11 +169,11 @@ Sto usando webgen 0.5.17 che ho installato manualmente scaricando tutti
 i pacchetti gem necessari su ruby 1.8.6.
 
 === Dal 01.2012
-Ho convertito con molta difficolt‡ il progetto per webgen 0.5.14.
+Ho convertito con molta difficolt√† il progetto per webgen 0.5.14.
 Se con Notepad++ crei una page, bisogna stare attenti che il formato
 sia quello giusto. Bisogna settare su: encode in UTF 8 without BOM.
 Non ancora chiaro del tutto come usare il sort_info per i menu che sono
-in sotto directory, cosÏ com'Ë ora funziona solo per i files che si trovano
+in sotto directory, cos√¨ com'√® ora funziona solo per i files che si trovano
 nella stessa directory, quelli della sottodirectory vengono messi in fondo.
 
 == Info generali
@@ -171,7 +181,7 @@ nella stessa directory, quelli della sottodirectory vengono messi in fondo.
 Per generare la home page dell'invido usare in questa directory:
 webgen
 
-La home page all'inizio Ë stata creata col comando
+La home page all'inizio √® stata creata col comando
 webgen create invido
 
 Poi nella directory invido ho cambiato lo stile su andreas09
@@ -181,18 +191,18 @@ Ho cambiato il file default.css in mod da avere i submenu formattati come
 la home page di webgen. 
 
 Nella directory ho creato config.yaml e metainfo.yaml in modo da cambiare delle
-funzionalit‡ di default. metainfo.yaml Ë usato per cambiare l'ordine dei menu.
-config.yaml Ë usato per cambiare la lingua di default.
+funzionalit√† di default. metainfo.yaml √® usato per cambiare l'ordine dei menu.
+config.yaml √® usato per cambiare la lingua di default.
 
-Per quanto riguarda il formato da usare esso Ë redcloth, textile. Il riferimento
+Per quanto riguarda il formato da usare esso √® redcloth, textile. Il riferimento
 si trova su :
 http://hobix.com/textile/
 
 L'esempio della home page di webgen, vale a dire il sorgente della home page
 webgen, si trova su:
 /usr/local/lib/ruby/gems/1.8/gems/webgen-0.4.7/doc/src
-L'esempio Ë molto istruttivo e serve per capire come i vari tags funzionano.
-La home Ë su http://webgen.rubyforge.org
+L'esempio √® molto istruttivo e serve per capire come i vari tags funzionano.
+La home √® su http://webgen.rubyforge.org
 
 == Problemi incontrati
 * Nomi dei files relativi non funzionano. Sol: usare relocatable. Per esempio
@@ -204,8 +214,8 @@ l'asterisco all'interno usando sempre la stessa colonna per l'asterisco
 
 == Server su fabbrica digitale non supporta utf8
 Esso supporta solo ISO-8859-1. Se i files .template e .page sono in formato utf8,
-allora anche il risultato sar‡ in utf8. Se perÚ lo si legge con ISO-8859-1 allora
-si legger‡ tutto male. Bisogna avere allora tutti i files sorgenti come ISO-8859-1.
+allora anche il risultato sar√† in utf8. Se per√≤ lo si legge con ISO-8859-1 allora
+si legger√† tutto male. Bisogna avere allora tutti i files sorgenti come ISO-8859-1.
 Per conventire if files da utf8 a iso-8859-1 ho usato komodo su ogni file
 Si potrebbe usare, parlo solo a livello teorico, il seguente codice:
 require 'iconv'
@@ -213,12 +223,12 @@ content_latin1 = Iconv.new('iso-8859-1', 'utf-8').iconv(file_content_utf8)
 
 == Aggiornamento 22.11.2014 sul problema utf8
 Sotto windows web gen non riesce a generare i files usando iso-8859-1, li vuole in 
-UTF 8 without BOM. Allora non mi Ë rimasto altro che convertire i files in out in iso-8859-1
+UTF 8 without BOM. Allora non mi √® rimasto altro che convertire i files in out in iso-8859-1
 che notepad++ si converte prima in utf8
 
 
 == Server su Hosteurope
-NOTA: L'Ip di invido.it Ë al 2012: 46.163.74.64
+NOTA: L'Ip di invido.it √® al 2012: 46.163.74.64
 
 Se si vuole avere questi files html sul server hosteurope, allora bisogna
 avere i files in utf8. Come ho fatto a farlo andare? Basta caricare i
@@ -228,16 +238,16 @@ Da notare che lasciando i files di default che ha creato Plesk, usando
 http://92.51.146.97/ non si vede nulla. Cancellando questi files e 
 caricando i miei invece ha funzionato. La prima volta ho anche dovuto
 eseguire un restart di apache.
-Ora perÚ il problema al contrario, qui serve utf8. Allora ho rimesso
+Ora per√≤ il problema al contrario, qui serve utf8. Allora ho rimesso
 tutto in utf8, templates e charset ed encodind usando file preferences
 in komodo.
 Poi per aggiornare i files su hosteurope basta usare il seguente comando:
 
 rsync -raz --progress --size-only /home/igor/Projects/invidosite/invido08webgen/out/* /var/www/vhosts/lvps46-163-74-64.dedicated.hosteurope.de/site1_invido
 
-Con il nuovo server il link dei documenti html Ë:
+Con il nuovo server il link dei documenti html √®:
 /var/www/vhosts/lvps46-163-74-64.dedicated.hosteurope.de/site1_invido
-Mentre l'indirizzo IP Ë: 46.163.74.64
+Mentre l'indirizzo IP √®: 46.163.74.64
 
 
 == Update sul sito direttamente
@@ -255,10 +265,5 @@ lanciare ./start_all.sh
 Poi modificare il file default.template e scommentare la parte che si collega a nodeflakes (css e javascript)
 Ora lanciare webgen a linea di comando e poi sincronizzare i files
 sudo ./sync_site_invido.sh 
-
-
-
-
-
 
 

@@ -1,7 +1,7 @@
 --- paths
 /**/*.page:
   blocks: {defaults: {pipeline: [redcloth,erb,tags,blocks,fragments]}}
-  io_open_mode: r:ISO-8859-1
+  io_open_mode: r:UTF-8
 /htaccess.txt:
    handler: copy
 /robots.txt:

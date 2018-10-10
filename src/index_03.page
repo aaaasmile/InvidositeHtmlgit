@@ -13,14 +13,14 @@ h2. Giochi di carte online
 
 p(data). Domenica, 26 Ottobre 2008
 
-I giochi di carte online sono sempre pi˘ numerosi, specialmente quelli dove si
-giocano soldi veri. Ce ne sono altri dove invece si puÚ tranquillamente giocare
+I giochi di carte online sono sempre pi√π numerosi, specialmente quelli dove si
+giocano soldi veri. Ce ne sono altri dove invece si pu√≤ tranquillamente giocare
 per divertirsi. In mezzo a quest'ultima categoria ci metto il software della
 Cuperativa.
-_Che cosa rende perÚ Cuperativa diverso da tutti gli altri_? La differenza sta nel fatto
-che Ë open source. Non solo si puÚ vedere come funziona il programma, ma a nessuno
-Ë preclusa la via di implementarsi il proprio gioco. Per esempio, l'ultima versione
-si puÚ anallizzare su "koders,":http://www.koders.co.uk/info.aspx?c=ProjectInfo&pid=XA6PS4T6TU6DVZFNQ5WA838XGD&s=cdef%3agame
+_Che cosa rende per√≤ Cuperativa diverso da tutti gli altri_? La differenza sta nel fatto
+che √® open source. Non solo si pu√≤ vedere come funziona il programma, ma a nessuno
+√® preclusa la via di implementarsi il proprio gioco. Per esempio, l'ultima versione
+si pu√≤ anallizzare su "koders,":http://www.koders.co.uk/info.aspx?c=ProjectInfo&pid=XA6PS4T6TU6DVZFNQ5WA838XGD&s=cdef%3agame
 il sito che mette in risalto i sorgenti di progetti open.
 
 h2. Robots nella Cuperativa
@@ -41,20 +41,20 @@ sono riconoscibili dal nome "robot_XX".
 
 h2. Europass
 
-p(data). MartedÏ, 7 Ottobre 2008
+p(data). Marted√¨, 7 Ottobre 2008
 
 A quando il prossimo gioco? Vediamo, intanto mi sono creato una nuova
 applicazione per scrivere il mio curriculum in modo decente, sulla falsa riga del
 modello europass.
 Niente di stravolgente, ma una buona occasione per creare
-un'applicazione in rails e pdfwriter. Appena la finisco, l'aggiungerÚ alla ristabilita
+un'applicazione in rails e pdfwriter. Appena la finisco, l'aggiunger√≤ alla ristabilita
 sezione tools.
 
 h2. Server attivo
 
-p(data). MercoledÏ, 17 Settembre 2008
+p(data). Mercoled√¨, 17 Settembre 2008
 
-Il server per giocare a briscola a briscola e a mariazza Ë ora attivo
+Il server per giocare a briscola a briscola e a mariazza √® ora attivo
 24 ore su 24, 7 giorni su 7.
 Il gioco dello spazzino sta entrando nella fase conclusiva.
 
@@ -64,8 +64,8 @@ h2. Pubblicata nuova versione di Cuperativa (0.5.4)
 p(data). Sabato, 07 Giugno 2008
 
 Finalmente ho pubblicato una nuova versione del programma *Cuperativa*.
-Questa Ë la nuova versione *necessaria per giocare online*.
-Con le versioni precedenti non Ë pi˘ possibile giocare in rete e vanno,
+Questa √® la nuova versione *necessaria per giocare online*.
+Con le versioni precedenti non √® pi√π possibile giocare in rete e vanno,
 quindi, aggiornate.
 
 Maggiori informazioni nella pagina delle <a href="{relocatable: /news.html}">
@@ -76,13 +76,13 @@ h2. Stato del progetto Cuperativa
 
 p(data). Sabato, 30 Maggio 2008
 
-Attualmente sto lavorando ad una nuova versione del programma, la quale consentir‡ un
-aggiornamento senza dovere scaricare ogni volta tutto il software. Questo avverr‡
-quando ci si collegher‡ al server per giocare online. Siccome il programma non Ë
+Attualmente sto lavorando ad una nuova versione del programma, la quale consentir√† un
+aggiornamento senza dovere scaricare ogni volta tutto il software. Questo avverr√†
+quando ci si collegher√† al server per giocare online. Siccome il programma non √®
 compilato, ma interpretato, per aggiornare il software basta cambiare pochi files.
-In pi˘, un utente che avesse voglia di cambiare il programma, puÚ farlo direttamente
+In pi√π, un utente che avesse voglia di cambiare il programma, pu√≤ farlo direttamente
 usando semplicemente Notepad, o qualsiasi altro editor di testo. Personalizzare
-o aggiungere giochi di carte come la briscola sar‡ quindi immediato.
+o aggiungere giochi di carte come la briscola sar√† quindi immediato.
 
 Ecco in anteprima una schermata del gioco della briscola aggiornato col layout
 suggerito da Domenico Starna.
@@ -96,7 +96,7 @@ h2. Invido.it
 
 p(data). Sabato, 10 Maggio 2008
 
-Ho rinnovato il sito di *invido.it* per renderlo pi˘ accessibile.
+Ho rinnovato il sito di *invido.it* per renderlo pi√π accessibile.
 Le FAQ, la descrizione dei progetti, gli screenshots e i download fanno ora
 tutti parte di questo sito.
 La <a href="{relocatable: /download/index.html}"> sezione download</a>
@@ -105,18 +105,18 @@ contiene tutti i programmi pubblicati.
 
 h2. Cuperativa
 
-p(data). VenerdÏ, 25 Aprile 2008
+p(data). Venerd√¨, 25 Aprile 2008
 
 Il gioco della *__briscola online__* inserito nella cuperativa sta trovando appassionati.
 Sto aggiornando la versione, per migliorare la grafica e qualche funzione nel
-gioco in rete. Il fatto Ë che passo molto tempo a giocare a briscola online
+gioco in rete. Il fatto √® che passo molto tempo a giocare a briscola online
 usando la cuperativa. Divertente.
 
 h2. Briscola
 
-p(data). VenerdÏ, 07 Marzo 2008
+p(data). Venerd√¨, 07 Marzo 2008
 
-Nella Cuperativa, l'ultimo gioco arrivato Ë la *briscola in due*. Si puÚ scaricare
+Nella Cuperativa, l'ultimo gioco arrivato √® la *briscola in due*. Si pu√≤ scaricare
 con la
 Cuperativa 0.5.0.
 
@@ -128,24 +128,24 @@ h2. Tressette
 
 p(data). Sabato, 09 Febbraio 2008
 
-Ho notato con piacere che negli ultimi giorni c'Ë stato un incremento dei download
+Ho notato con piacere che negli ultimi giorni c'√® stato un incremento dei download
 del programma del *__tressette__* dal sito
 "http://sourceforge.net/projects/tressette/":http://sourceforge.net/projects/tressette/.
-Non Ë che attualmente stia lavorando direttamente a questo programma,
+Non √® che attualmente stia lavorando direttamente a questo programma,
 ma mi piacerebbe sapere il motivo di questo improvviso picco.
 Maggiori informazioni su questo gioco si trovano alla 
 <a href="{relocatable: /progetti/tressette_progetto.html}"> sezione progetto tressette </a>.
 <img src="{relocatable: /images/tressette/in_partita_small.jpg}">
 
-In ogni modo sto lavorando a gran ritmo per completare la nuova versione del programma cuperativa, per giocare a mariazza. Una volta completata la mariazza, sar‡ tempo di rinnovare la briscola aggiungendola al programma cuperativa.
+In ogni modo sto lavorando a gran ritmo per completare la nuova versione del programma cuperativa, per giocare a mariazza. Una volta completata la mariazza, sar√† tempo di rinnovare la briscola aggiungendola al programma cuperativa.
 
 h2.  Come si gioca a Mariazza?
 
-p(data). GiovedÏ, 15 Novembre 2007
+p(data). Gioved√¨, 15 Novembre 2007
 
-Il gioco Ë molto semplice e funziona come la briscola.Si usano le stesse carte,
+Il gioco √® molto semplice e funziona come la briscola.Si usano le stesse carte,
 valgono gli stessi punti e le stesse regole per la presa. Si gioca solo in due.
-La Mariazza si puÚ considerare come una variante della briscola.
+La Mariazza si pu√≤ considerare come una variante della briscola.
 Lo svolgimento preciso si trova nella sezione
 <a href="{relocatable: /progetti/cuperativa/mariazza.html}"> Mariazza </a>
 
@@ -153,8 +153,8 @@ h2. Italian Special Solitaire
 
 p(data). Domenica, 02 Ottobre 2005
 
-Aggiunto il programma Italian Special Solitaire 2.0. La peculiarit‡ di questa
-versione Ë quella di usare il mazzo del Tarocco Piemontese ridotto a 56 carte.
+Aggiunto il programma Italian Special Solitaire 2.0. La peculiarit√† di questa
+versione √® quella di usare il mazzo del Tarocco Piemontese ridotto a 56 carte.
 Nelle carte sono stati aggiunti i semi francesi e scritte in latino
 
 <img src="{relocatable: /images/solitario/special/in_partita_small.jpg}">
@@ -162,9 +162,9 @@ Nelle carte sono stati aggiunti i semi francesi e scritte in latino
 Il programma Italian Special Solitaire 2.0 accetta anche delle opzioni a linea
 di comando, per essere lanciato in full screen, oppure a risoluzione definita
 dall'utente. Le immagini del mazzo sono in formato png e sono state realizzate,
-cosÏ come quella dello sfondo, da Domenico Starna.
+cos√¨ come quella dello sfondo, da Domenico Starna.
 
-Le funzioni pi˘ importanti del programma sono:
+Le funzioni pi√π importanti del programma sono:
 
     * Solitario a 56 carte
     * Gestione del punteggio

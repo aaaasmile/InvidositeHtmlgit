@@ -9,15 +9,15 @@ h2. Briscola_Net
 
 <img src="{relocatable: /images/briscola_net/inizio.JPG}">
 
-Briscola Net è un programma per giocare a briscola da soli contro il computer,
+Briscola Net Ã¨ un programma per giocare a briscola da soli contro il computer,
 oppure contro un avversario collegato in rete.
 
-È stato il mio primo progetto riguardante un gioco di carte ed usa una tecnologia abbastanza datata.
+Ãˆ stato il mio primo progetto riguardante un gioco di carte ed usa una tecnologia abbastanza datata.
 
-Il progetto è nato dall'esigenza di testare la tecnologia ActiveX realizzando
+Il progetto Ã¨ nato dall'esigenza di testare la tecnologia ActiveX realizzando
 un piccolo programma di prova. Il programma utilizza ActiveX per la gestione
-del mazzo delle carte, mentre il gioco è realizzato utilizzando le librerie MFC.
-Dato l'uso massiccio di tecnologie prettamente Microsoft, il gioco è disponibile
+del mazzo delle carte, mentre il gioco Ã¨ realizzato utilizzando le librerie MFC.
+Dato l'uso massiccio di tecnologie prettamente Microsoft, il gioco Ã¨ disponibile
 solo in versione Windows.
 
 Programma, mazzi di carte  e sorgenti si possono scaricare da

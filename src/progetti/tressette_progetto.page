@@ -9,10 +9,10 @@ h2. Tressette
 
 <img src="{relocatable: /images/tressette/in_partita_small.jpg}">
 
-*__Tressette__* Ë un gioco di carte molto famoso in Italia, che viene giocato in numerosissime
+*__Tressette__* √® un gioco di carte molto famoso in Italia, che viene giocato in numerosissime
 varianti locali. Il programma, compresi i sorgenti, ho fatto in modo che venisse
 ospitato su sf.net in modo da potere agevolare lo sviluppo open source del tressette.
-» disponibile per molte piattaforme(Windows, Linux, Freebsd) e si puÚ scaricare dalla pagina del
+√à disponibile per molte piattaforme(Windows, Linux, Freebsd) e si pu√≤ scaricare dalla pagina del
 "progetto tressette":http://sourceforge.net/projects/tressette/.
 
 h3. Sommario
@@ -27,13 +27,13 @@ h3. Sommario
 
 h3(#prj_tre_giocatori). Giocatori
 
-Il Tressette Ë un gioco di carte molto famoso in Italia. Si gioca in quattro in coppia. Conta numerose varianti, anche molto diverse, a seconda della zona dove viene praticato.
+Il Tressette √® un gioco di carte molto famoso in Italia. Si gioca in quattro in coppia. Conta numerose varianti, anche molto diverse, a seconda della zona dove viene praticato.
 
-Il programma tre.exe nasce col proposito di simulare il gioco del Tressette in quattro mantenendo intatte le varie localizzazioni. Leggendo vari testi che descrivono il gioco si ha sempre l'impressione di trovare la vera fonte del gioco. Si trova quindi una lista di regole che nella pratica del gioco giocato non trova riscontri, se non in circoli o tornei particolari. Alla fine chi gioca a tressette vuole giocare il tressette che ha sempre giocato e non Ë molto interessato al gioco che si pratica in altre zone.
+Il programma tre.exe nasce col proposito di simulare il gioco del Tressette in quattro mantenendo intatte le varie localizzazioni. Leggendo vari testi che descrivono il gioco si ha sempre l'impressione di trovare la vera fonte del gioco. Si trova quindi una lista di regole che nella pratica del gioco giocato non trova riscontri, se non in circoli o tornei particolari. Alla fine chi gioca a tressette vuole giocare il tressette che ha sempre giocato e non √® molto interessato al gioco che si pratica in altre zone.
 
 h3(#prj_tre_carte). Le carte
 
-Viene usato il mazzo di carte da briscola con 40 carte. L'ordine delle carte Ë il seguente, dalla carta pi alta a quella pi bassa: tre, due, asso, re, cavallo, fante, sette, sei, cinque e quattro.
+Viene usato il mazzo di carte da briscola con 40 carte. L'ordine delle carte √® il seguente, dalla carta pi alta a quella pi bassa: tre, due, asso, re, cavallo, fante, sette, sei, cinque e quattro.
 
 h3(#prj_tre_cartedistr). Distribuzione delle carte
 
@@ -41,13 +41,13 @@ Il mazzo da briscola viene mescolato dal mazziere e distribuito ai 4 giocatori. 
 
 h3(#prj_tre_gioco). Il gioco
 
-Il giocatore successivo, in senso antiorario, al mazziere comincia il gioco. Esso gioca una carta e i giocatori successivi devono rispondere al seme della prima carta giocata. Se questo non Ë possibile, allora il giocatore gioca un'altra carta qualsiasi. Rifiutare il segno non Ë consentito.
+Il giocatore successivo, in senso antiorario, al mazziere comincia il gioco. Esso gioca una carta e i giocatori successivi devono rispondere al seme della prima carta giocata. Se questo non √® possibile, allora il giocatore gioca un'altra carta qualsiasi. Rifiutare il segno non √® consentito.
 
 Vince la mano chi ha giocato la carta pi alta del primo segno giocato.
 
 h3(#prj_tre_punteggio). Il punteggio
 
-Quando tutte e 10 le mani sono state giocate, si contano i punti. Il punteggio massimo raggiungibile in una giocata, senza accuse, Ë di 11 punti. Un punto viene attribuito alla coppia che vince l'ultima mano, ogni asso preso vale un punto, mentre un due, un tre, un re, un cavallo e un fante, valgono rispettivamente un terzo di punto.
+Quando tutte e 10 le mani sono state giocate, si contano i punti. Il punteggio massimo raggiungibile in una giocata, senza accuse, √® di 11 punti. Un punto viene attribuito alla coppia che vince l'ultima mano, ogni asso preso vale un punto, mentre un due, un tre, un re, un cavallo e un fante, valgono rispettivamente un terzo di punto.
 
 Un punteggio extra viene garantito dall'accusa. Le accuse da tre punti sono sono: Napoletana (asso, due, tre in un seme), tre tre, tre due e tre assi. Quelle da 4 punti sono: quattro assi, quattro due e quattro tre.
 
@@ -62,13 +62,13 @@ Il programma *__tre.exe__* implementa le seguenti localizzazioni:
 
 h3. Variante Bredese
 
-La variante bredese Ë quella del gioco del tressette che si gioca a Breda Cisoni nel bar della cooperativa o al bar acli. In questa variante si usano le accuse dei buoni giochi. Per una perfetta simulazione del gioco Ë meglio impostare la lingua sul dialetto bredese per distinguere meglio i segnali.
+La variante bredese √® quella del gioco del tressette che si gioca a Breda Cisoni nel bar della cooperativa o al bar acli. In questa variante si usano le accuse dei buoni giochi. Per una perfetta simulazione del gioco √® meglio impostare la lingua sul dialetto bredese per distinguere meglio i segnali.
 
-I segnali utilizzati vengono normalmente eseguiti con la mano, e sono, a volte, accompagnati anche da una espressione vocale. Nel programma essi vengono tutti dichiarati, anche se nel gioco reale nessun giocatore dice "ho il tre", ma d‡ un pugno sul tavolo mentre gioca la carta.
+I segnali utilizzati vengono normalmente eseguiti con la mano, e sono, a volte, accompagnati anche da una espressione vocale. Nel programma essi vengono tutti dichiarati, anche se nel gioco reale nessun giocatore dice "ho il tre", ma d√† un pugno sul tavolo mentre gioca la carta.
 
 I segnali utilizzabili nel programma sono:
 
- *  Busso (Cioca), il giocatore butta la carta forte sul tavolo perchÈ vuole dal compagno la carta migliore
+ *  Busso (Cioca), il giocatore butta la carta forte sul tavolo perch√© vuole dal compagno la carta migliore
  * Volo, il giocatore va girare la carta in aria e dice "volo". Significa che il giocatore gioca l'ultima carta del seme della mano.
  * Striscio lungo, il giocatore striscia la carta sul tavolo. Significa che egli possiede molte carte del seme della mano.
  * Punto, il giocatore punta la carta col pollice e dice "la punto", anche per non confondere il segno con l'asso. Significa che egli possiede ancora una sola carta del seme della mano.
@@ -77,13 +77,13 @@ I segnali utilizzabili nel programma sono:
  * Busso il due, il giocatore bussa con le nocche sul tavolo e non dice nulla. Significa che egli ha il due nel seme della mano.
  * Punta l'asso, il giocatore punta la carta col pollice e non dice nulla. Significa che egli ha l'asso nel seme della mano.
 
-Il giocatore al proprio turno, puÚ giocando una carta, effettuare un qualsiasi segnale sopraelencato, anche se non corrisponde alle carte che ha in mano (segnare falso). I segnali non sono mai obbligatori
+Il giocatore al proprio turno, pu√≤ giocando una carta, effettuare un qualsiasi segnale sopraelencato, anche se non corrisponde alle carte che ha in mano (segnare falso). I segnali non sono mai obbligatori
 
-Di solito il gioco finisce quando una coppia raggiunge il punteggio di 101 e la coppia perdente passa al banco a pagare il caffË alla coppia vincitrice, oppure lancia una rivincita a briscola, ma questo Ë un altro gioco.
+Di solito il gioco finisce quando una coppia raggiunge il punteggio di 101 e la coppia perdente passa al banco a pagare il caff√® alla coppia vincitrice, oppure lancia una rivincita a briscola, ma questo √® un altro gioco.
 
 h3. Variante Neutra (classica)
 
-Partendo dal presupposto che il tressette Ë un gioco locale, diventa difficile definire un insieme di regole del gioco che vadano bene al nord come al sud dell'Italia. Basta vedere le regole definite da Wikipedia.it, oppure da Pagat. In realt‡ questa variante non dovrebbe neanche esserci, ma visto che non Ë possibile implementare tutte le varianti in una volta sola, meglio averne una che possa permettere di giocare anche senza localizzazione.
+Partendo dal presupposto che il tressette √® un gioco locale, diventa difficile definire un insieme di regole del gioco che vadano bene al nord come al sud dell'Italia. Basta vedere le regole definite da Wikipedia.it, oppure da Pagat. In realt√† questa variante non dovrebbe neanche esserci, ma visto che non √® possibile implementare tutte le varianti in una volta sola, meglio averne una che possa permettere di giocare anche senza localizzazione.
 
 Questi sono i segnali supportati:
 
@@ -91,9 +91,9 @@ Questi sono i segnali supportati:
  * Volo, l'ultima carta del seme della mano.
  * Liscio, quando il giocatore possiede altre carte basse dello stesso seme.
 
-Non Ë possibile effettuare segnali falsi ed Ë possibile segnalare le carte al proprio turno.
+Non √® possibile effettuare segnali falsi ed √® possibile segnalare le carte al proprio turno.
 
 h3(#prj_tre_algoritmo). Algoritmo di gioco
 
-L'algoritmo di gioco si ispira alle soluzioni adottate nel gioco del bridge. L'implementazione attuale (ver 0.69) Ë lontana dall'essere efficiente in tutte le fasi del gioco. L'idea alla base Ë quella di utilizzare un algoritmo alpha-beta, come quello che viene usato nei programmi di scacchi. La differenza con gli scacchi Ë che, nel caso del tressette, le carte dell'avversario non sono conosciute e devono essere supposte, per esempio a caso. Se si riescono a fare numerose supposizioni e per ognuna di esse, si calcola l'algoritmo, si puÚ avere come risultato una strategia che, a lungo andare, puÚ essere vincente (metodo montecarlo). Il problema da risolvere, nell'implementazione corrente, Ë la limitatezza del tempo di calcolo di una giocata. Tempi superiori a qualche secondo non sono tollerati durante il gioco del tressette.
+L'algoritmo di gioco si ispira alle soluzioni adottate nel gioco del bridge. L'implementazione attuale (ver 0.69) √® lontana dall'essere efficiente in tutte le fasi del gioco. L'idea alla base √® quella di utilizzare un algoritmo alpha-beta, come quello che viene usato nei programmi di scacchi. La differenza con gli scacchi √® che, nel caso del tressette, le carte dell'avversario non sono conosciute e devono essere supposte, per esempio a caso. Se si riescono a fare numerose supposizioni e per ognuna di esse, si calcola l'algoritmo, si pu√≤ avere come risultato una strategia che, a lungo andare, pu√≤ essere vincente (metodo montecarlo). Il problema da risolvere, nell'implementazione corrente, √® la limitatezza del tempo di calcolo di una giocata. Tempi superiori a qualche secondo non sono tollerati durante il gioco del tressette.
 

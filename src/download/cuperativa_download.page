@@ -10,14 +10,14 @@ h2. Cuperativa Download
 
 Download: "Cuperativa 1.2.10":https://sourceforge.net/projects/cuperativa/files/latest/download
 
-*Descrizione*: La cuperativa Ë il programma per giocare a diversi giochi di carte contro il computer.
+*Descrizione*: La cuperativa √® il programma per giocare a diversi giochi di carte contro il computer.
 Nella Cuperativa sono presenti i seguenti giochi:
 _Tressette, Tombolon, Scopetta, Spazzino, Mariazza, Briscolone e Briscola_.
 Il tombolon e spazzino sono della varianti molto interessanti della scopa.
-La mariazza Ë una bella variante della briscola a 5 carte.  Tutti i giochi sono
+La mariazza √® una bella variante della briscola a 5 carte.  Tutti i giochi sono
 per due giocatori.
 
-Il programma Ë open source, disponibile con i suoi sorgenti e l'ho creato per divertimento.
+Il programma √® open source, disponibile con i suoi sorgenti e l'ho creato per divertimento.
 
 |*Dimensione*:| 14 MB|
 |*Versione*:| 1.2.10|
@@ -65,10 +65,10 @@ I mazzi si trovano:
 * "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
 * "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip
 
-Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove Ë installato il programma
+Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove √® installato il programma
 Cuperativa (per esempio %localappdata%\Invido_it\Cuperativa\1_2_10\app\res\carte).
-Poi fare partire il programma Cuperativa, e nelle opzioni delle carte comparir‡ il nuovo mazzo scompattato dallo
-zip, mazzo che potr‡ essere selezionato come tutti gli altri precedenti.
+Poi fare partire il programma Cuperativa, e nelle opzioni delle carte comparir√† il nuovo mazzo scompattato dallo
+zip, mazzo che potr√† essere selezionato come tutti gli altri precedenti.
 
 Esempio carte romagnole:
 

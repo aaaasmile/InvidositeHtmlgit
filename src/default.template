@@ -3,12 +3,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="description" content="Download della briscola, il programma cuperativa, del programma invido e diversi solitari. Giochi di carte online" />
     <meta name="keywords" content="briscola download,briscola online,tressette download,cuperativa,invido,breda cisoni,igor sarzi sartori,mariazza,tressette,tresette" />
     <meta name="author" content="Igor Sarzi Sartori" />
-	  <meta name="google-site-verification" content="5_4h9kML2-bcrf27Yhgq9NdqDu6ZEMuicWGNhQQVnzM" />
-	  <link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
+	<meta name="google-site-verification" content="5_4h9kML2-bcrf27Yhgq9NdqDu6ZEMuicWGNhQQVnzM" />
+	<link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
     <link rel="stylesheet" href="{relocatable: /slicknav/slicknav.min.css}" />
     <script src="{relocatable: /slicknav/jquery-2.1.1.min.js}"></script>
     <script src="{relocatable: /slicknav/jquery.slicknav.min.js}"></script>
@@ -38,10 +38,6 @@
           <% end %>
         </div>
         <div id="rightside">
-          <h1>Supporters:</h1>
-          <ul class="linklist">
-        	<li><a href="http://www.fabbricadigitale.it"><img src="{relocatable: /images/logo-fd.png}" width="160"  alt="fabbricadigitale.it" /></a></li>
-          </ul>
         </div>
 
         <div id="content">

@@ -7,7 +7,7 @@ sort_info: 61
 
 h2. Cuperativa
 
-La Cuperativa è una collezione di giochi di carte per giocare con il computer. I giochi supportati sono:
+La Cuperativa Ã¨ una collezione di giochi di carte per giocare con il computer. I giochi supportati sono:
 
 * <a href="{relocatable: /briscola.html}">briscola in due</a>
 * "la mariazza":mariazza.html
@@ -27,7 +27,7 @@ La versione per windows la puoi scaricare
 
 h3. Installazione Linux
 
-Non esistono pacchetti precompilati per l'ambiente Linux. In ogni modo è possibile eseguire il programma Cuperativa
+Non esistono pacchetti precompilati per l'ambiente Linux. In ogni modo Ã¨ possibile eseguire il programma Cuperativa
 settando l'ambiente di sviluppo, come ho fatto usando Ubuntu 14.04.
 La descrizione dettagliata del non triviale processo, l'ho messa su "Cuperativa Ubuntu":https://github.com/aaaasmile/CuperativaSoloRuby/blob/master/doc/ubuntu_install.
 

@@ -13,7 +13,7 @@ h2. Cuperativa 1.2.9
 
 p(data). sabato, 09 gennaio 2016
 
-Sentivo il bisogno di aggiornare la forza dell'algoritmo della Mariazza e cosÏ ho pubblicato una nuova
+Sentivo il bisogno di aggiornare la forza dell'algoritmo della Mariazza e cos√¨ ho pubblicato una nuova
 versione della cuperativa:
 "Cuperativa 1.2.9":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
 
@@ -21,16 +21,16 @@ versione della cuperativa:
 
 h2. Nuova versione Cuperativa 1.2.7
 
-p(data). giovedÏ, 31 dicembre 2015
+p(data). gioved√¨, 31 dicembre 2015
 
 Il mio 2015 non finisce senza una nuova versione del programma _Cuperativa_. La nuova versione 1.2.7
-presenta una nuova grafica, pur mantenendo lo stile retrÚ targato fine anni novanta.
+presenta una nuova grafica, pur mantenendo lo stile retr√≤ targato fine anni novanta.
 
 Puoi scaricare subito la nuova versione 1.2.7 subito usando questo link "Cuperativa 1.2.7":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
-I cambiamenti e novit‡ rispetto alla versione precedente sono:
+I cambiamenti e novit√† rispetto alla versione precedente sono:
 * migliorata la grafica
 * setup compatibile con Win7, Win8.1 e WinXP
-* senza dubbio creato il pi˘ forte giocatore artificiale di _Mariasa_
+* senza dubbio creato il pi√π forte giocatore artificiale di _Mariasa_
 * semplificato l'interfaccia grafica togliendo l'obsoleto supporto di rete
 * giochi supportati a due giocatori contro il computer: _briscola_, _mariazza_, _scopetta_, _spazzino_, _briscolone_, _tombolon_ e _tressette_
 * codice sorgete completo pubblicato su "GitHub CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
@@ -41,22 +41,22 @@ I cambiamenti e novit‡ rispetto alla versione precedente sono:
  <a href="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"></a>
  <a href="{relocatable: /images/cuperativa/start_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/start_1_2_6.JPG}"></a>
 
-h2. Il sito dell'invido Ë tornato dalle ferie
+h2. Il sito dell'invido √® tornato dalle ferie
 
-p(data). giovedÏ, 1 settembre 2011
+p(data). gioved√¨, 1 settembre 2011
 
 Qualche aggiornamento per quanto riguarda il software della *cuperativa*. Sto lavorando
-ad una nuova versione che contiene il tressette a 4 giocatori. Non Ë ancora finita ma,
-tra una corsa e l'altra, penso che riuscirÚ. 
+ad una nuova versione che contiene il tressette a 4 giocatori. Non √® ancora finita ma,
+tra una corsa e l'altra, penso che riuscir√≤. 
 
 h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.1 
 
-p(data). venerdÏ, 27 ottobre 2010
+p(data). venerd√¨, 27 ottobre 2010
 
-La cuperativa non si ferma mai e cosÏ ho trovato il tempo per correggere
-alcuni errori, che gli utenti pi˘ affezionati mi hanno cortesemente segnalato.
+La cuperativa non si ferma mai e cos√¨ ho trovato il tempo per correggere
+alcuni errori, che gli utenti pi√π affezionati mi hanno cortesemente segnalato.
 Collegandosi al server della cuperativa con una versione precedente del programma,
-si puÚ fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
+si pu√≤ fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
 il programma riceve anche un nome in codice. Questa volta si chiama "Aloa Verde",
 un profumo che emerge dallo sfondo del gioco del tressette. Buon divertimento e
 continuate pure a segnalare problemi, informazioni e richieste varie che riguardano il
@@ -64,7 +64,7 @@ gioco della cuperativa.
 
 h2. Nuova versione 0.7.5 del programma Cuperativa
 
-p(data). lunedÏ, 3 Maggio 2010
+p(data). luned√¨, 3 Maggio 2010
 
 <a href="{relocatable: /images/cuperativa/0_7_5mariazza_big.png}">
   <img src="{relocatable: /images/cuperativa/0_7_5mariazza_small.png}">
@@ -89,9 +89,9 @@ h2. Nuova versione di Cuperativa: 0.7.1
 
 <img src="{relocatable: /images/cuperativa/mariazza_title_trasp.png}">
 
-In questa versione sono stati corretti numerosi bugs. Primo fra tutti la possibilit‡
-di effettuare un update in modo automatico e senza la necessit‡ di scaricare 9Mb
-del setup. La lista degli utenti online Ë ora di nuovo funzionante. I giochi del
+In questa versione sono stati corretti numerosi bugs. Primo fra tutti la possibilit√†
+di effettuare un update in modo automatico e senza la necessit√† di scaricare 9Mb
+del setup. La lista degli utenti online √® ora di nuovo funzionante. I giochi del
 Tombolon e della Mariazza sono stati corretti. Nella Briscola ora si possono
 vedere quante carte sono rimaste da pescare.
 
@@ -108,51 +108,51 @@ p(data). Domenica, 7 Giugno 2009
 Con grande piacere annuncio la pubblicazione della nuova versione del software 
 Cuperativa 0.7.0
 
-Nella versione 0.7.0 Ë ora possibile giocare per la classifica. 
+Nella versione 0.7.0 √® ora possibile giocare per la classifica. 
 
 Da subito, per giocare gratuitamente in internet sul server della cuperativa,
-Ë necessario registrarsi. La registrazione gratuita avviene in modo molto semplice
+√® necessario registrarsi. La registrazione gratuita avviene in modo molto semplice
 sul sito "cuperativa.invido.it":http://cuperativa.invido.it. Su cuperativa.invido.it
-ho messo anche un piccolo forum, che puÚ essere usato anche per segnalare problemi o suggerimenti.
+ho messo anche un piccolo forum, che pu√≤ essere usato anche per segnalare problemi o suggerimenti.
 
-In questa versione ho aggiunto il gioco del Tombolon. Questo gioco Ë stato 
+In questa versione ho aggiunto il gioco del Tombolon. Questo gioco √® stato 
 curato, per quanto riguarda le regole e il suo funzionamento, da Domenico Starna.
 Domenico ha potuto constatare, direttamente nei bar e nei circoli
 di Rovigo, come il gioco funzioni veramente.
 
-Le versioni precedenti della cuperativa non possono pi˘ giocare col server in internet.
-Per giocare online Ë quindi necessario l'aggiornamento all'ultima versione.
+Le versioni precedenti della cuperativa non possono pi√π giocare col server in internet.
+Per giocare online √® quindi necessario l'aggiornamento all'ultima versione.
 Questo aggiornamento va fatto scaricado il programma setup. Nelle prossime versioni
-sar‡ di nuovo  disponibile l'aggiornamento automatico.
+sar√† di nuovo  disponibile l'aggiornamento automatico.
 
 h2. Registrazione utenti
 
 p(data). Sabato, 28 Febbraio 2009
 
-Tutti i giochi di carte online hanno la possibilit‡ di registrare gli utenti
+Tutti i giochi di carte online hanno la possibilit√† di registrare gli utenti
 che vi partecipano e di fornire punteggi con classifiche. Cuperativa non ha ancora questa
-possibilit‡, ma Ë arrivato il momento di offrire questa possibilit‡ anche nella cuperativa.
-Nella prossima versione, oltre al gioco del Tombolon, sar‡ possibile registrarsi
+possibilit√†, ma √® arrivato il momento di offrire questa possibilit√† anche nella cuperativa.
+Nella prossima versione, oltre al gioco del Tombolon, sar√† possibile registrarsi
 sul sito e giocare con un punteggio. Ho preso in considerazione di usare
 servizi come Facebook, Google friend e openid. Nessun servizio mi ha convinto del tutto
-ed allora, per il momento, la registrazione verr‡ fatta su questo sito.
+ed allora, per il momento, la registrazione verr√† fatta su questo sito.
 
 h2. Google friend connect
 
-p(data). MartedÏ, 30 Dicembre 2008
+p(data). Marted√¨, 30 Dicembre 2008
 
-Non c'Ë nulla di pi˘ noiso che registrarsi, per l'ennesima volta, su un sito per accedere
+Non c'√® nulla di pi√π noiso che registrarsi, per l'ennesima volta, su un sito per accedere
 ai servizi che esso offre. 
 Sto provando diversi metodi per accedere al sito invido.it e al gioco della
 Cuperativa. Facebook e Google Friend Connect sono due sistemi interessanti
 per accedere a diversi siti riutilizzando lo stesso account. Per ora ho messo
-la possibilit‡ di commentare le varie pagine del sito invido.it utilizzando
+la possibilit√† di commentare le varie pagine del sito invido.it utilizzando
 un account supportato da google friend connect (per esempio google, yahoo, openid,...).
-Su ogni pagina del sito Ë ora possibile inserire un commento e un voto.
+Su ogni pagina del sito √® ora possibile inserire un commento e un voto.
 Per il gioco della Cuperativa, invece, sto pensando di usare l'account di
-Facebook. Fino a quel momento, perÚ, il gioco della cuperativa non prevede
+Facebook. Fino a quel momento, per√≤, il gioco della cuperativa non prevede
 nessun tipo di riconoscimento centrale, ma lascia ad ogni giocatore la
-libert‡ di scegliere un nome a piacere.
+libert√† di scegliere un nome a piacere.
 
 Buon Anno a tutti.
 
