@@ -3,9 +3,18 @@ Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a 
 Oltre ad aver convertito tutti i files .page in UTF-8 con notepad++, ho cambiato anche 
 il file metainfo di webgen per avere UTF-8.
 Ora si può editare i files in Visual Code. Per il deploy sul server usare il comando rsync 
-in WLC. Il comando da usato è:
+in WLC. 
+Per la sincronizzazione dei fiel usa:
+./sync_site_invido.sh
+Il comando al suo interno è:
 rsync -av /mnt/d/Projects/GItHub/InvidositeHtmlgit/out/snapshot/ <user>@invido.it:/var/www/invido.it/html
 
+== WLC webgen e deploy
+Riesco a generare il sito e fare il deploy usando WLC. Questa è la configurazione usata:
+igors@Laptop-Toni:/mnt/d/Projects/GItHub/InvidositeHtmlgit$ ruby -v
+ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux]
+igors@Laptop-Toni:/mnt/d/Projects/GItHub/InvidositeHtmlgit$ webgen --version
+webgen 1.5.1
 
 == Inizio sezione Obsoleta:
 Quello che bisogna fare per aggiornare Invido.it (Sito  http://kickers.fabbricadigitale.it)

@@ -4,3 +4,4 @@ out
 /.vs/InvidoSite/v14/.suo
 /.vs/config/applicationhost.config
 tmp
+sync_site_invido.sh 
