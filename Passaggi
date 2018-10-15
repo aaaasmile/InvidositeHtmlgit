@@ -1,3 +1,11 @@
+== Aggiornare il sito
+- Cambia i files in src
+- con powershel lancia webgen:
+$env:path = "D:\ruby\ruby_2_3_1\bin"
+webgen
+- Ora apri WLC e lancia 
+./sync_site_invido.sh
+
 == Deploy di invido.it
 Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a UTF-8.
 Oltre ad aver convertito tutti i files .page in UTF-8 con notepad++, ho cambiato anche 
