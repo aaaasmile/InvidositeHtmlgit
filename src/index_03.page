@@ -4,10 +4,37 @@ in_menu: false
 directory_name: invido
 ---
 
-<a href="{relocatable: /index.html}">[ Indice </a> |
-<a href="{relocatable: /index_02.html}"> 01 </a> | 02 |
-<a href="{relocatable: /index_archived.html}"> Archivio ]</a>
+<a href="{relocatable: /index.html}">[ Indice </a>|
+<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   <a href="{relocatable: /index_03.html}"> ]</a> 
 
+h2. Pubblicato "Lo Spazzino" - Cuperativa 0.6.0
+
+p(data). Venerdì, 20 Novembre 2008
+
+<a href="{relocatable: /images/cuperativa/spazzino_in_gioco_big.png}">
+  <img src="{relocatable: /images/cuperativa/spazzino_in_gioco_small.png}">
+</a>
+
+Finalmente una nuova versione del programma *Cuperativa*: la versione 0.6.0.
+
+
+Questa versione consente di giocare allo spazzino, sia
+contro il cpu che in rete contro avversari remoti. Lo spazzino è una variante
+della scopa. Le regole del gioco si trovano nella "sezione spazzino":progetti/cuperativa/spazzino.html.
+
+*Il server è stato aggiornato*, questo significa che le vecchie versioni di cuperativa
+devono venire attualizzate per giocare in rete. Questo avviene in modo
+automatico quando ci si collega al server online.
+Durante l'aggiornamento online, viene scaricato un pacchetto di 4.4MB, molto
+più piccolo del setup completo.
+
+Questo il dettaglio della versione 0_6_0:
+
+
+  * - Aggiunto lo spazzino
+  * - Aggiunto la modalità gioco privato online
+  * - Migliorato il layout del programma
+  * - Migliorato l'aggiornamento automatico via server
 
 h2. Giochi di carte online
 
@@ -21,7 +48,7 @@ _Che cosa rende però Cuperativa diverso da tutti gli altri_? La differenza sta 
 che è open source. Non solo si può vedere come funziona il programma, ma a nessuno
 è preclusa la via di implementarsi il proprio gioco. Per esempio, l'ultima versione
 si può anallizzare su "koders,":http://www.koders.co.uk/info.aspx?c=ProjectInfo&pid=XA6PS4T6TU6DVZFNQ5WA838XGD&s=cdef%3agame
-il sito che mette in risalto i sorgenti di progetti open.
+il sito che mette in risalto i sorgenti di progetti open.
 
 h2. Robots nella Cuperativa
 
@@ -37,7 +64,7 @@ online, anche in assenza di giocatori reali.
 A me non piace giocare online contro giocatori artificiali, ma essi
 possono aiutare il nuovo l'utente per imparare a giocare. I giocatori automatici
 sono riconoscibili dal nome "robot_XX".
-
+
 
 h2. Europass
 
@@ -48,7 +75,7 @@ applicazione per scrivere il mio curriculum in modo decente, sulla falsa riga de
 modello europass.
 Niente di stravolgente, ma una buona occasione per creare
 un'applicazione in rails e pdfwriter. Appena la finisco, l'aggiungerò alla ristabilita
-sezione tools.
+sezione tools.
 
 h2. Server attivo
 
@@ -57,7 +84,7 @@ p(data). Mercoledì, 17 Settembre 2008
 Il server per giocare a briscola a briscola e a mariazza è ora attivo
 24 ore su 24, 7 giorni su 7.
 Il gioco dello spazzino sta entrando nella fase conclusiva.
-
+
 
 h2. Pubblicata nuova versione di Cuperativa (0.5.4)
 
@@ -70,7 +97,7 @@ quindi, aggiornate.
 
 Maggiori informazioni nella pagina delle <a href="{relocatable: /news.html}">
 news</a>.
-
+
 
 h2. Stato del progetto Cuperativa
 
@@ -90,7 +117,7 @@ suggerito da Domenico Starna.
 <a href="{relocatable: /images/cuperativa/inbriscola_0_5_4_big.png}">
   <img src="{relocatable: /images/cuperativa/inbriscola_0_5_4_small.png}">
 </a>
-
+
 
 h2. Invido.it
 
@@ -101,7 +128,7 @@ Le FAQ, la descrizione dei progetti, gli screenshots e i download fanno ora
 tutti parte di questo sito.
 La <a href="{relocatable: /download/index.html}"> sezione download</a>
 contiene tutti i programmi pubblicati. 
-
+
 
 h2. Cuperativa
 
@@ -110,7 +137,7 @@ p(data). Venerdì, 25 Aprile 2008
 Il gioco della *__briscola online__* inserito nella cuperativa sta trovando appassionati.
 Sto aggiornando la versione, per migliorare la grafica e qualche funzione nel
 gioco in rete. Il fatto è che passo molto tempo a giocare a briscola online
-usando la cuperativa. Divertente.
+usando la cuperativa. Divertente.
 
 h2. Briscola
 
@@ -122,7 +149,7 @@ Cuperativa 0.5.0.
 
 
 <img src="{relocatable: /images/cuperativa/in_briscola_050.jpg}">
-
+
 
 h2. Tressette
 
@@ -137,7 +164,7 @@ Maggiori informazioni su questo gioco si trovano alla
 <a href="{relocatable: /progetti/tressette_progetto.html}"> sezione progetto tressette </a>.
 <img src="{relocatable: /images/tressette/in_partita_small.jpg}">
 
-In ogni modo sto lavorando a gran ritmo per completare la nuova versione del programma cuperativa, per giocare a mariazza. Una volta completata la mariazza, sarà tempo di rinnovare la briscola aggiungendola al programma cuperativa.
+In ogni modo sto lavorando a gran ritmo per completare la nuova versione del programma cuperativa, per giocare a mariazza. Una volta completata la mariazza, sarà tempo di rinnovare la briscola aggiungendola al programma cuperativa.
 
 h2.  Come si gioca a Mariazza?
 
@@ -147,7 +174,7 @@ Il gioco è molto semplice e funziona come la briscola.Si usano le stesse carte,
 valgono gli stessi punti e le stesse regole per la presa. Si gioca solo in due.
 La Mariazza si può considerare come una variante della briscola.
 Lo svolgimento preciso si trova nella sezione
-<a href="{relocatable: /progetti/cuperativa/mariazza.html}"> Mariazza </a>
+<a href="{relocatable: /progetti/cuperativa/mariazza.html}"> Mariazza </a>
 
 h2. Italian Special Solitaire
 
@@ -174,6 +201,8 @@ Le funzioni più importanti del programma sono:
 
 Il programma utilizza la libreria open source SDL. 
 
-<a href="{relocatable: /index.html}">[ Indice </a> |
-<a href="{relocatable: /index_02.html}"> 01 </a> | 02 |
-<a href="{relocatable: /index_archived.html}"> Archivio ]</a>
+
+
+<a href="{relocatable: /index.html}">[ Indice </a>|
+<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   <a href="{relocatable: /index_03.html}"> ]</a> 
+

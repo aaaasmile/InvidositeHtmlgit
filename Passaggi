@@ -2,6 +2,8 @@
 - Cambia i files in src
 - con powershel lancia webgen:
 $env:path = "D:\ruby\ruby_2_3_1\bin"
+o meglio:
+$env:path = "D:\ruby\ruby_2_3_1\bin;c:\Program files\git\bin"
 webgen
 - Ora apri WLC e lancia 
 ./sync_site_invido.sh
