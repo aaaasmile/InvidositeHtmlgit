@@ -8,6 +8,21 @@ webgen
 - Ora apri WLC e lancia 
 ./sync_site_invido.sh
 
+== Preprocessor
+La teoria è quella di usare il programma 
+D:\scratch\go-lang\vido-preproc> go run .\main.go -cmd createindex
+questo per gerare automaticamente tutti i files inde_xx.page con il loro
+navigatore delle pagine settato a modo.
+Così basta creare un nuovo file con il post dentro che viene automaticamente 
+inserito nelle index.page senza editarle direttamente.
+Le pagine che avevo editato durante gli anni, le ho splitatte in signoli files usando:
+go run .\main.go -cmd splitpages 
+Il risultato si trova sotto: D:\scratch\go-lang\vido-preproc\data\post-src
+
+Per creare un nuovo post si usa il comando:
+go run .\main.go -cmd splitpages 
+
+
 == Deploy di invido.it
 Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a UTF-8.
 Oltre ad aver convertito tutti i files .page in UTF-8 con notepad++, ho cambiato anche 
