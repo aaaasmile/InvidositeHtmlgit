@@ -1,0 +1,16 @@
+h2. Pubblicato il gioco della Scopa - Cuperativa 0.6.1
+
+p(data). Mercoledì, 24 Dicembre 2008
+
+Ho aggiunto, al programma della *Cuperativa*, il gioco della scopa a due giocatori.
+Per un aggiornamento veloce dalla versione precedente, basta collegarsi al server online
+della cuperativa, lì vengono scaricati in modo automatico solo un file da 150 kb. 
+
+Di seguito la lista principale dei cambiamenti nella versione 0.6.1
+
+  * - Aggiunto il gioco della scopa
+  * - Cambiate le animazioni nella briscola
+  * - Cambiato il la grafica della mariazza
+  * - Corretto un errore sulla presa delle carte multiple nello spazzino
+
+A tutti gli appasionati della cuperativa e dell'invido, *auguri di buone feste*.

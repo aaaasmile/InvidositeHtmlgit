@@ -1,0 +1,10 @@
+h2. Europass
+
+p(data). Martedì, 7 Ottobre 2008
+
+A quando il prossimo gioco? Vediamo, intanto mi sono creato una nuova
+applicazione per scrivere il mio curriculum in modo decente, sulla falsa riga del
+modello europass.
+Niente di stravolgente, ma una buona occasione per creare
+un'applicazione in rails e pdfwriter. Appena la finisco, l'aggiungerò alla ristabilita
+sezione tools.

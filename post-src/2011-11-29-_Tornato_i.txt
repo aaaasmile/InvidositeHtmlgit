@@ -1,0 +1,11 @@
+h2. Tornato il Tressette su sf.net
+
+p(data). martedì, 29 novembre 2011
+
+Dopo svariato tempo ho pubblicato su sf.net una nuova versione del "tressette":http://sourceforge.net/projects/tressette/. 
+Si tratta di un bugfixing di qualche imprecisione che era rimasta in sospeso. 
+Per l'occasione ho aggiornato le librerie del suono, che ora funzionano con le nuove versioni del sistema operativo windows. 
+I sorgenti del programma si trovano ora in svn e non più in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
+
+
+<img src="{relocatable: /images/tressette/screenshot02_small.jpg}">

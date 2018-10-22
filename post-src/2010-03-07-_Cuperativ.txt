@@ -1,0 +1,7 @@
+h2. Cuperativa
+
+p(data). domenica, 7 Marzo 2010
+
+Tra un allenamento e l'altro e uno studio partecipe di altri siti dove si gioca a carte,
+scrivo un po' di codice della nuova versione della cuperativa. Che d'improvviso
+potrebbe essere pubblicata. 

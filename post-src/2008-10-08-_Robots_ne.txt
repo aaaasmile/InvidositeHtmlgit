@@ -1,0 +1,15 @@
+h2. Robots nella Cuperativa
+
+p(data). Domenica, 8 Ottobre 2008
+
+<a href="{relocatable: /images/cuperativa/cup_0_5_4_robot_big.png}">
+  <img src="{relocatable: /images/cuperativa/cup_0_5_4_robot_small.png}">
+</a>
+
+Per non lasciare soli chi per la prima volta si accinge a varcare la soglia
+della mitica Cuperativa, ho liberato un robot che consente di provare a giocare
+online, anche in assenza di giocatori reali.
+A me non piace giocare online contro giocatori artificiali, ma essi
+possono aiutare il nuovo l'utente per imparare a giocare. I giocatori automatici
+sono riconoscibili dal nome "robot_XX".
+

@@ -1,0 +1,16 @@
+h2. Nuova versione dell'Invido: the best(ia))!
+
+p(data). lunedì, 28 novembre 2011
+
+<img src="{relocatable: /images/invido/in_partita_small.jpg}">
+
+Qualche settimana fa, dopo una visita al campo di allenamento del Breda calcio, mi sono fermato
+a bere una birra offerta dall'allenatore. Quello che mi ha colpito di più, di quel bar della campagna casalasca,
+è stato che ad un tavolo quattro imperterriti giocatori si sfidavano a "Invido":progetti/invido_progetto.html. 
+Che bella sorpresa, dovevo andare a Quattrocase per assistere ad uno spettacolo simile.
+Da lì ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
+C'erano alcune cose da sistemare nel software datato 2005, come le voci del programma e la forza di gioco.
+Ora il programma è molto più forte
+e, se non si presta attenzione, è anche facile essere "attaccati" come dei manifesti. Ma lascio a voi provare.
+La nuova versione del gioco "the best(ia)" si scarica da qui: "Invido 0.7.0":/download/invido_download.html
+

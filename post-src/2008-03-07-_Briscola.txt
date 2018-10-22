@@ -1,0 +1,11 @@
+h2. Briscola
+
+p(data). Venerdì, 07 Marzo 2008
+
+Nella Cuperativa, l'ultimo gioco arrivato è la *briscola in due*. Si può scaricare
+con la
+Cuperativa 0.5.0.
+
+
+<img src="{relocatable: /images/cuperativa/in_briscola_050.jpg}">
+

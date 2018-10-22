@@ -1,0 +1,12 @@
+h2. Pubblicata nuova versione di Cuperativa (0.5.4)
+
+p(data). Sabato, 07 Giugno 2008
+
+Finalmente ho pubblicato una nuova versione del programma *Cuperativa*.
+Questa è la nuova versione *necessaria per giocare online*.
+Con le versioni precedenti non è più possibile giocare in rete e vanno,
+quindi, aggiornate.
+
+Maggiori informazioni nella pagina delle <a href="{relocatable: /news.html}">
+news</a>.
+

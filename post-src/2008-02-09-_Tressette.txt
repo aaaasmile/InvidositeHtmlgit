@@ -1,0 +1,14 @@
+h2. Tressette
+
+p(data). Sabato, 09 Febbraio 2008
+
+Ho notato con piacere che negli ultimi giorni c'è stato un incremento dei download
+del programma del *__tressette__* dal sito
+"http://sourceforge.net/projects/tressette/":http://sourceforge.net/projects/tressette/.
+Non è che attualmente stia lavorando direttamente a questo programma,
+ma mi piacerebbe sapere il motivo di questo improvviso picco.
+Maggiori informazioni su questo gioco si trovano alla 
+<a href="{relocatable: /progetti/tressette_progetto.html}"> sezione progetto tressette </a>.
+<img src="{relocatable: /images/tressette/in_partita_small.jpg}">
+
+In ogni modo sto lavorando a gran ritmo per completare la nuova versione del programma cuperativa, per giocare a mariazza. Una volta completata la mariazza, sarà tempo di rinnovare la briscola aggiungendola al programma cuperativa.

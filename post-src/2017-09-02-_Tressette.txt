@@ -1,0 +1,9 @@
+h2. Tressette 0.7.5
+
+p(data). sabato, 2 settembre 2017
+
+Dopo aver settato una Virtual Machine con il mitico Windows XP, ho ritrovato il feeling per creare una nuova versione del programma 
+"Tressette":http://sourceforge.net/projects/tressette/files/latest/download, che sotto windows 10 non riusciva a salvare 
+le opzioni cambiate dall'utente. È stata anche l'occasione per migliorarne anche la grafica. La prima versione è stata dodici anni fa,
+ma il programma ha sempre funzionato in tutti i nuovi sistemi operativi che sono seguiti. Solo lo sviluppo del programma è diventato via via sempre 
+più difficoltoso, ma ripristinando Windows Xp e Visual Studio 2008 la compilazione dei sorgenti non è stata più un problema.   

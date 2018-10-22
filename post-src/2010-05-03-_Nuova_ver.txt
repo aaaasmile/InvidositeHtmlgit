@@ -1,0 +1,22 @@
+h2. Nuova versione 0.7.5 del programma Cuperativa
+
+p(data). lunedì, 3 Maggio 2010
+
+<a href="{relocatable: /images/cuperativa/0_7_5mariazza_big.png}">
+  <img src="{relocatable: /images/cuperativa/0_7_5mariazza_small.png}">
+</a>
+
+<a href="{relocatable: /images/cuperativa/0_7_5mainrete_big.png}">
+  <img src="{relocatable: /images/cuperativa/0_7_5mainrete_small.png}">
+</a>
+
+<a href="{relocatable: /images/cuperativa/0_7_5briscolone_big.png}">
+  <img src="{relocatable: /images/cuperativa/0_7_5briscolone_small.png}">
+</a>
+
+
+Ho pubblicato una nuova versione del programma Cuperativa, la 0.7.5.
+Contiene il nuovo gioco del briscolone, effetti sonori e una grafica migliorata.
+
+
+Il gioco in rete funziona solo con la versione 0.7.5.

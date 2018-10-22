@@ -1,0 +1,12 @@
+h2. Runner tool
+
+p(data). mercoledì, 31 gennaio 2018
+
+Uno degli strumenti che uso maggiormanete è il "Runner Tool":https://runners-tool.firebaseapp.com/, che è la raccolta 
+di diverse funzioni per il bravo corridore amatore. Inizialmente l'avevo sviluppato come applicazione 
+per il browser Chrome (extension packged), ma Google ha deciso di non supportare più questo tipo di applicazioni. 
+Così l'ho trasformata in un'applicazione Progressive Web Apps (progetto su "PWAPP-runner-tool":https://github.com/aaaasmile/PWAPP-runner-tool). 
+Questo tipo di appllicazione può funzionare anche offline e può essere salvata all'interno dell'elenco App similmente
+alla mia "vecchia extension packaged":https://github.com/aaaasmile/corsa_tool. Buone corse.
+
+<a href="{relocatable: /images/runner-tool/runner-tool.PNG}"><img width="250" src="{relocatable: /images/runner-tool/runner-tool.PNG}"></a>

@@ -1,0 +1,10 @@
+h2. Il prossimo gioco della Cuperativa
+
+p(data). Domenica, 14 Dicembre 2008
+
+Entro Natale sarà pubblicata una nuova versione del programma Cuperativa.
+Ci sarà il nuovo gioco della scopa a due giocatori (scopetta). 
+Ci saranno anche delle migliorie nel gioco della Mariazza, della Briscola e qualche
+aggiustamento nello Spazzino.
+L'aggiornamento sarà automatico per chi si collegherà al server online della cuperativa.
+

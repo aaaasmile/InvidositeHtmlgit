@@ -1,0 +1,10 @@
+h2. Cuperativa alla stretta finale 
+
+p(data). Sabato, 09 Maggio 2009
+
+In questo periodo sto ultimando la nuova versione della Cuperativa e i primi test
+sono stati messi in moto. Le novità maggiori saranno il gioco del Tombolon e
+la possibilità di giocare per una classifica. Per quest'ultima funzione ho creato
+il sito "cuperativa.invido.it":http://cuperativa.invido.it. Il nuovo sito permette
+di registrare nuovi utenti e di utilizzare un forum.
+

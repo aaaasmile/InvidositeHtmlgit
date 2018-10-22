@@ -1,0 +1,10 @@
+h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.2
+
+p(data). lunedì, 08 novembre 2010
+
+La cuperativa ha corretto nuovi errori che alcuni utenti  mi hanno cortesemente segnalato,
+come il mancato salvataggio dei settings.
+Il setup completo si trova su:
+"Cuperativa 0.8.2 Aloa verde":http://kickers.fabbricadigitale.it/cuperativa/update_packages/cuperativa_082_setup.exe
+Collegandosi al server della cuperativa con una versione precedente del programma,
+si può fare un aggiornamento automatico. 

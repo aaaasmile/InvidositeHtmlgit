@@ -1,0 +1,9 @@
+h2. Aggiornamento
+
+p(data). martedì, 15 dicembre 2015
+
+Dopo una lunga pausa, ho aggiornato questo sito aggiungendo il download del programma 
+<a href="{relocatable: /download/briscola_net_download.html}">Briscola_net</a>.
+Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aaaasmile, per cui è probabile, dopo una lunga pausa, che 
+ci siano delle novità riguardante i giochi di carte in un prossimo futuro.
+

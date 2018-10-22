@@ -1,0 +1,13 @@
+h2. Giochi di carte online
+
+p(data). Domenica, 26 Ottobre 2008
+
+I giochi di carte online sono sempre più numerosi, specialmente quelli dove si
+giocano soldi veri. Ce ne sono altri dove invece si può tranquillamente giocare
+per divertirsi. In mezzo a quest'ultima categoria ci metto il software della
+Cuperativa.
+_Che cosa rende però Cuperativa diverso da tutti gli altri_? La differenza sta nel fatto
+che è open source. Non solo si può vedere come funziona il programma, ma a nessuno
+è preclusa la via di implementarsi il proprio gioco. Per esempio, l'ultima versione
+si può anallizzare su "koders,":http://www.koders.co.uk/info.aspx?c=ProjectInfo&pid=XA6PS4T6TU6DVZFNQ5WA838XGD&s=cdef%3agame
+il sito che mette in risalto i sorgenti di progetti open.

@@ -1,0 +1,9 @@
+h2. Cuperativa 1.2.9
+
+p(data). sabato, 09 gennaio 2016
+
+Sentivo il bisogno di aggiornare la forza dell'algoritmo della Mariazza e così ho pubblicato una nuova
+versione della cuperativa:
+"Cuperativa 1.2.9":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
+
+

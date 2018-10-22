@@ -1,0 +1,33 @@
+h2. Nuovo mazzi di carte per il programma Cuperativa
+
+p(data). giovedì, 5 gennaio 2011
+
+Ho aggiunto nuovi mazzi di carte per il gioco cuperativa.
+Essi sono: il bellissimo mazzo di carte del Tarocco Piemontese creato da Domenico Starna,
+le carte bolognesi, le carte genovesi, le carte piemontesi, le carte romagnole, le carte della Sardegna,
+le carte trentine e le carte triestine.
+
+I mazzi si trovano:
+
+* "mazzo tarocco piemontese":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/tarocco_piemontese.zip
+* "mazzo carte bolognesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/bologna.zip
+* "mazzo carte genovesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/genova.zip
+* "mazzo carte piemontesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/piemonte.zip
+* "mazzo carte romagnole":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/romagna.zip
+* "mazzo carte sardegna":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/sardegna.zip
+* "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
+* "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip.
+
+Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
+Cuperativa (per esempio C:\cuperativa\ver_0_8_2\app\res\carte).
+Poi fare partire il programma e nelle opzioni delle carte ora comparirà il mazzo dello
+zip che potrà essere selezionato come tutti gli altri.
+
+Esempio carte romagnole:
+
+* Scaricare lo zip romagna.zip
+* Scompattare lo zip in modo che si crei la directory C:\cuperativa\ver_0_8_2\app\res\carte\romagna con all'interno tutte le immagini delle carte
+* Lanciare il programma cuperativa, selezionare il menu opzioni, mazzi di carte, selezionare carte romagnole e premere il pulsante [applica].
+
+A questo punto tutti i giochi di carte saranno eseguiti usando il mazzo delle carte romagnole.
+<br/>

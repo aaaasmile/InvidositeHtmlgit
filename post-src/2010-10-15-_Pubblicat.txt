@@ -1,0 +1,16 @@
+h2. Pubblicata nuova versione della cuperativa col Tressette
+
+p(data). venerdì, 15 ottobre 2010
+
+<a href="{relocatable: /images/cuperativa/tre_080_big.png}">
+  <img src="{relocatable: /images/cuperativa/tre_080_small.png}">
+</a>
+
+Dopo avere terminato la mia prima maratona non poteva mancare una nuova
+versione del programma Cuperativa. Questa volta ho aggiunto il gioco
+del tressette a due giocatori. Tra le altre migliorie al programma, ho aumentato
+la forza del giocatore computer quando gioca a scopa.
+Chi possiede la versione 0.7.5 può aggiornare il programma alla versione 0.8.0,
+semplicemente collegandosi al server della cuperativa e seguire le istruzioni che compariranno.
+Il programma, una volta attualizzato, ripartirà in modo automatico. Versioni precedenti alla 0.7.5
+richiedono l'update via setup.exe sopra riportato.

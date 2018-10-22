@@ -1,0 +1,9 @@
+h2.  Come si gioca a Mariazza?
+
+p(data). Giovedì, 15 Novembre 2007
+
+Il gioco è molto semplice e funziona come la briscola.Si usano le stesse carte,
+valgono gli stessi punti e le stesse regole per la presa. Si gioca solo in due.
+La Mariazza si può considerare come una variante della briscola.
+Lo svolgimento preciso si trova nella sezione
+<a href="{relocatable: /progetti/cuperativa/mariazza.html}"> Mariazza </a>

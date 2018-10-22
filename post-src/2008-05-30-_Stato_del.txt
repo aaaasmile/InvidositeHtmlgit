@@ -1,0 +1,19 @@
+h2. Stato del progetto Cuperativa
+
+p(data). Sabato, 30 Maggio 2008
+
+Attualmente sto lavorando ad una nuova versione del programma, la quale consentirà un
+aggiornamento senza dovere scaricare ogni volta tutto il software. Questo avverrà
+quando ci si collegherà al server per giocare online. Siccome il programma non è
+compilato, ma interpretato, per aggiornare il software basta cambiare pochi files.
+In più, un utente che avesse voglia di cambiare il programma, può farlo direttamente
+usando semplicemente Notepad, o qualsiasi altro editor di testo. Personalizzare
+o aggiungere giochi di carte come la briscola sarà quindi immediato.
+
+Ecco in anteprima una schermata del gioco della briscola aggiornato col layout
+suggerito da Domenico Starna.
+
+<a href="{relocatable: /images/cuperativa/inbriscola_0_5_4_big.png}">
+  <img src="{relocatable: /images/cuperativa/inbriscola_0_5_4_small.png}">
+</a>
+

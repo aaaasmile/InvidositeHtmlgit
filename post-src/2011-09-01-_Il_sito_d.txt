@@ -1,0 +1,7 @@
+h2. Il sito dell'invido è tornato dalle ferie
+
+p(data). giovedì, 1 settembre 2011
+
+Qualche aggiornamento per quanto riguarda il software della *cuperativa*. Sto lavorando
+ad una nuova versione che contiene il tressette a 4 giocatori. Non è ancora finita ma,
+tra una corsa e l'altra, penso che riuscirò. 

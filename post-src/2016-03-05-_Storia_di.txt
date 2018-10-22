@@ -1,0 +1,8 @@
+h2. Storia di Breda Cisoni
+
+p(data). sabato, 5 marzo 2016
+
+Non so come mai, ma tra passaggi di siti, nuovi e scomparsi, la storia di Breda Cisoni scritta da Beach è scomparsa.
+Ho rimediato <a href="{relocatable: /bredacisoni/index.html}">ripresentandola</a> su questo sito aggiungendoci qualche foto dal mio archivio.
+
+<a href="{relocatable: /bredacisoni/index.html}"><img width="250" src="{relocatable: /images/breda/stemmabreda_800.jpg}"></a>

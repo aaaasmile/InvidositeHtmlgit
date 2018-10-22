@@ -1,0 +1,10 @@
+h2. Invido.it
+
+p(data). Sabato, 10 Maggio 2008
+
+Ho rinnovato il sito di *invido.it* per renderlo più accessibile.
+Le FAQ, la descrizione dei progetti, gli screenshots e i download fanno ora
+tutti parte di questo sito.
+La <a href="{relocatable: /download/index.html}"> sezione download</a>
+contiene tutti i programmi pubblicati. 
+
