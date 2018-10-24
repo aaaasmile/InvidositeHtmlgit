@@ -5,3 +5,4 @@ out
 /.vs/config/applicationhost.config
 tmp
 sync_site_invido.sh 
+*.exe

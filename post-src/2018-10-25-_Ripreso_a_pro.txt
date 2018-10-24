@@ -1,0 +1,5 @@
+h2. Ripreso a programmare la Cuperativa
+
+p(data). Giovedì, 25 Ottobre 2018
+
+Ho ripreso a programmare il software della cuperativa. Per seguire gli sviluppi, guarda il sito "github aaaasmile":https://github.com/aaaasmile/TryACupClient3.
