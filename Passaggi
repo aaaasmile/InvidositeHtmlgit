@@ -8,6 +8,16 @@ webgen
 - Ora apri WLC e lancia 
 ./sync_site_invido.sh
 
+== Crea un nuovo post col Preprocessor
+Si usa vido-preproc.exe. Vedi --usage per il dettaglio. Un nuovo si aggiunge e si editare
+automaticamante con:
+vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
+Nel browser (localhost:4200) che parte automaticamente si può editare e salvare il post.
+Poi si può creare i files index page usando il link nell'editor.
+(Sorgente di vido-preproc.exe messo in D:\scratch\go-lang\vido-preproc)
+Per editare l'ultimo post si usa:
+vido-preproc.exe --uicmd last
+
 == Preprocessor
 La teoria è quella di usare il programma 
 D:\scratch\go-lang\vido-preproc> go run .\main.go -cmd createindex
