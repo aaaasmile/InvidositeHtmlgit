@@ -1,5 +1,9 @@
 == Aggiornare il sito
-- Cambia i files in src
+- Cambia i files in src. Per i contenuti in index_xx.page si usa il preprocessor con:
+vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
+Edita il file nel browser per avere un correttore ortografico. Poi crea tutti i files index_xx.page con:
+vido-preproc.exe -cmd createindex oppure usando il browser con il quale si è editato il nuovo post.
+Ora tocca a webgen:
 - con powershel lancia webgen:
 $env:path = "D:\ruby\ruby_2_3_1\bin"
 o meglio:
@@ -9,7 +13,7 @@ webgen
 ./sync_site_invido.sh
 
 == Crea un nuovo post col Preprocessor
-Si usa vido-preproc.exe. Vedi --usage per il dettaglio. Un nuovo si aggiunge e si editare
+Si usa vido-preproc.exe. Vedi --usage per il dettaglio. Un nuovo post si aggiunge e si edita
 automaticamante con:
 vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
 Nel browser (localhost:4200) che parte automaticamente si può editare e salvare il post.
@@ -17,6 +21,8 @@ Poi si può creare i files index page usando il link nell'editor.
 (Sorgente di vido-preproc.exe messo in D:\scratch\go-lang\vido-preproc)
 Per editare l'ultimo post si usa:
 vido-preproc.exe --uicmd last
+Vedi tutti i comandi a disposizione con:
+./vido-preproc.exe --help
 
 == Preprocessor
 La teoria è quella di usare il programma 
@@ -26,12 +32,8 @@ navigatore delle pagine settato a modo.
 Così basta creare un nuovo file con il post dentro che viene automaticamente 
 inserito nelle index.page senza editarle direttamente.
 Le pagine che avevo editato durante gli anni, le ho splitatte in signoli files usando:
-go run .\main.go -cmd splitpages 
+go run .\main.go -cmd splitpages  (NOTA: questo comando non serve più è stato un comando da lanciare una sola volta)
 Il risultato si trova sotto: D:\scratch\go-lang\vido-preproc\data\post-src
-
-Per creare un nuovo post si usa il comando:
-go run .\main.go -cmd splitpages 
-
 
 == Deploy di invido.it
 Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a UTF-8.
@@ -44,7 +46,11 @@ Per la sincronizzazione dei fiel usa:
 Il comando al suo interno è:
 rsync -av /mnt/d/Projects/GItHub/InvidositeHtmlgit/out/snapshot/ <user>@invido.it:/var/www/invido.it/html
 
+== Aggiungi un link alla menubar
+Occorre un nuovo file con il suffisso .virtual. Poi la referenza va messa nel file metainfo (--- alcn  ).
+
 == WLC webgen e deploy
+[NOTA, meglio usare webgen sotto windows e WLC solo per il deploy]
 Riesco a generare il sito e fare il deploy usando WLC. Questa è la configurazione usata:
 igors@Laptop-Toni:/mnt/d/Projects/GItHub/InvidositeHtmlgit$ ruby -v
 ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux]

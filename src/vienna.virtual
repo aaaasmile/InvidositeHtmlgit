@@ -1,0 +1,6 @@
+/vienna-iol/:
+
+/vienna-iol/index.html:
+  title: Vienna IOL Vintage
+  in_menu: true
+  dest_path: https://vienna.invido.it/
