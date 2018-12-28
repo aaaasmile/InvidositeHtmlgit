@@ -6,3 +6,7 @@ out
 tmp
 sync_site_invido.sh 
 *.exe
+old
+static
+templates
+vido-preproc*
