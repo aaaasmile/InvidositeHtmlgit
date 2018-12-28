@@ -10,3 +10,5 @@ old
 static
 templates
 vido-preproc*
+zips/*
+config.toml_*

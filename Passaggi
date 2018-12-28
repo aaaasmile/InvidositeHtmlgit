@@ -1,7 +1,10 @@
 == Aggiornare il sito
 - Cambia i files in src. Per i contenuti in index_xx.page si usa il preprocessor con:
 vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
-Edita il file nel browser per avere un correttore ortografico. Poi crea tutti i files index_xx.page con:
+Edita il file nel browser per avere un correttore ortografico. 
+Nel browser è possibile creare l'index e lanciare webgen usando i pulsanti appositi (rimane fuori dal browser l'update del sito con WLC).
+
+Si può usare anche la command line per creare tutti i files index_xx.page con:
 vido-preproc.exe -cmd createindex oppure usando il browser con il quale si è editato il nuovo post.
 Ora tocca a webgen:
 - con powershel lancia webgen:
@@ -11,6 +14,10 @@ $env:path = "D:\ruby\ruby_2_3_1\bin;c:\Program files\git\bin"
 webgen
 - Ora apri WLC e lancia 
 ./sync_site_invido.sh
+
+Versione di webgen usata:
+PS D:\Projects\GItHub\InvidositeHtmlgit> webgen --version
+webgen 1.4.1
 
 == Crea un nuovo post col Preprocessor
 Si usa vido-preproc.exe. Vedi --usage per il dettaglio. Un nuovo post si aggiunge e si edita
@@ -23,6 +30,8 @@ Per editare l'ultimo post si usa:
 vido-preproc.exe --uicmd last
 Vedi tutti i comandi a disposizione con:
 ./vido-preproc.exe --help
+Per editare il post corrente senza riaprire una nuova finestra nel browser:
+vido-preproc.exe --uicmd last --nobrowser
 
 == Preprocessor
 La teoria è quella di usare il programma 
@@ -31,9 +40,19 @@ questo per gerare automaticamente tutti i files inde_xx.page con il loro
 navigatore delle pagine settato a modo.
 Così basta creare un nuovo file con il post dentro che viene automaticamente 
 inserito nelle index.page senza editarle direttamente.
+Consiglio di usare 
+vido-preproc.exe --uicmd  <completo>
+per editare il post e lanciare i vari comandi successivi dal browser, incluso webgen.
 Le pagine che avevo editato durante gli anni, le ho splitatte in signoli files usando:
 go run .\main.go -cmd splitpages  (NOTA: questo comando non serve più è stato un comando da lanciare una sola volta)
 Il risultato si trova sotto: D:\scratch\go-lang\vido-preproc\data\post-src
+
+== Update Preprocessor (vido-preproc.exe nuova versione)
+Il programma vido-preproc è un work in progress quindi è possibile che venga aggiornato.
+Una volta creato una nuova versione in go nella la dir dove si trova il progetto (golang/vido-preproc),
+si crea lo zip con deploy.exe. Questo zip si mette nella sottodirectory ./zips.
+Ora si lancia in powershell lo script update-vidopre.ps1 seguendo attentamente i messaggi che compaiono al prompt.
+La precendente versione viene memorizzata in ./old
 
 == Deploy di invido.it
 Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a UTF-8.
@@ -49,7 +68,18 @@ rsync -av /mnt/d/Projects/GItHub/InvidositeHtmlgit/out/snapshot/ <user>@invido.i
 == Aggiungi un link alla menubar
 Occorre un nuovo file con il suffisso .virtual. Poi la referenza va messa nel file metainfo (--- alcn  ).
 
-== WLC webgen e deploy
+== WLC deploy 
+Usa solo questo comando:
+./sync_site_invido.sh
+
+========================================
+== ***** Inizio sezione Obsoleta ******
+========================================
+Tengo questa sezione solo per avere dei riferimenti quando si aggiorna un server o i tools dietro alla
+creazione del sito. In un futuro potrebbero tornare utili se cambio server o webgen.
+
+== WLC Webgen (obsoleto)
+Il resto si può ignorare:
 [NOTA, meglio usare webgen sotto windows e WLC solo per il deploy]
 Riesco a generare il sito e fare il deploy usando WLC. Questa è la configurazione usata:
 igors@Laptop-Toni:/mnt/d/Projects/GItHub/InvidositeHtmlgit$ ruby -v
@@ -57,7 +87,8 @@ ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux]
 igors@Laptop-Toni:/mnt/d/Projects/GItHub/InvidositeHtmlgit$ webgen --version
 webgen 1.5.1
 
-== Inizio sezione Obsoleta:
+== Deploy (non più attuale)
+
 Quello che bisogna fare per aggiornare Invido.it (Sito  http://kickers.fabbricadigitale.it)
 
 vai nella dir D:\Projects\GItHub\InvidositeHtmlgit e apri powershell
