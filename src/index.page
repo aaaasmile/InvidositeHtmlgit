@@ -15,7 +15,7 @@ p(data). Venerdì, 28 Dicembre 2018
 
 <a href="{relocatable: /images/vienna-iol.png}"><img width="300" src="{relocatable: /images/vienna-iol.png}"></a>
 
-In questa fase dove mi diverto a programmare applicazioni da mettere sul sito invido.it, mi sono imbattuto nella chiusura della sezione Italians Online di Vienna. Questo era un forum con il quale diversi italiani residenti a Vienna usavano per scambiarsi messaggi e organizzare eventi in città.
+In questa fase, dove mi diverto a programmare applicazioni da mettere sul sito invido.it, mi sono imbattuto nella chiusura della sezione Italians Online di Vienna. Questo era un forum con il quale diversi italiani residenti a Vienna usavano per scambiarsi messaggi e organizzare eventi in città.
 
 Prima della chiusura sono riuscito a salvare i post tempo addietro (vedi "github iol-importer":https://github.com/aaaasmile/iol-importer). 
 Ora, dopo aver visto un video molto interessante sul database sqlite e la ricerca libera su tutti i campi, ho creato una app (vedi "github iolvienna":https://github.com/aaaasmile/iolvienna) con la quale è possibile navigare attraverso più di 20 000 posts scritti in più di dieci anni di attività della sezione di Vienna.
