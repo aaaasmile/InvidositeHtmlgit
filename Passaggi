@@ -6,13 +6,13 @@ Nel browser è possibile creare l'index e lanciare webgen usando i pulsanti appo
 
 Si può usare anche la command line per creare tutti i files index_xx.page con:
 vido-preproc.exe -cmd createindex oppure usando il browser con il quale si è editato il nuovo post.
-Ora tocca a webgen:
+Ora tocca a webgen (nota che webgen può essere chiamato all'interno del Preprocessor):
 - con powershel lancia webgen:
 $env:path = "D:\ruby\ruby_2_3_1\bin"
 o meglio:
 $env:path = "D:\ruby\ruby_2_3_1\bin;c:\Program files\git\bin"
 webgen
-- Ora apri WLC e lancia 
+- Ora apri WLC (window linux console) e lancia 
 ./sync_site_invido.sh
 
 Versione di webgen usata:
@@ -36,16 +36,22 @@ vido-preproc.exe --uicmd last --nobrowser
 == Preprocessor
 La teoria è quella di usare il programma 
 D:\scratch\go-lang\vido-preproc> go run .\main.go -cmd createindex
-questo per gerare automaticamente tutti i files inde_xx.page con il loro
-navigatore delle pagine settato a modo.
+questo per generare automaticamente tutti i files inde_xx.page con il loro
+navigatore delle pagine settato a modo partendo dai files di post. Ogni post è un file e 
+vanno messi assieme in un file di index.
 Così basta creare un nuovo file con il post dentro che viene automaticamente 
 inserito nelle index.page senza editarle direttamente.
 Consiglio di usare 
-vido-preproc.exe --uicmd  <completo>
+vido-preproc.exe --uicmd  <comando>
 per editare il post e lanciare i vari comandi successivi dal browser, incluso webgen.
 Le pagine che avevo editato durante gli anni, le ho splitatte in signoli files usando:
 go run .\main.go -cmd splitpages  (NOTA: questo comando non serve più è stato un comando da lanciare una sola volta)
 Il risultato si trova sotto: D:\scratch\go-lang\vido-preproc\data\post-src
+
+La configurazione di vido-preproc.exe si trova nel file config.toml di questa directory e i templates
+nella sottodirectory templates.
+In questa dir l'unica cosa da comabiare è il file config.toml nel caso si voglia usare webgen da una
+directory differente oppure l'out è rediretto sotto un'altra dir.
 
 == Update Preprocessor (vido-preproc.exe nuova versione)
 Il programma vido-preproc è un work in progress quindi è possibile che venga aggiornato.
@@ -54,11 +60,14 @@ si crea lo zip con deploy.exe. Questo zip si mette nella sottodirectory ./zips.
 Ora si lancia in powershell lo script update-vidopre.ps1 seguendo attentamente i messaggi che compaiono al prompt.
 La precendente versione viene memorizzata in ./old
 
+Il progetto vido-preproc.exe si trova su https://github.com/aaaasmile/vido-preproc
+
+
 == Deploy di invido.it
 Con il nuovo server dedicato ho aggiunto https e cambiato il coding, tornando a UTF-8.
 Oltre ad aver convertito tutti i files .page in UTF-8 con notepad++, ho cambiato anche 
 il file metainfo di webgen per avere UTF-8.
-Ora si può editare i files in Visual Code. Per il deploy sul server usare il comando rsync 
+Ora si può editare i files in Visual Code. Per il deploy sul server viene usato il comando linux rsync 
 in WLC. 
 Per la sincronizzazione dei fiel usa:
 ./sync_site_invido.sh
@@ -73,7 +82,7 @@ Usa solo questo comando:
 ./sync_site_invido.sh
 
 ========================================
-== ***** Inizio sezione Obsoleta ******
+== ***** Inizio sezione Obsoleta  ******
 ========================================
 Tengo questa sezione solo per avere dei riferimenti quando si aggiorna un server o i tools dietro alla
 creazione del sito. In un futuro potrebbero tornare utili se cambio server o webgen.

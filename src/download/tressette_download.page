@@ -7,21 +7,21 @@ sort_info: 42
 
 h2. Tressette download 
 
-Download: "Tressette ver 0.7.5":http://sourceforge.net/projects/tressette/files/latest/download
+Download: "Tressette ver 2.1.0":http://sourceforge.net/projects/tressette/files/latest/download
 
 
 |*Descrizione*:| Il gioco del tressette nella variante a 4 giocatori con algoritmo di gioco a livello medio|
-|*Dimensione*:| 5,7 MB|
-|*Versione*:| 0.7.5|
-|*Tipo file*:| msi|
-|*Sistema Operativo*:| Windows 10,7,XP|
+|*Dimensione*:| 5,4 MB|
+|*Versione*:| 2.1.0|
+|*Tipo file*:| exe|
+|*Sistema Operativo*:| Windows 10|
 |*Autore*:| Igor Sarzi Sartori|
 |*Licenza*:| GPL Open Source|
-|*Data*:| 2.09.2017|
-|*Screenshot*:| <img src="{relocatable: /images/tressette/in_partita_small.jpg}">|
+|*Data*:| 24.07.2019|
+|*Screenshot*:| <img src="{relocatable: /images/tressette/tre_ver_2_1_0.png}">|
 
 
 Download Codice Sorgente:
-Il codice sorgente si può trovare nella repository svn su "sf.net":https://sourceforge.net/p/tressette/code/HEAD/tree/
+Il codice sorgente si può trovare nella repository git su "github":https://github.com/aaaasmile/tressettecpp
 
 *NOTA* Per giocare a tressette in due, si può usare il programma "Cuperativa":cuperativa_download.html

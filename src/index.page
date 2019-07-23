@@ -9,6 +9,16 @@ sort_info: 0
 <a href="{relocatable: /index.html}">[</a> Indice |
 <a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 ]</a>
 
+h2. Nuova versione del Tressette 2.1.0
+
+p(data). Mercoledì, 24 Luglio 2019
+
+<a href="{relocatable: /images/tressette/tre_ver_2_1_0.png}"><img width="300" src="{relocatable: /images/tressette/tre_ver_2_1_0.png}"></a>
+
+Stimolato dalla segnalazione di qualche piccola imprecisione del programma Tressette, ho deciso di aggiornarlo passando alla versione SDL 2.0 e visual studio 2015. L'ultima versione che avevo creato, la 0.7.5, usava Visual Studio 2009 sotto windows xp e la libreria sdl 1.0. Una costellazione che richiedeva uno sviluppo in una Virtual Machine con un sistema operativo come Xp molto vintage.
+
+Non ho corretto nessun bug, ho solo attualizzato il progetto e spostato i codici sorgenti su "github":https://github.com/aaaasmile/tressettecpp mentre il sito di riferimento per il download rimane "sf.net":https://sourceforge.net/projects/tressette/.
+
 h2. Vienna IOL Vintage
 
 p(data). Venerdì, 28 Dicembre 2018
