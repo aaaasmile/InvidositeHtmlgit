@@ -1,0 +1,7 @@
+h2. Tressette 2.2.0
+
+p(data). Giovedì, 1 Agosto 2019
+
+Ho creato una nuova versione del tressette, la 2.2.0, che gioca meglio.
+Il download come sempre da "sf.net":https://sourceforge.net/projects/tressette/.
+Enjoy!
