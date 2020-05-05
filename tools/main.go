@@ -12,6 +12,13 @@ import (
 
 // semplice programma per convertire la directory out in unaltra iso-8859 per il deployment
 // su kickers.fabbricadigitale.it
+// Il programma ha dei problemi:
+// Nella conversione isolatin ci sono dei file nella sottodir manual che sono già in in isolatin
+// che vanno esclusi dalla conversione.
+// Altro problema è l'header <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+// che nella converstione rimane scritto utf8
+// Nella dir fit-ftp co sono degli analitics di google che nella versione invido sono spariti
+
 func stringInSlice(a string, list []string) bool {
 	for _, b := range list {
 		if b == a {

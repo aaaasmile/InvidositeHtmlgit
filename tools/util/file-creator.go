@@ -6,8 +6,6 @@ import (
 	"log"
 	"os"
 	"path"
-
-	"golang.org/x/text/encoding/charmap"
 )
 
 type FileCreator struct {
@@ -99,7 +97,9 @@ func copyWithTranslationIso(src, dst string) error {
 	}
 	defer destination.Close()
 
-	r := charmap.ISO8859_1.NewEncoder()
+	//r := charmap.ISO8859_1.NewEncoder()
+	iso := ISOLatin1(InvalidSkip)
+	r := iso.NewEncoder()
 	_, err = io.Copy(r.Writer(destination), fs)
 	if err != nil {
 		log.Printf("*** Trouble in %s with error %v", dst, err)
