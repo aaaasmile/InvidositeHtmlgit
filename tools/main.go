@@ -69,4 +69,6 @@ func main() {
 	fc := util.FileCreator{Debug: debugFC}
 	fc.PrepareDirTree(fw.DirProc, dirOut)
 	fc.CopyAllFiles(copyOnlys, dirOut, dirSrc)
+	fc.Debug = true
+	fc.ConvertToIsoAllFiles(toConvs, dirOut, dirSrc)
 }

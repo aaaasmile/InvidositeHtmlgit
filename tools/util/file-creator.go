@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 	"path"
+
+	"golang.org/x/text/encoding/charmap"
 )
 
 type FileCreator struct {
@@ -68,4 +70,40 @@ func (fc *FileCreator) CopyAllFiles(list []string, dirOut, dirSrc string) {
 		}
 	}
 	log.Println("Copy file success for ", len(list))
+}
+
+func (fc *FileCreator) ConvertToIsoAllFiles(list []string, dirOut, dirSrc string) {
+	for _, item := range list {
+		src := path.Join(dirSrc, item)
+		dst := path.Join(dirOut, item)
+		if err := copyWithTranslationIso(src, dst); err != nil {
+			log.Fatal("Unable to create destination ", dst, err)
+		}
+		if fc.Debug {
+			log.Println("File copied with iso 8859", item)
+		}
+	}
+	log.Println("Copy file success for ", len(list))
+}
+
+func copyWithTranslationIso(src, dst string) error {
+	fs, err := os.Open(src)
+	if err != nil {
+		return err
+	}
+	defer fs.Close()
+
+	destination, err := os.Create(dst)
+	if err != nil {
+		return err
+	}
+	defer destination.Close()
+
+	r := charmap.ISO8859_1.NewEncoder()
+	_, err = io.Copy(r.Writer(destination), fs)
+	if err != nil {
+		log.Printf("*** Trouble in %s with error %v", dst, err)
+		return nil
+	}
+	return err
 }
