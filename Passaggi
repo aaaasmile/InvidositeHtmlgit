@@ -50,7 +50,7 @@ Il risultato si trova sotto: D:\scratch\go-lang\vido-preproc\data\post-src
 
 La configurazione di vido-preproc.exe si trova nel file config.toml di questa directory e i templates
 nella sottodirectory templates.
-In questa dir l'unica cosa da comabiare è il file config.toml nel caso si voglia usare webgen da una
+In questa dir l'unica cosa da cambiare è il file config.toml nel caso si voglia usare webgen da una
 directory differente oppure l'out è rediretto sotto un'altra dir.
 
 == Update Preprocessor (vido-preproc.exe nuova versione)
