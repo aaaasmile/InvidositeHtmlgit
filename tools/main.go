@@ -1,17 +1,16 @@
 package main
 
 import (
+	"flag"
 	"fmt"
-	"io"
 	"log"
-	"os"
 	"path/filepath"
 	"strings"
 
 	"github/aaasmile/vidotools/util"
 )
 
-// semplice programma per convertire la directory out in unaltra iso-8890 per il deployment
+// semplice programma per convertire la directory out in unaltra iso-8859 per il deployment
 // su kickers.fabbricadigitale.it
 func stringInSlice(a string, list []string) bool {
 	for _, b := range list {
@@ -22,47 +21,28 @@ func stringInSlice(a string, list []string) bool {
 	return false
 }
 
-type FileCreator struct {
-	Debug bool
-}
-
-func (fc *FileCreator) copyFile(src, dst string) error {
-	if fc.Debug {
-		log.Println("Copy file ", src, dst)
-	}
-
-	sourceFileStat, err := os.Stat(src)
-	if err != nil {
-		return err
-	}
-
-	if !sourceFileStat.Mode().IsRegular() {
-		return fmt.Errorf("%s is not a regular file", src)
-	}
-
-	source, err := os.Open(src)
-	if err != nil {
-		return err
-	}
-	defer source.Close()
-
-	destination, err := os.Create(dst)
-	if err != nil {
-		return err
-	}
-	defer destination.Close()
-	_, err = io.Copy(destination, source)
-	return err
-}
-
 func main() {
+	var debug = flag.Bool("debug", false, "Debug")
+	var ddSrc = flag.String("dirsrc", "", "Directory source in UTF8")
+	var ddDst = flag.String("dirdts", "", "Directory destination in ISO8859")
+	flag.Parse()
+
+	debugFW := *debug
+	debugFC := *debug
 	dirSrc := "D:\\Projects\\GItHub\\InvidositeHtmlgit\\out\\snapshot"
-	//dirOut := "D:\\Projects\\GItHub\\InvidositeHtmlgit\\out\\conv-iso8890"
+	if *ddDst != "" {
+		dirSrc = *ddSrc
+	}
+
+	dirOut := "D:\\Projects\\GItHub\\InvidositeHtmlgit\\out\\conv-iso8859"
+	if *ddDst != "" {
+		dirOut = *ddDst
+	}
 
 	pathItems := []string{"/"}
 	extToCon := []string{".html", ".txt", ".xml"}
 	extNoTouch := []string{".jpg", ".png"}
-	fw := util.FileWalker{Debug: true}
+	fw := util.FileWalker{Debug: debugFW}
 	toConvs := make([]string, 0, 300)
 	copyOnlys := make([]string, 0, 200)
 	resAll := fw.GetAllFiles(pathItems, dirSrc, func(filename string) bool {
@@ -76,9 +56,17 @@ func main() {
 		}
 		return false
 	})
-	for _, item := range toConvs {
-		fmt.Println(item)
+	if *debug {
+		for _, item := range toConvs {
+			fmt.Println(item)
+		}
+
 	}
+
 	log.Println("Files to convert are conv/copy", len(toConvs), len(copyOnlys), len(resAll))
 	log.Println("Scanned dirs ", fw.DirProc)
+
+	fc := util.FileCreator{Debug: debugFC}
+	fc.PrepareDirTree(fw.DirProc, dirOut)
+	fc.CopyAllFiles(copyOnlys, dirOut, dirSrc)
 }

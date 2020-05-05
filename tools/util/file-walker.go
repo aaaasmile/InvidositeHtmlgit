@@ -19,11 +19,11 @@ func (fw *FileWalker) GetAllFiles(rootItems []string, rootPath string, filter Fi
 	onlyFiles := []string{}
 	fw.DirProc = make([]string, 0, 20)
 	for _, pathItem := range rootItems {
-		log.Printf("Process item %s", pathItem)
+		log.Printf("Process root %s", pathItem)
 		itemAbs := path.Join(rootPath, pathItem)
 		if info, err := os.Stat(itemAbs); err == nil && info.IsDir() {
 			arr := []string{}
-			arr = fw.getFilesinDir(itemAbs, pathItem, arr, filter)
+			arr = fw.getFilesinDir(itemAbs, pathItem, arr, "", filter)
 			if fw.Debug {
 				fmt.Println("Dir process result: ", arr)
 			}
@@ -39,7 +39,7 @@ func (fw *FileWalker) GetAllFiles(rootItems []string, rootPath string, filter Fi
 	return onlyFiles
 }
 
-func (fw *FileWalker) getFilesinDir(dirAbs string, dirRel string, ini []string, filter FilterFnc) []string {
+func (fw *FileWalker) getFilesinDir(dirAbs string, dirRel string, ini []string, subpath string, filter FilterFnc) []string {
 	r := ini
 	//log.Println("Scan dir ", dirAbs)
 	files, err := ioutil.ReadDir(dirAbs)
@@ -49,11 +49,15 @@ func (fw *FileWalker) getFilesinDir(dirAbs string, dirRel string, ini []string, 
 	for _, f := range files {
 		itemAbs := path.Join(dirAbs, f.Name())
 		if info, err := os.Stat(itemAbs); err == nil && info.IsDir() {
-			fw.DirProc = append(fw.DirProc, f.Name())
+			nn := f.Name()
+			if subpath != "" {
+				nn = path.Join(subpath, f.Name())
+			}
+			fw.DirProc = append(fw.DirProc, nn)
 			if fw.Debug {
 				fmt.Println("** Sub dir found ", f.Name())
 			}
-			r = fw.getFilesinDir(itemAbs, path.Join(dirRel, f.Name()), r, filter)
+			r = fw.getFilesinDir(itemAbs, path.Join(dirRel, f.Name()), r, nn, filter)
 		} else {
 			if fw.Debug {
 				fmt.Println("** file is ", f.Name())
