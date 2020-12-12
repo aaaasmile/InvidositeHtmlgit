@@ -1,5 +1,5 @@
 --- name:content
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
   <head>
@@ -7,8 +7,10 @@
     <meta name="description" content="Download della briscola, il programma cuperativa, del programma invido e diversi solitari. Giochi di carte online" />
     <meta name="keywords" content="briscola download,briscola online,tressette download,cuperativa,invido,breda cisoni,igor sarzi sartori,mariazza,tressette,tresette" />
     <meta name="author" content="Igor Sarzi Sartori" />
-	<meta name="google-site-verification" content="5_4h9kML2-bcrf27Yhgq9NdqDu6ZEMuicWGNhQQVnzM" />
-	<link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <link rel="shortcut icon" href="{relocatable: /images/invido_sym.ico}"/>
     <link rel="stylesheet" href="{relocatable: /slicknav/slicknav.min.css}" />
     <script src="{relocatable: /slicknav/jquery-2.1.1.min.js}"></script>
     <script src="{relocatable: /slicknav/jquery.slicknav.min.js}"></script>
@@ -16,7 +18,6 @@
     <title>{title:}</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
   </head>
-
   <body>
     <div id="container">
       <div id="sitename">
@@ -58,17 +59,6 @@
         });
       });
     </script>
-<!-- Analytics di google per invido.it -->
-<script type="text/javascript">
-  var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-  </script>
-  <script type="text/javascript">
-  var pageTracker = _gat._getTracker("UA-335642-1");
-  pageTracker._trackPageview();
-</script>
-<!-- Analytics di google fine -->
-
   </body>          
 </html>
 
