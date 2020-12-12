@@ -9,6 +9,41 @@ sort_info: 0
 <a href="{relocatable: /index.html}">[</a> Indice |
 <a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 ]</a>
 
+h2. Musica maestro: Live-omxctrl
+
+p(data). Sabato, 12 Dicembre 2020
+
+Dopo un po' di tempo torno a scrivere su questo sito, questa volta, però, non per aggiornare gli sviluppi di qualche gioco di carte, ma per segnalare un'applicazione che ho sviluppato per ascoltare musica.
+
+L'idea è nata dalla scoperta del dispositivo Raspberry 4, che fino allo scorso anno non mi aveva interessato più di tanto. In fondo perché investire tempo su dispositivi quando si ha la possibilità di usare tutto il giorno portatili o desktop computers di gran lunga più preformanti? E se questo non basta, ci sono gli smartphone a colmare la lacuna. 
+
+Una volta acquistato, per caso, il Raspberry 4 mi ha subito impressionato una cosa: le sue dimensioni e il consumo di energia. Il che significa, che è un dispositivo che può benissimo stare in soggiorno al fianco di un amplificatore o sopra ad un dvd player. 
+
+<a href="https://github.com/aaaasmile/live-omxctrl/blob/master/doc/raspi4insogg.jpg?raw=true"><img width="300" src="https://github.com/aaaasmile/live-omxctrl/blob/master/doc/raspi4insogg.jpg?raw=true" /></a>
+
+Già il dvd player, che poi è uno di quelli con il tasto Netflix sopra, può tranquillamente fare andare la musica attraverso le sue app  preinstallate, tipo Youtube player. Dopo un paio di prove ho però abbandonato l'idea. Per scegliere la musica in questione, infatti, devo accendere il televisore, scegliere la app e lanciare il video musicale. Il tutto comandato da un telecomando, che non sembra fatto come una tastiera. Qui poi mi parte la pubblicità di youtube,alla quale francamente faccio a meno.
+
+Con il Raspberry è diverso. Basta dare corrente al dispositivo che nel giro di pochi secondi il mio server è pronto ad accettare comandi per consumare risorse musicali. Nel mio caso, sopratutto links di youtube senza pubblicità. Per questa operazione  uso il mio iphone che si collega all'indirizzo IP del Raspberry.
+
+Trovare il link di youtube da inserire è un po' un problema, ma con la youtube app dello smartphone è facile cercare un link interessante da copiare e inviare al Raspberry. Poi i link usati vengo memorizzati sul server  e si possono facilmente riutilizzare in sessioni successive,
+Streaming di radio e podcast sono anch'essi supportati. Soundclound è in cantiere. Spotify, invece, al momento non  m'interessa.
+
+Per ultimo, anche la possibilità di lanciare un file musicale memorizzato sulla memoria fissa del Rapberry. Una possibilità che nel passato ha fatto la fortuna dei vari Napster, Torrent, Kazaa e compagnia, ma che allo stato attuale, sembra ormai superata. Non credo sia un caso, che il Guru di queste tecnologie si sia messo a produrre automobili. 
+
+L' applicazione si trova su github al link "live-omxctrl":https://github.com/aaaasmile/live-omxctrl
+
+È stato bello ritrovare la voglia di scrivere un'applicazione per dispositivi tipo Raspberry, anche se magari altri software, di qualità magari migliore e già rodati, offrono possibilità simili (per esempio la coppia "Mopidy":https://mopidy.com/ e Iris).  
+
+Però continuo ad usare e sviluppare live-omxctrl anche perché è più divertente.
+
+Qui un dettaglio della schermata iphone che uso per lanciare il link di youtube:
+
+!https://github.com/aaaasmile/live-omxctrl/blob/master/doc/05-12-_2020_22-23-43.png?raw=true!:https://github.com/aaaasmile/live-omxctrl/blob/master/doc/05-12-_2020_22-23-43.png?raw=true
+
+  
+
+
+
 h2. Tressette 2.2.0
 
 p(data). Giovedì, 1 Agosto 2019
