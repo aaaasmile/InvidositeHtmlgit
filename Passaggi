@@ -4,6 +4,9 @@ vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
 Edita il file nel browser per avere un correttore ortografico. 
 Nel browser è possibile creare l'index e lanciare webgen usando i pulsanti appositi (rimane fuori dal browser l'update del sito con WLC).
 
+Per cambiare le altre pagine, basta usare Visual Code. Tutti i files sono in UTF-8 e webgen li supporta.
+
+
 Si può usare anche la command line per creare tutti i files index_xx.page con:
 vido-preproc.exe -cmd createindex oppure usando il browser con il quale si è editato il nuovo post.
 Ora tocca a webgen (nota che webgen può essere chiamato all'interno del Preprocessor):
@@ -54,6 +57,8 @@ In questa dir l'unica cosa da cambiare è il file config.toml nel caso si voglia
 directory differente oppure l'out è rediretto sotto un'altra dir.
 
 == Update Preprocessor (vido-preproc.exe nuova versione)
+Dal progetto vido-preproc lanciare .\start_publish.ps1. Il resto viene fatto da se.
+
 Il programma vido-preproc è un work in progress quindi è possibile che venga aggiornato.
 Una volta creato una nuova versione in go nella la dir dove si trova il progetto (golang/vido-preproc),
 si crea lo zip con deploy.exe. Questo zip si mette nella sottodirectory ./zips.
