@@ -12,3 +12,4 @@ templates
 vido-preproc*
 zips/*
 config.toml_*
+debug.log
