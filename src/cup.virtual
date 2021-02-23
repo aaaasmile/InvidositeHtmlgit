@@ -1,0 +1,6 @@
+/cuperativa/:
+
+/cuperativa/index.html:
+  title: Cuperativa
+  in_menu: true
+  dest_path: https://cup.invido.it/

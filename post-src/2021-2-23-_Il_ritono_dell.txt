@@ -1,0 +1,60 @@
+h2. Il ritono della Cuperativa
+
+p(data). Martedì, 23 Febbraio 2021
+
+<a href="{relocatable: /images/cuperativa/cupnfo2021.jpg}"><img width="300" src="{relocatable: /images/cuperativa/cupnfo2021.jpg}"></a>
+
+È con grande entusiasmo, che finalmente riesco ad annunciare una nuova versione della Cuperativa, questa volta disponibile online su questo sito,  al link "cup.invido.it":https://cup.invido.it.
+
+È passato diverso tempo, qualche annuncio troppo ottimista, diverse prove, ma anche altri interessi, ne hanno ritardato sempre più la pubblicazione.
+
+Durante il mio percorso di programmatore mi è sempre piaciuto, di tanto in tanto, sviluppare i giochi di carte che si giocavano nel bar della Cuperativa a Breda Cisoni. Questo sito ne è una testimonianza. 
+
+Ad un certo punto ho anche pubblicato una soluzione per giocare in rete, con tanto di server, client e web per gestire iscrizioni e forum. Una soluzione che è stata superata dall'evoluzione del web, che ha cannibalizzato soluzioni, come  quella che avevo adottato, basate sul protocollo TCP/IP a porta dedicata. Tecnologia rigettata a priori per motivi di sicurezza, togliendo di fatto la possibilità dei client di collegarsi al server della Cuperativa. Skype, Kazaaa e compagnia, hanno mostrato che non è che chiudendo delle porte si blocca una  trasmissione dubbia, ma tant'è che la via è stata segnata: solo il web è il motore per comunicare. Eccezioni sono viste malvolentieri e concesse solo a protocolli straconosciuti su server dedicati e danarosi.  
+L'IoT dei giorni nostri, però, con i suoi protocolli dai nomi candidi, sembrano far ripensare all'idea di far passare tutto dal web e vanno a ripristinare la sotterrata comunicazione TCP/IP. 
+
+A quei tempi ho anche pensato ad un'una escursione in Flash, ma non ho fatto fatto tempo a cominciare, che è stato anch'esso bannato, questa volta dai produttori di browser. 
+
+Mi è rimasto, allora, solo lo sviluppo per browser con la coppia html + javascript. Ritrovarmi, dopo aver completato un'applicazione complessa come la Cuperativa sviluppata interamente in solitaria nei ritagli di tempo, ad affrontare lo sviluppo da zero partendo da html, mi ha fatto venire strane sensazioni. Creare interfacce grafiche complesse usando costrutti Html come h1, h2, h3, h4 h5, ul, li, p e div per creare tutto via css mi è sembrato tornare indietro di decenni.  Javascript, poi, sembrava ancora fermo ai tempi di Netscape. 
+Per riuscire a combinare qualcosa, con la motivazione che man mano scompariva, ho dovuto optare per delle librerie e framework che nascevano al mattino ed erano già obsoleti alla sera.
+
+Ad un certo punto mi sono imbarcato nello sviluppo usando Angularjs divenato poi Angular usando NodeJs in sottofondo. 
+Mamma mia che polpettone. 
+Forse con una schiera di programmatori si può creare qualcosa di decente, ma nel mio piccolo non sono riuscito ad andare oltre alla foresta dei files di configurazione. 
+Tre settimane di pausa voleva dire ricreare il progetto da capo, scaricare tonnellate di librerie per riuscire a vedere qualche pulsante e passare ore su dei forum a cercare una soluzione ad un problema in teoria banale, per rivedere di nuovo quei tre bottoni del mese prima.
+
+Col passare del tempo, però, le librerie e i browser hanno fatto passi da gigante e lo sviluppo da parte mia è diventato sempre più abbordabile. Ho dovuto abbandonare Ruby in quanto non aveva sbocchi sul browser. Ruby è un linguaggio molto produttivo per una singola persona, ma diventa caotico quando l'appllicazione cresce. La velocità di sviluppo iniziale è veramente notevole. Per me non è un caso che Twitter sia nato così. 
+
+Dopo aver affossato Angular, NodeJs e l'escursione in Typescript, tanto per farmi male, ho cominciato a vedere la luce quando ho cominciato a programmare in Go. Finalmente un passo in avanti. 
+
+Sulle ali dell'entusiasmo dello sviluppo in pochissimo tempo di "vienna.invido.it":https://vienna.invido.it/, creato con la coppia Go e ReactJs, ho pensato che fosse arrivato il tempo di riprendere la Cuperativa a pieno ritmo. Ma nulla da fare anche questa volta. L'applicazione in ReactJS senza polpettoni alla Webpack e quindi nodejs, non sono riuscito a farla crescere. Altra strada senza uscita. 
+
+Successivamente, visto i passi da gigante che ha fatto il supporto di javascript nel browser, sono tornato ad una implementazione in html puro e javascript, ma non sono riuscito a creare una grafica decente.
+
+Però la nuova libreria Vue era già nell'aria e improvvisamente scrivere un'applicazione con 3 bottoni non era più collegata all'installazione di qualche giga di software, che diventava obsoleto mentre lo si scaricava.
+Vuetify ha, infine, completato l'opera. Così per creare una toolbar qui si usa il comando toolbar. Oppure per creare una colonna si usa col e riga row. A volte ho anche pensato che con Vuetify il css si possa anche dimenticare. Quasi.
+Improvvisamente lo sviluppo dell'interfaccia grafica diventa veloce e riemergono i tempi dello sviluppo di Cuperativa con Ruby e FoxGui. 
+
+Ora Cuperativa è finalmente pubblicato.
+
+Mi sembrava, sopratutto dopo l'ultimo mio viaggio a Breda Cisoni, che lo sviluppo della Cuperativa sul sito "cup.invido.it":https://cup.invido.it fosse un atto dovuto. 
+Questo piccolo centro ricreativo, che è stato un punto di ritrovo per diverse generazioni, ha lasciato molti piacevoli ricordi. Più che il gioco delle carte, è stata questa voglia di spensieratezza il filo conduttore del sito. 
+Una spensieratezza ormai solo virtuale. 
+
+Il codice completo della Cuperativa si trova su "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice. Al momento è implementata solo la briscola in modalità simulazione. Ma tutti gli altri giochi connessi, come Mariazza, Scoperta e Briscolone sono molto semplici da aggiungere. Per la possibilità di giocare in rete, invece, ci vorrà del tempo in quanto la parte del server è da scrivere completamente.   
+
+Per chi vuole lasciare un parere o un commento sulla Cuperativa, può usare la Mail: 6colpiunbucosolo chiocciola gmx.net. Oppure il sito  "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice.
+
+  
+
+
+
+
+
+
+
+ 
+
+
+ 
+

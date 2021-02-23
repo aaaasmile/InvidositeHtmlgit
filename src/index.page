@@ -9,13 +9,98 @@ sort_info: 0
 <a href="{relocatable: /index.html}">[</a> Indice |
 <a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 ]</a>
 
+h2. Il ritono della Cuperativa
+
+p(data). Martedì, 23 Febbraio 2021
+
+<a href="{relocatable: /images/cuperativa/cupnfo2021.jpg}"><img width="300" src="{relocatable: /images/cuperativa/cupnfo2021.jpg}"></a>
+
+È con grande entusiasmo, che finalmente riesco ad annunciare una nuova versione della Cuperativa, questa volta disponibile online su questo sito,  al link "cup.invido.it":https://cup.invido.it.
+
+È passato diverso tempo, qualche annuncio troppo ottimista, diverse prove, ma anche altri interessi, ne hanno ritardato sempre più la pubblicazione.
+
+Durante il mio percorso di programmatore mi è sempre piaciuto, di tanto in tanto, sviluppare i giochi di carte che si giocavano nel bar della Cuperativa a Breda Cisoni. Questo sito ne è una testimonianza. 
+
+Ad un certo punto ho anche pubblicato una soluzione per giocare in rete, con tanto di server, client e web per gestire iscrizioni e forum. Una soluzione che è stata superata dall'evoluzione del web, che ha cannibalizzato soluzioni, come  quella che avevo adottato, basate sul protocollo TCP/IP a porta dedicata. Tecnologia rigettata a priori per motivi di sicurezza, togliendo di fatto la possibilità dei client di collegarsi al server della Cuperativa. Skype, Kazaaa e compagnia, hanno mostrato che non è che chiudendo delle porte si blocca una  trasmissione dubbia, ma tant'è che la via è stata segnata: solo il web è il motore per comunicare. Eccezioni sono viste malvolentieri e concesse solo a protocolli straconosciuti su server dedicati e danarosi.  
+L'IoT dei giorni nostri, però, con i suoi protocolli dai nomi candidi, sembrano far ripensare all'idea di far passare tutto dal web e vanno a ripristinare la sotterrata comunicazione TCP/IP. 
+
+A quei tempi ho anche pensato ad un'una escursione in Flash, ma non ho fatto fatto tempo a cominciare, che è stato anch'esso bannato, questa volta dai produttori di browser. 
+
+Mi è rimasto, allora, solo lo sviluppo per browser con la coppia html + javascript. Ritrovarmi, dopo aver completato un'applicazione complessa come la Cuperativa sviluppata interamente in solitaria nei ritagli di tempo, ad affrontare lo sviluppo da zero partendo da html, mi ha fatto venire strane sensazioni. Creare interfacce grafiche complesse usando costrutti Html come h1, h2, h3, h4 h5, ul, li, p e div per creare tutto via css mi è sembrato tornare indietro di decenni.  Javascript, poi, sembrava ancora fermo ai tempi di Netscape. 
+Per riuscire a combinare qualcosa, con la motivazione che man mano scompariva, ho dovuto optare per delle librerie e framework che nascevano al mattino ed erano già obsoleti alla sera.
+
+Ad un certo punto mi sono imbarcato nello sviluppo usando Angularjs divenato poi Angular usando NodeJs in sottofondo. 
+Mamma mia che polpettone. 
+Forse con una schiera di programmatori si può creare qualcosa di decente, ma nel mio piccolo non sono riuscito ad andare oltre alla foresta dei files di configurazione. 
+Tre settimane di pausa voleva dire ricreare il progetto da capo, scaricare tonnellate di librerie per riuscire a vedere qualche pulsante e passare ore su dei forum a cercare una soluzione ad un problema in teoria banale, per rivedere di nuovo quei tre bottoni del mese prima.
+
+Col passare del tempo, però, le librerie e i browser hanno fatto passi da gigante e lo sviluppo da parte mia è diventato sempre più abbordabile. Ho dovuto abbandonare Ruby in quanto non aveva sbocchi sul browser. Ruby è un linguaggio molto produttivo per una singola persona, ma diventa caotico quando l'appllicazione cresce. La velocità di sviluppo iniziale è veramente notevole. Per me non è un caso che Twitter sia nato così. 
+
+Dopo aver affossato Angular, NodeJs e l'escursione in Typescript, tanto per farmi male, ho cominciato a vedere la luce quando ho cominciato a programmare in Go. Finalmente un passo in avanti. 
+
+Sulle ali dell'entusiasmo dello sviluppo in pochissimo tempo di "vienna.invido.it":https://vienna.invido.it/, creato con la coppia Go e ReactJs, ho pensato che fosse arrivato il tempo di riprendere la Cuperativa a pieno ritmo. Ma nulla da fare anche questa volta. L'applicazione in ReactJS senza polpettoni alla Webpack e quindi nodejs, non sono riuscito a farla crescere. Altra strada senza uscita. 
+
+Successivamente, visto i passi da gigante che ha fatto il supporto di javascript nel browser, sono tornato ad una implementazione in html puro e javascript, ma non sono riuscito a creare una grafica decente.
+
+Però la nuova libreria Vue era già nell'aria e improvvisamente scrivere un'applicazione con 3 bottoni non era più collegata all'installazione di qualche giga di software, che diventava obsoleto mentre lo si scaricava.
+Vuetify ha, infine, completato l'opera. Così per creare una toolbar qui si usa il comando toolbar. Oppure per creare una colonna si usa col e riga row. A volte ho anche pensato che con Vuetify il css si possa anche dimenticare. Quasi.
+Improvvisamente lo sviluppo dell'interfaccia grafica diventa veloce e riemergono i tempi dello sviluppo di Cuperativa con Ruby e FoxGui. 
+
+Ora Cuperativa è finalmente pubblicato.
+
+Mi sembrava, sopratutto dopo l'ultimo mio viaggio a Breda Cisoni, che lo sviluppo della Cuperativa sul sito "cup.invido.it":https://cup.invido.it fosse un atto dovuto. 
+Questo piccolo centro ricreativo, che è stato un punto di ritrovo per diverse generazioni, ha lasciato molti piacevoli ricordi. Più che il gioco delle carte, è stata questa voglia di spensieratezza il filo conduttore del sito. 
+Una spensieratezza ormai solo virtuale. 
+
+Il codice completo della Cuperativa si trova su "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice. Al momento è implementata solo la briscola in modalità simulazione. Ma tutti gli altri giochi connessi, come Mariazza, Scoperta e Briscolone sono molto semplici da aggiungere. Per la possibilità di giocare in rete, invece, ci vorrà del tempo in quanto la parte del server è da scrivere completamente.   
+
+Per chi vuole lasciare un parere o un commento sulla Cuperativa, può usare la Mail: 6colpiunbucosolo chiocciola gmx.net. Oppure il sito  "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice.
+
+  
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
 h2. Musica maestro: Live-omxctrl
 
 p(data). Sabato, 12 Dicembre 2020
 
 Dopo un po' di tempo torno a scrivere su questo sito, questa volta, però, non per aggiornare gli sviluppi di qualche gioco di carte, ma per segnalare un'applicazione che ho sviluppato per ascoltare musica.
-<a href="{relocatable: /details/2020_12_12_musica.html}"> Continua >> </a>
-<a href="{relocatable: /details/2021_01_06_esempio.html}"> Continua >> </a>
+
+L'idea è nata dalla scoperta del dispositivo Raspberry 4, che fino allo scorso anno non mi aveva interessato più di tanto. In fondo perché investire tempo su dispositivi quando si ha la possibilità di usare tutto il giorno portatili o desktop computers di gran lunga più preformanti? E se questo non basta, ci sono gli smartphone a colmare la lacuna. 
+
+Una volta acquistato, per caso, il Raspberry 4 mi ha subito impressionato una cosa: le sue dimensioni e il consumo di energia. Il che significa, che è un dispositivo che può benissimo stare in soggiorno al fianco di un amplificatore o sopra ad un dvd player. 
+
+<a href="https://github.com/aaaasmile/live-omxctrl/blob/master/doc/raspi4insogg.jpg?raw=true"><img width="300" src="https://github.com/aaaasmile/live-omxctrl/blob/master/doc/raspi4insogg.jpg?raw=true" /></a>
+
+Già il dvd player, che poi è uno di quelli con il tasto Netflix sopra, può tranquillamente fare andare la musica attraverso le sue app  preinstallate, tipo Youtube player. Dopo un paio di prove ho però abbandonato l'idea. Per scegliere la musica in questione, infatti, devo accendere il televisore, scegliere la app e lanciare il video musicale. Il tutto comandato da un telecomando, che non sembra fatto come una tastiera. Qui poi mi parte la pubblicità di youtube,alla quale francamente faccio a meno.
+
+Con il Raspberry è diverso. Basta dare corrente al dispositivo che nel giro di pochi secondi il mio server è pronto ad accettare comandi per consumare risorse musicali. Nel mio caso, sopratutto links di youtube senza pubblicità. Per questa operazione  uso il mio iphone che si collega all'indirizzo IP del Raspberry.
+Trovare il link di youtube da inserire è un po' un problema, ma con la youtube app dello smartphone è facile cercare un link interessante da copiare e inviare al Raspberry. Poi i link usati vengo memorizzati sul server  e si possono facilmente riutilizzare in sessioni successive,
+
+Streaming di radio e podcast sono anch'essi supportati. Soundclound è in cantiere. Spotify, invece, al momento non  m'interessa.
+Per ultimo, anche la possibilità di lanciare un file musicale memorizzato sulla memoria fissa del Rapberry. Una possibilità che nel passato ha fatto la fortuna dei vari Napster, Torrent, Kazaa e compagnia, ma che allo stato attuale, sembra ormai superata. Non credo sia un caso, che il Guru di queste tecnologie si sia messo a produrre automobili. 
+
+L' applicazione si trova su github al link "live-omxctrl":https://github.com/aaaasmile/live-omxctrl
+È stato bello ritrovare la voglia di scrivere un'applicazione per dispositivi tipo Raspberry, anche se magari altri software, di qualità magari migliore e già rodati, offrono possibilità simili (per esempio la coppia "Mopidy":https://mopidy.com/ e Iris).  
+Però continuo ad usare e sviluppare live-omxctrl anche perché è più divertente.
+Qui un dettaglio della schermata iphone che uso per lanciare il link di youtube:
+
+!https://github.com/aaaasmile/live-omxctrl/blob/master/doc/05-12-_2020_22-23-43.png?raw=true!:https://github.com/aaaasmile/live-omxctrl/blob/master/doc/05-12-_2020_22-23-43.png?raw=true
+
+  
+
+
 
 h2. Tressette 2.2.0
 
@@ -60,8 +145,7 @@ h2. Invido.it is back!
 p(data). Mercoledì 11 ottobre 2018
 
 Dopo qualche giorno di quarantena, il sito dell'invido.it è tornato online su di un server tutto nuovo.
-La premessa per nuove applicazioni. State aggiornati.
-
+La premessa per nuove applicazioni. State aggiornati.
 
 h2. Invido: finalmente la nuova versione 2.0.1!
 
@@ -78,8 +162,7 @@ Sempre col tasto destro è possibile invitare il computer a chiamare di più, op
 Maggiori informazioni sul progetto del gioco dell'Invido si trovano su "Progetto Invido":progetti/invido_progetto.html.
 Ho cambiato anche la musica in sottofondo pesscando una tra le più belle performance registrate della leggenda bredese Wolmer Beltrami.
 
-<a href="{relocatable: /images/invido/tasto_destro.PNG}"><img width="300" src="{relocatable: /images/invido/tasto_destro.PNG}"></a>
-
+<a href="{relocatable: /images/invido/tasto_destro.PNG}"><img width="300" src="{relocatable: /images/invido/tasto_destro.PNG}"></a>
 
 h2. Runner tool
 
@@ -92,8 +175,7 @@ Così l'ho trasformata in un'applicazione Progressive Web Apps (progetto su "PWA
 Questo tipo di appllicazione può funzionare anche offline e può essere salvata all'interno dell'elenco App similmente
 alla mia "vecchia extension packaged":https://github.com/aaaasmile/corsa_tool. Buone corse.
 
-<a href="{relocatable: /images/runner-tool/runner-tool.PNG}"><img width="250" src="{relocatable: /images/runner-tool/runner-tool.PNG}"></a>
-
+<a href="{relocatable: /images/runner-tool/runner-tool.PNG}"><img width="250" src="{relocatable: /images/runner-tool/runner-tool.PNG}"></a>
 
 h2. Tressette 0.7.5
 
@@ -103,8 +185,7 @@ Dopo aver settato una Virtual Machine con il mitico Windows XP, ho ritrovato il 
 "Tressette":http://sourceforge.net/projects/tressette/files/latest/download, che sotto windows 10 non riusciva a salvare 
 le opzioni cambiate dall'utente. È stata anche l'occasione per migliorarne anche la grafica. La prima versione è stata dodici anni fa,
 ma il programma ha sempre funzionato in tutti i nuovi sistemi operativi che sono seguiti. Solo lo sviluppo del programma è diventato via via sempre 
-più difficoltoso, ma ripristinando Windows Xp e Visual Studio 2008 la compilazione dei sorgenti non è stata più un problema.   
-
+più difficoltoso, ma ripristinando Windows Xp e Visual Studio 2008 la compilazione dei sorgenti non è stata più un problema.   
 
 h2. Storia di Breda Cisoni
 
@@ -113,8 +194,7 @@ p(data). sabato, 5 marzo 2016
 Non so come mai, ma tra passaggi di siti, nuovi e scomparsi, la storia di Breda Cisoni scritta da Beach è scomparsa.
 Ho rimediato <a href="{relocatable: /bredacisoni/index.html}">ripresentandola</a> su questo sito aggiungendoci qualche foto dal mio archivio.
 
-<a href="{relocatable: /bredacisoni/index.html}"><img width="250" src="{relocatable: /images/breda/stemmabreda_800.jpg}"></a>
-
+<a href="{relocatable: /bredacisoni/index.html}"><img width="250" src="{relocatable: /images/breda/stemmabreda_800.jpg}"></a>
 
 h2. Come giocare a "_Mariasa_"
 
@@ -131,8 +211,7 @@ Se anche tu vuoi provare a giocare a _Mariasa_, ci sono due possibilità. La pi�
 frequentare regolarmente il bar dopo i pasti, osservare i giocatori e alla fine sperare di essere invitato a svolgere una partita.
 La seconda, più immediata, è quella di scaricarti il software della "Cuperativa":progetti/cuperativa/index.html seguendo quello che
 è mostrato nel video.
-
-
+
 
 <a href="{relocatable: /index.html}">[</a> Indice |
 <a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 ]</a>
