@@ -15,27 +15,29 @@ L'IoT dei giorni nostri, però, con i suoi protocolli dai nomi candidi, sembrano
 
 A quei tempi ho anche pensato ad un'una escursione in Flash, ma non ho fatto fatto tempo a cominciare, che è stato anch'esso bannato, questa volta dai produttori di browser. 
 
-Mi è rimasto, allora, solo lo sviluppo per browser con la coppia html + javascript. Ritrovarmi, dopo aver completato un'applicazione complessa come la Cuperativa sviluppata interamente in solitaria nei ritagli di tempo, ad affrontare lo sviluppo da zero partendo da html, mi ha fatto venire strane sensazioni. Creare interfacce grafiche complesse usando costrutti Html come h1, h2, h3, h4 h5, ul, li, p e div per creare tutto via css mi è sembrato tornare indietro di decenni.  Javascript, poi, sembrava ancora fermo ai tempi di Netscape. 
+Mi è rimasto, allora, solo lo sviluppo per browser con la coppia html + javascript. Ritrovarmi, dopo aver completato un'applicazione complessa come la Cuperativa, sviluppata interamente in solitaria e nei ritagli di tempo, ad affrontare lo sviluppo da zero partendo da html mi ha fatto venire strane sensazioni. Creare interfacce grafiche complesse usando costrutti Html come h1, h2, h3, h4 h5, ul, li, p e div per creare tutto via css mi è sembrato tornare indietro di decenni.  Javascript, poi, sembrava ancora fermo ai tempi di Netscape. 
 Per riuscire a combinare qualcosa, con la motivazione che man mano scompariva, ho dovuto optare per delle librerie e framework che nascevano al mattino ed erano già obsoleti alla sera.
 
-Ad un certo punto mi sono imbarcato nello sviluppo usando Angularjs diventato poi Angular usando NodeJs in sottofondo. 
+Ad un certo punto mi sono imbarcato nello sviluppo usando Angularjs, diventato poi Angular, usando NodeJs in sottofondo. 
 Mamma mia che polpettone. 
 Forse con una schiera di programmatori si può creare qualcosa di decente, ma nel mio piccolo non sono riuscito ad andare oltre alla foresta dei files di configurazione. 
 Tre settimane di pausa voleva dire ricreare il progetto da capo, scaricare tonnellate di librerie per riuscire a vedere qualche pulsante e passare ore su dei forum a cercare una soluzione ad un problema in teoria banale, per rivedere di nuovo quei tre bottoni del mese prima.
 
-Col passare del tempo, però, le librerie e i browser hanno fatto passi da gigante e lo sviluppo da parte mia è diventato sempre più abbordabile. Ho dovuto abbandonare Ruby in quanto non aveva sbocchi sul browser. Ruby è un linguaggio molto produttivo per una singola persona, ma diventa caotico quando l'applicazione cresce. La velocità di sviluppo iniziale è veramente notevole. Per me non è un caso che Twitter sia nato così. 
+Col passare del tempo, però, le librerie e i browser hanno fatto passi da gigante. Lo sviluppo da parte mia è diventato sempre più abbordabile. Ho dovuto abbandonare Ruby in quanto non aveva sbocchi sul browser. Ruby, per una singola persona, è un linguaggio molto produttivo, ma diventa caotico quando l'applicazione cresce. La velocità di sviluppo iniziale è veramente notevole. Per me non è un caso che Twitter sia nato così. Cuperativa senza Ruby non sarebbe riuscita.
 
 Dopo aver affossato Angular, NodeJs e l'escursione in Typescript, tanto per farmi male, ho cominciato a vedere la luce quando ho cominciato a programmare in Go. Finalmente un passo in avanti. 
 
-Sulle ali dell'entusiasmo dello sviluppo in pochissimo tempo di "vienna.invido.it":https://vienna.invido.it/, creato con la coppia Go e ReactJs, ho pensato che fosse arrivato il tempo di riprendere la Cuperativa a pieno ritmo. Ma nulla da fare anche questa volta. L'applicazione in ReactJS senza polpettoni alla Webpack e quindi nodejs, non sono riuscito a farla crescere. Altra strada senza uscita. 
+Sulle ali dell'entusiasmo dello sviluppo in pochissimo tempo di "vienna.invido.it":https://vienna.invido.it/, creato con la coppia Go e ReactJs, ho pensato che fosse arrivato il tempo di riprendere la Cuperativa a pieno ritmo. Ma nulla da fare anche questa volta. L'applicazione in ReactJS senza polpettoni alla Webpack, e quindi nodejs, non sono riuscito a farla crescere. Altra strada senza uscita. 
 
 Successivamente, visto i passi da gigante che ha fatto il supporto di javascript nel browser, sono tornato ad una implementazione in html puro e javascript, ma non sono riuscito a creare una grafica decente.
 
-Però la nuova libreria Vue era già nell'aria e improvvisamente scrivere un'applicazione con 3 bottoni non era più collegata all'installazione di qualche giga di software, che diventava obsoleto mentre lo si scaricava.
-Vuetify ha, infine, completato l'opera. Così per creare una toolbar qui si usa il comando toolbar. Oppure per creare una colonna si usa col e riga row. A volte ho anche pensato che con Vuetify il css si possa anche dimenticare. Quasi.
-Improvvisamente lo sviluppo dell'interfaccia grafica diventa veloce e riemergono i tempi dello sviluppo di Cuperativa con Ruby e FoxGui. 
+Però la nuova libreria Vue era già nell'aria e improvvisamente scrivere un'applicazione con 3 bottoni non era più collegata all'installazione di qualche giga di software, che diventa obsoleto mentre lo si scarica.
+Vuetify ha, infine, completato l'opera. Così per creare una toolbar qui si usa il comando _toolbar_. Oppure per creare una colonna si usa _col_ e riga _row_. A volte ho anche pensato, che con Vuetify  si possa anche dimenticare il css.
+Improvvisamente lo sviluppo dell'interfaccia grafica è diventato veloce e sono riemersi i tempi dello sviluppo di Cuperativa con Ruby e FoxGui. 
 
-Ora Cuperativa è finalmente pubblicato.
+Il supporto del browser è limitato a quelli sui quali ho sviluppato (Chrome ad esempio). La famosa non compatibilità con Internet Explorer 6, credo, sia und dolore sopportabile. Purtroppo viene anche a mancare la compatibilità col browser Wap su linea Gprs. 
+
+Ora, però, Cuperativa è finalmente pubblicato.
 
 Mi sembrava, sopratutto dopo l'ultimo mio viaggio a Breda Cisoni, che lo sviluppo della Cuperativa sul sito "cup.invido.it":https://cup.invido.it/#/info fosse un atto dovuto. 
 Questo piccolo centro ricreativo, che è stato un punto di ritrovo per diverse generazioni, ha lasciato molti piacevoli ricordi. Più che il gioco delle carte, è stata questa voglia di spensieratezza il filo conduttore del sito. 
