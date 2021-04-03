@@ -8,7 +8,7 @@ sort_info: 41
 h2. Cuperativa Download 
 
 
-Download: "Cuperativa 1.2.10":https://sourceforge.net/projects/cuperativa/files/latest/download
+Download: "Cuperativa 1.3.11":https://sourceforge.net/projects/cuperativa/files/latest/download
 
 *Descrizione*: La cuperativa è il programma per giocare a diversi giochi di carte contro il computer.
 Nella Cuperativa sono presenti i seguenti giochi:
@@ -20,12 +20,12 @@ per due giocatori.
 Il programma è open source, disponibile con i suoi sorgenti e l'ho creato per divertimento.
 
 |*Dimensione*:| 14 MB|
-|*Versione*:| 1.2.10|
+|*Versione*:| 1.3.11|
 |*Tipo file*:| Setup eseguibile|
 |*Sistema Operativo*:| Win 10, Win 8.1, Win 7, Windows Xp|
 |*Autore*:| Igor Sarzi Sartori|
 |*Licenza*:| MIT Open Source|
-|*Data*:| 13.10.2016|
+|*Data*:| 03.04.2021|
 |*Screenshot*:| <img width="200" src="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}">|
 
 h2. Cuperativa Codice Sorgente

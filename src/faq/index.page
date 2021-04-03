@@ -7,12 +7,18 @@ sort_info: 100
 
 h3. Che cos'è Cuperativa?
 
-È una suite per giocare alle carte. Il programma è open source, quindi 
-niente spiacevoli sorprese  quando lo si usa.
+È una suite per giocare alle carte. Il programma è presente in due versioni.
+La prima, e più datata, è un programma che si installa su windows (CuperativaSoloRuby). 
+Il progetto si trova su: 
+"github.com/aaaasmile/CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
+
+La seconda versione è quella sviluppata attivamente ed è online. Si trova al link
+"cup.invido.it":https://cup.invido.it. Il codice sorgente si trova su:
+"github.com/aaaasmile/Cupservice":https://github.com/aaaasmile/Cupservice 
 
 h3. Quali giochi sono inclusi nel programma Cuperativa? 
 
-Al momento i giochi  disponibili sono:
+Al momento i giochi  disponibili su CuperativaSoloRuby sono:
 
 *  la briscola
 *  la mariazza
@@ -22,7 +28,10 @@ Al momento i giochi  disponibili sono:
 * tombolon
 * tressette
 
-I giochi sono tutti a due giocatori.
+Per cup.invido.it:
+*  la briscola
+
+I giochi sono tutti a due giocatori in modalità simulazione contro il computer.
 
 h3. Perché il programma si chiama Cuperativa? 
 
@@ -32,7 +41,7 @@ specialmente a briscola, tressette, spazzino, ciapanò, mariassa, invido e ramin
 
 h3. Funziona il gioco in rete? 
 
-No
+No. Anche la versione cup.invido.it si gioca contro il computer.
 
 h3. Dove si scarica il programma Cuperativa? 
 
@@ -47,15 +56,17 @@ regole della Mariazza </a>
 h3. Ci sarà presto il mio gioco preferito _xyz_? 
 
 Chissà, la vita è sempre piena di sorprese.
-
+Probabilmente la via più veloce è quella di scaricare i sorgenti da github 
+implementare il gioco e fare un pullrequest.
 
 h3. Chi c'è dietro il software Cuperativa? 
 
-Cuperativa è il progetto di _one man show_ Igor Sarzi Sartori creato durante il suo tempo libero.
+Cuperativa è un progetto personale che ho creato durante il mio tempo libero.
+Quasi tutto il codice l'ho creato da zero, mentre le risorse delle immagini le ho prese in rete
+o mi sono state inviate.
+
 La ragione di un simile software, nasce dall'esigenza di poter giocare a carte sul computer 
 come alla Cuperativa Nazionale o all'Acli della Breda.
-Ultimamente si sta affermando come punto d'incontro in cui poter ancora giocare
-i giochi che si giocavano fino a poco tempo fa alla Breda. 
 
 <a href="{relocatable: invido.html}"> Faq Invido > </a>
 

@@ -6,6 +6,12 @@ sort_info: 1
 ---
 h2. News
 
+
+h3. 03.04.2021 - Cuperativa 1.3.11
+
+* Starter usa il framework .net 4.5
+* Corretto errore Spazzino carte in tavola
+
 h3. 10.06.2018 - Invido 2.1.0
 
 * Aggiunto il comando "Vado dentro"
