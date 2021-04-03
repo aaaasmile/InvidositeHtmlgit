@@ -13,3 +13,5 @@ vido-preproc*
 zips/*
 config.toml_*
 debug.log
+/download-software/*.*
+/download-software/*

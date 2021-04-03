@@ -56,14 +56,14 @@ le carte trentine e le carte triestine.
 
 I mazzi si trovano:
 
-* "mazzo tarocco piemontese":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/tarocco_piemontese.zip
-* "mazzo carte bolognesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/bologna.zip
-* "mazzo carte genovesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/genova.zip
-* "mazzo carte piemontesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/piemonte.zip
-* "mazzo carte romagnole":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/romagna.zip
-* "mazzo carte sardegna":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/sardegna.zip
-* "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
-* "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip
+* "mazzo tarocco piemontese":https://github.com/aaaasmile/Solitario/blob/main/artifact/tarocco_piemontese.zip
+* "mazzo carte bolognesi":https://github.com/aaaasmile/Solitario/blob/main/artifact/bologna.zip
+* "mazzo carte genovesi":https://github.com/aaaasmile/Solitario/blob/main/artifact/genova.zip
+* "mazzo carte piemontesi":https://github.com/aaaasmile/Solitario/blob/main/artifact/piemonte.zip
+* "mazzo carte romagnole":https://github.com/aaaasmile/Solitario/blob/main/artifact/romagna.zip
+* "mazzo carte sardegna":https://github.com/aaaasmile/Solitario/blob/main/artifact/sardegna.zip
+* "mazzo carte trento":https://github.com/aaaasmile/Solitario/blob/main/artifact//trento.zip
+* "mazzo carte trieste":https://github.com/aaaasmile/Solitario/blob/main/artifact/trieste.zip
 
 Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
 Cuperativa (per esempio %localappdata%\Invido_it\Cuperativa\1_2_10\app\res\carte).
