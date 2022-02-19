@@ -5,196 +5,239 @@ directory_name: invido
 ---
 
 <a href="{relocatable: /index.html}">[ Indice </a>|
-  01   | <a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 ]</a>
+  01   | <a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 </a>|<a href="{relocatable: /index_04.html}"> 04 ]</a>
 
-h2. Cuperativa 1.2.9
+h2. Pubblicata versione 1.3.11 di CuperativaSoloRuby
 
-p(data). sabato, 09 gennaio 2016
-
-Sentivo il bisogno di aggiornare la forza dell'algoritmo della Mariazza e così ho pubblicato una nuova
-versione della cuperativa:
-"Cuperativa 1.2.9":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
-
-
-
-h2. Nuova versione Cuperativa 1.2.7
-
-p(data). giovedì, 31 dicembre 2015
-
-Il mio 2015 non finisce senza una nuova versione del programma _Cuperativa_. La nuova versione 1.2.7
-presenta una nuova grafica, pur mantenendo lo stile retrò targato fine anni novanta.
-
-Puoi scaricare subito la nuova versione 1.2.7 subito usando questo link "Cuperativa 1.2.7":https://sourceforge.net/projects/cuperativa/files/latest/download?source=directory.
-I cambiamenti e novità rispetto alla versione precedente sono:
-* migliorata la grafica
-* setup compatibile con Win7, Win8.1 e WinXP
-* senza dubbio creato il più forte giocatore artificiale di _Mariasa_
-* semplificato l'interfaccia grafica togliendo l'obsoleto supporto di rete
-* giochi supportati a due giocatori contro il computer: _briscola_, _mariazza_, _scopetta_, _spazzino_, _briscolone_, _tombolon_ e _tressette_
-* codice sorgete completo pubblicato su "GitHub CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby
-
- Maggiori informazioni le puoi trovare su <a href="{relocatable: /progetti/cuperativa/index.html}">Progetto Cuperativa</a>.
-
- <br />
- <a href="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/Mariazza_1_2_6.JPG}"></a>
- <a href="{relocatable: /images/cuperativa/start_1_2_6.JPG}"><img width="250" src="{relocatable: /images/cuperativa/start_1_2_6.JPG}"></a>
-
-h2. Aggiornamento
-
-p(data). martedì, 15 dicembre 2015
-
-Dopo una lunga pausa, ho aggiornato questo sito aggiungendo il download del programma 
-<a href="{relocatable: /download/briscola_net_download.html}">Briscola_net</a>.
-Ho anche spostato i sorgenti dei miei progetti su "GitHub":https://github.com/aaaasmile, per cui è probabile, dopo una lunga pausa, che 
-ci siano delle novità riguardante i giochi di carte in un prossimo futuro.
-
-
-h2. Dove è finito Invido.it?
-
-p(data). sabato, 22 novembre 2014
-
-Il contenuto del sito che prima si trovava su invido.it si è 
-trasferito qui. Il server per giocare alla cuperativa non è più attivo e ha chiuso i battenti.
-Ringrazio tutti quelli che hanno contribuito a renderlo attivo tutti questi anni. 
-I software per giocare a carte in modalità singola contro il computer si trovano sempre
-su questo sito alla sezione <a href="{relocatable: /download/index.html}">download</a>. 
-
-Il mio blog si trova è trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
-
-
-h2. Tornato il Tressette su sf.net
-
-p(data). martedì, 29 novembre 2011
-
-Dopo svariato tempo ho pubblicato su sf.net una nuova versione del "tressette":http://sourceforge.net/projects/tressette/. 
-Si tratta di un bugfixing di qualche imprecisione che era rimasta in sospeso. 
-Per l'occasione ho aggiornato le librerie del suono, che ora funzionano con le nuove versioni del sistema operativo windows. 
-I sorgenti del programma si trovano ora in svn e non più in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
+p(data). Sabato, 3 Aprile 2021
 
 
-<img src="{relocatable: /images/tressette/screenshot02_small.jpg}">
+<a href="{relocatable: /images/cuperativa/start-info.jpg}"><img width="300" src="{relocatable: /images/cuperativa/start-info.jpg}"></a>
 
-h2. Nuova versione dell'Invido: the best(ia))!
+Lo sviluppo del  programma CuperativaSoloRuby era ormai inattivo da un po' di tempo ed alcuni utenti mi hanno segnalato dei problemi di installazione o di gioco nello Spazzino. 
+Interessante è che queste informazioni mi sono arrivate dopo che ho pubblicato "cup.invido.it":https://cup.invido.it il quale però contiene solo, per ora, il gioco della Briscola. 
+Così per giocare a Spazzino o Mariasa non rimane altro che installare CuperativaSoloRuby per windows. Esso si trova al link "sourceforge.net/projects/cuperativa/files/cuperativa_1311_setup.exe/download":https://sourceforge.net/projects/cuperativa/files/cuperativa_1311_setup.exe/download 
+La nuova versione contiene, quindi, solo delle correzioni.
+Per quanto riguarda lo sviluppo, il codice si trova su: "github.com/aaaasmile/CuperativaSoloRuby":https://github.com/aaaasmile/CuperativaSoloRuby. Utilizza Ruby 1.8.6. e foxgui con il suo binding FxRuby per la parte grafica. Tecnologie abbastanza datate ma che danno un tocco  vintage all'applicazione. E funziona perfettamente anche sul mio nuovissimo Windows10.
 
-p(data). lunedì, 28 novembre 2011
+Per quanto riguarda, invece, la nuova "Cuperativa":https://cup.invido.it direi che l'approccio è molto diverso. Applicazione online che però può funzionare benissimo offline. Nel ritagli di tempo sto lavorando all'algoritmo della briscola scoperta, che credevo più semplice. 
+I prossimi giochi quindi saranno:
+* Briscola Scoperta
+* Mariazza
+* Spazzino
 
-<img src="{relocatable: /images/invido/in_partita_small.jpg}">
-
-Qualche settimana fa, dopo una visita al campo di allenamento del Breda calcio, mi sono fermato
-a bere una birra offerta dall'allenatore. Quello che mi ha colpito di più, di quel bar della campagna casalasca,
-è stato che ad un tavolo quattro imperterriti giocatori si sfidavano a "Invido":progetti/invido_progetto.html. 
-Che bella sorpresa, dovevo andare a Quattrocase per assistere ad uno spettacolo simile.
-Da lì ho preso lo spunto per pubblicare una nuova versione del gioco, che poi da il titolo a questo sito: l' *Invido*. 
-C'erano alcune cose da sistemare nel software datato 2005, come le voci del programma e la forza di gioco.
-Ora il programma è molto più forte
-e, se non si presta attenzione, è anche facile essere "attaccati" come dei manifesti. Ma lascio a voi provare.
-La nuova versione del gioco "the best(ia)" si scarica da qui: "Invido 0.7.0":/download/invido_download.html
-
-
-h2. Il sito dell'invido è tornato dalle ferie
-
-p(data). giovedì, 1 settembre 2011
-
-Qualche aggiornamento per quanto riguarda il software della *cuperativa*. Sto lavorando
-ad una nuova versione che contiene il tressette a 4 giocatori. Non è ancora finita ma,
-tra una corsa e l'altra, penso che riuscirò. 
-
-h2. Nuovo mazzi di carte per il programma Cuperativa
-
-p(data). giovedì, 5 gennaio 2011
-
-Ho aggiunto nuovi mazzi di carte per il gioco cuperativa.
-Essi sono: il bellissimo mazzo di carte del Tarocco Piemontese creato da Domenico Starna,
-le carte bolognesi, le carte genovesi, le carte piemontesi, le carte romagnole, le carte della Sardegna,
-le carte trentine e le carte triestine.
-
-I mazzi si trovano:
-
-* "mazzo tarocco piemontese":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/tarocco_piemontese.zip
-* "mazzo carte bolognesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/bologna.zip
-* "mazzo carte genovesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/genova.zip
-* "mazzo carte piemontesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/piemonte.zip
-* "mazzo carte romagnole":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/romagna.zip
-* "mazzo carte sardegna":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/sardegna.zip
-* "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
-* "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip.
-
-Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
-Cuperativa (per esempio C:\cuperativa\ver_0_8_2\app\res\carte).
-Poi fare partire il programma e nelle opzioni delle carte ora comparirà il mazzo dello
-zip che potrà essere selezionato come tutti gli altri.
-
-Esempio carte romagnole:
-
-* Scaricare lo zip romagna.zip
-* Scompattare lo zip in modo che si crei la directory C:\cuperativa\ver_0_8_2\app\res\carte\romagna con all'interno tutte le immagini delle carte
-* Lanciare il programma cuperativa, selezionare il menu opzioni, mazzi di carte, selezionare carte romagnole e premere il pulsante [applica].
-
-A questo punto tutti i giochi di carte saranno eseguiti usando il mazzo delle carte romagnole.
-<br/>
-
-h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.2
-
-p(data). lunedì, 08 novembre 2010
-
-La cuperativa ha corretto nuovi errori che alcuni utenti  mi hanno cortesemente segnalato,
-come il mancato salvataggio dei settings.
-Il setup completo si trova su:
-"Cuperativa 0.8.2 Aloa verde":http://kickers.fabbricadigitale.it/cuperativa/update_packages/cuperativa_082_setup.exe
-Collegandosi al server della cuperativa con una versione precedente del programma,
-si può fare un aggiornamento automatico. 
-
-h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.1 
-
-p(data). venerdì, 27 ottobre 2010
-
-La cuperativa non si ferma mai e così ho trovato il tempo per correggere
-alcuni errori, che gli utenti più affezionati mi hanno cortesemente segnalato.
-Collegandosi al server della cuperativa con una versione precedente del programma,
-si può fare un aggiornamento automatico. A partire da questa versione, oltre al numero della versione,
-il programma riceve anche un nome in codice. Questa volta si chiama "Aloa Verde",
-un profumo che emerge dallo sfondo del gioco del tressette. Buon divertimento e
-continuate pure a segnalare problemi, informazioni e richieste varie che riguardano il
-gioco della cuperativa.
-
-h2. Pubblicata nuova versione della cuperativa col Tressette
-
-p(data). venerdì, 15 ottobre 2010
-
-<a href="{relocatable: /images/cuperativa/tre_080_big.png}">
-  <img src="{relocatable: /images/cuperativa/tre_080_small.png}">
-</a>
-
-Dopo avere terminato la mia prima maratona non poteva mancare una nuova
-versione del programma Cuperativa. Questa volta ho aggiunto il gioco
-del tressette a due giocatori. Tra le altre migliorie al programma, ho aumentato
-la forza del giocatore computer quando gioca a scopa.
-Chi possiede la versione 0.7.5 può aggiornare il programma alla versione 0.8.0,
-semplicemente collegandosi al server della cuperativa e seguire le istruzioni che compariranno.
-Il programma, una volta attualizzato, ripartirà in modo automatico. Versioni precedenti alla 0.7.5
-richiedono l'update via setup.exe sopra riportato.
-
-h2. Tressette
-
-p(data). domenica, 26 Settembre 2010
-
-Guardando le statistiche del programma tressette, che ho pubblicato su "sf.net":http://sourceforge.net/projects/tressette/
-qualche tempo fa (tre.exe), mi sono accorto che presto saranno raggiunti i 10000 download.
-Per l'occasione, mi sembra il minimo dover aggiungere il gioco del tressette a due giocatori
-nella suite della cuperativa. Alcuni mi hanno chiesto quando ci sarà una nuova versione
-del programma tre.exe. Questo non accadrà a breve termine, ma mi piacerebbe tornare a rivisitare
-il gioco programmando di nuovo in c++, magari con la possibilità di collegarsi al server
-della cuperativa per il gioco in rete.
-E' nella calma la vera forza della cuperativa.
+Il progetto si può seguire, e  perché no anche contribuire,  su github "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice/tree/scuperta. 
 
 
-h2. Creato un nuovo Blog
 
-p(data). domenica, 5 Settembre 2010
 
-Ho creato un nuovo blog personale alla pagina "stesosopra.blogspot.com/":http://stesosopra.blogspot.com/
+h2. Il ritorno della Cuperativa online
+
+p(data). Martedì, 23 Febbraio 2021
+
+<a href="{relocatable: /images/cuperativa/cupnfo2021.jpg}"><img width="300" src="{relocatable: /images/cuperativa/cupnfo2021.jpg}"></a>
+
+È con grande entusiasmo, che finalmente riesco ad annunciare una nuova versione della Cuperativa, questa volta disponibile online su questo sito,  al link "cup.invido.it":https://cup.invido.it.
+
+È passato diverso tempo, qualche annuncio troppo ottimista, diverse prove, ma anche altri interessi, ne hanno ritardato sempre più la pubblicazione.
+
+Durante il mio percorso di programmatore mi è sempre piaciuto, di tanto in tanto, sviluppare i giochi di carte che si giocavano nel bar della Cuperativa a Breda Cisoni. Questo sito ne è una testimonianza. 
+
+Ad un certo punto ho anche pubblicato una soluzione per giocare in rete, con tanto di server, client e web per gestire iscrizioni e forum. Una soluzione che è stata superata dall'evoluzione del web, che ha cannibalizzato soluzioni, come  quella che avevo adottato, basate sul protocollo TCP/IP a porta dedicata. Tecnologia rigettata a priori per motivi di sicurezza, togliendo di fatto la possibilità dei client di collegarsi al server della Cuperativa. Skype, Kazaaa e compagnia, hanno mostrato che non è che chiudendo delle porte si blocca una  trasmissione dubbia, ma tant'è che la via è stata segnata: solo il web è il motore per comunicare. Eccezioni sono viste malvolentieri e concesse solo a protocolli straconosciuti su server dedicati e danarosi.  
+L'IoT dei giorni nostri, però, con i suoi protocolli dai nomi candidi, sembrano far ripensare all'idea di far passare tutto dal web e vanno a ripristinare la sotterrata comunicazione TCP/IP. 
+
+A quei tempi ho anche pensato ad un'una escursione in Flash, ma non ho fatto fatto tempo a cominciare, che è stato anch'esso bannato, questa volta dai produttori di browser. 
+
+Mi è rimasto, allora, solo lo sviluppo per browser con la coppia html + javascript. Ritrovarmi, dopo aver completato un'applicazione complessa come la Cuperativa, sviluppata interamente in solitaria e nei ritagli di tempo, ad affrontare lo sviluppo da zero partendo da html mi ha fatto venire strane sensazioni. Creare interfacce grafiche complesse usando costrutti Html come h1, h2, h3, h4 h5, ul, li, p e div per creare tutto via css mi è sembrato tornare indietro di decenni.  Javascript, poi, sembrava ancora fermo ai tempi di Netscape. 
+Per riuscire a combinare qualcosa, con la motivazione che man mano scompariva, ho dovuto optare per delle librerie e framework che nascevano al mattino ed erano già obsoleti alla sera.
+
+Ad un certo punto mi sono imbarcato nello sviluppo usando Angularjs, diventato poi Angular, usando NodeJs in sottofondo. 
+Mamma mia che polpettone. 
+Forse con una schiera di programmatori si può creare qualcosa di decente, ma nel mio piccolo non sono riuscito ad andare oltre alla foresta dei files di configurazione. 
+Tre settimane di pausa voleva dire ricreare il progetto da capo, scaricare tonnellate di librerie per riuscire a vedere qualche pulsante e passare ore su dei forum a cercare una soluzione ad un problema in teoria banale, per rivedere di nuovo quei tre bottoni del mese prima.
+
+Col passare del tempo, però, le librerie e i browser hanno fatto passi da gigante. Lo sviluppo da parte mia è diventato sempre più abbordabile. Ho dovuto abbandonare Ruby in quanto non aveva sbocchi sul browser. Ruby, per una singola persona, è un linguaggio molto produttivo, ma diventa caotico quando l'applicazione cresce. La velocità di sviluppo iniziale è veramente notevole. Per me non è un caso che Twitter sia nato così. Cuperativa senza Ruby non sarebbe riuscita.
+
+Dopo aver affossato Angular, NodeJs e l'escursione in Typescript, tanto per farmi male, ho cominciato a vedere la luce quando ho cominciato a programmare in Go. Finalmente un passo in avanti. 
+
+Sulle ali dell'entusiasmo dello sviluppo in pochissimo tempo di "vienna.invido.it":https://vienna.invido.it/, creato con la coppia Go e ReactJs, ho pensato che fosse arrivato il tempo di riprendere la Cuperativa a pieno ritmo. Ma nulla da fare anche questa volta. L'applicazione in ReactJS senza polpettoni alla Webpack, e quindi nodejs, non sono riuscito a farla crescere. Altra strada senza uscita. 
+
+Successivamente, visto i passi da gigante che ha fatto il supporto di javascript nel browser, sono tornato ad una implementazione in html puro e javascript, ma non sono riuscito a creare una grafica decente.
+
+Però la nuova libreria Vue era già nell'aria e improvvisamente scrivere un'applicazione con 3 bottoni non era più collegata all'installazione di qualche giga di software, che diventa obsoleto mentre lo si scarica.
+Vuetify ha, infine, completato l'opera. Così per creare una toolbar qui si usa il comando _toolbar_. Oppure per creare una colonna si usa _col_ e riga _row_. A volte ho anche pensato, che con Vuetify  si possa anche dimenticare il css.
+Improvvisamente lo sviluppo dell'interfaccia grafica è diventato veloce e sono riemersi i tempi dello sviluppo di Cuperativa con Ruby e FoxGui. 
+
+Il supporto del browser è limitato a quelli sui quali ho sviluppato (Chrome ad esempio). La famosa non compatibilità con Internet Explorer 6, credo, sia und dolore sopportabile. Purtroppo viene anche a mancare la compatibilità col browser Wap su linea Gprs. 
+
+Ora, però, Cuperativa è finalmente pubblicato.
+
+Mi sembrava, sopratutto dopo l'ultimo mio viaggio a Breda Cisoni, che lo sviluppo della Cuperativa sul sito "cup.invido.it":https://cup.invido.it/#/info fosse un atto dovuto. 
+Questo piccolo centro ricreativo, che è stato un punto di ritrovo per diverse generazioni, ha lasciato molti piacevoli ricordi. Più che il gioco delle carte, è stata questa voglia di spensieratezza il filo conduttore del sito. 
+Una spensieratezza ormai solo virtuale. 
+
+Il codice completo della Cuperativa si trova su "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice. Al momento è implementata solo la briscola in modalità simulazione. Ma tutti gli altri giochi connessi, come Mariazza, Scoperta e Briscolone sono molto semplici da aggiungere. Per la possibilità di giocare in rete, invece, ci vorrà del tempo in quanto la parte del server è da scrivere completamente. Non sarebbe male anche la possibilità di giocare sullo smartphone. Vedremo.  
+
+Per chi volesse lasciare un parere o un commento sulla Cuperativa, può usare la mia mail: _6colpiunbucosolo chiocciola gmx.net_. Oppure il sito  "github.com/aaaasmile/cupservice":https://github.com/aaaasmile/cupservice.
+
+<a href="{relocatable: /images/cuperativa/cupongoing2021.jpg}"><img width="300" src="{relocatable: /images/cuperativa/cupongoing2021.jpg}"></a>
+ 
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+h2. Musica maestro: Live-omxctrl
+
+p(data). Sabato, 12 Dicembre 2020
+
+Dopo un po' di tempo torno a scrivere su questo sito, questa volta, però, non per aggiornare gli sviluppi di qualche gioco di carte, ma per segnalare un'applicazione che ho sviluppato per ascoltare musica.
+
+L'idea è nata dalla scoperta del dispositivo Raspberry 4, che fino allo scorso anno non mi aveva interessato più di tanto. In fondo perché investire tempo su dispositivi quando si ha la possibilità di usare tutto il giorno portatili o desktop computers di gran lunga più preformanti? E se questo non basta, ci sono gli smartphone a colmare la lacuna. 
+
+Una volta acquistato, per caso, il Raspberry 4 mi ha subito impressionato una cosa: le sue dimensioni e il consumo di energia. Il che significa, che è un dispositivo che può benissimo stare in soggiorno al fianco di un amplificatore o sopra ad un dvd player. 
+
+<a href="https://github.com/aaaasmile/live-omxctrl/blob/master/doc/raspi4insogg.jpg?raw=true"><img width="300" src="https://github.com/aaaasmile/live-omxctrl/blob/master/doc/raspi4insogg.jpg?raw=true" /></a>
+
+Già il dvd player, che poi è uno di quelli con il tasto Netflix sopra, può tranquillamente fare andare la musica attraverso le sue app  preinstallate, tipo Youtube player. Dopo un paio di prove ho però abbandonato l'idea. Per scegliere la musica in questione, infatti, devo accendere il televisore, scegliere la app e lanciare il video musicale. Il tutto comandato da un telecomando, che non sembra fatto come una tastiera. Qui poi mi parte la pubblicità di youtube,alla quale francamente faccio a meno.
+
+Con il Raspberry è diverso. Basta dare corrente al dispositivo che nel giro di pochi secondi il mio server è pronto ad accettare comandi per consumare risorse musicali. Nel mio caso, sopratutto links di youtube senza pubblicità. Per questa operazione  uso il mio iphone che si collega all'indirizzo IP del Raspberry.
+Trovare il link di youtube da inserire è un po' un problema, ma con la youtube app dello smartphone è facile cercare un link interessante da copiare e inviare al Raspberry. Poi i link usati vengo memorizzati sul server  e si possono facilmente riutilizzare in sessioni successive,
+
+Streaming di radio e podcast sono anch'essi supportati. Soundclound è in cantiere. Spotify, invece, al momento non  m'interessa.
+Per ultimo, anche la possibilità di lanciare un file musicale memorizzato sulla memoria fissa del Rapberry. Una possibilità che nel passato ha fatto la fortuna dei vari Napster, Torrent, Kazaa e compagnia, ma che allo stato attuale, sembra ormai superata. Non credo sia un caso, che il Guru di queste tecnologie si sia messo a produrre automobili. 
+
+L' applicazione si trova su github al link "live-omxctrl":https://github.com/aaaasmile/live-omxctrl
+È stato bello ritrovare la voglia di scrivere un'applicazione per dispositivi tipo Raspberry, anche se magari altri software, di qualità magari migliore e già rodati, offrono possibilità simili (per esempio la coppia "Mopidy":https://mopidy.com/ e Iris).  
+Però continuo ad usare e sviluppare live-omxctrl anche perché è più divertente.
+Qui un dettaglio della schermata iphone che uso per lanciare il link di youtube:
+
+!https://github.com/aaaasmile/live-omxctrl/blob/master/doc/05-12-_2020_22-23-43.png?raw=true!:https://github.com/aaaasmile/live-omxctrl/blob/master/doc/05-12-_2020_22-23-43.png?raw=true
+
+  
+
+
+
+h2. Tressette 2.2.0
+
+p(data). Giovedì, 1 Agosto 2019
+
+Ho creato una nuova versione del tressette, la 2.2.0, che gioca meglio.
+Il download come sempre da "sf.net":https://sourceforge.net/projects/tressette/.
+Enjoy!
+
+
+h2. Nuova versione del Tressette 2.1.0
+
+p(data). Mercoledì, 24 Luglio 2019
+
+<a href="{relocatable: /images/tressette/tre_ver_2_1_0.png}"><img width="300" src="{relocatable: /images/tressette/tre_ver_2_1_0.png}"></a>
+
+Stimolato dalla segnalazione di qualche piccola imprecisione del programma Tressette, ho deciso di aggiornarlo passando alla versione SDL 2.0 e visual studio 2015. L'ultima versione che avevo creato, la 0.7.5, usava Visual Studio 2009 sotto windows xp e la libreria sdl 1.0. Una costellazione che richiedeva uno sviluppo in una Virtual Machine con un sistema operativo come Xp molto vintage.
+
+Non ho corretto nessun bug, ho solo attualizzato il progetto e spostato i codici sorgenti su "github":https://github.com/aaaasmile/tressettecpp mentre il sito di riferimento per il download rimane "sf.net":https://sourceforge.net/projects/tressette/.
+
+h2. Vienna IOL Vintage
+
+p(data). Venerdì, 28 Dicembre 2018
+
+<a href="{relocatable: /images/vienna-iol.png}"><img width="300" src="{relocatable: /images/vienna-iol.png}"></a>
+
+In questa fase, dove mi diverto a programmare applicazioni da mettere sul sito invido.it, mi sono imbattuto nella chiusura della sezione Italians Online di Vienna. Questo era un forum con il quale diversi italiani residenti a Vienna usavano per scambiarsi messaggi e organizzare eventi in città.
+
+Prima della chiusura sono riuscito a salvare i post tempo addietro (vedi "github iol-importer":https://github.com/aaaasmile/iol-importer). 
+Ora, dopo aver visto un video molto interessante sul database sqlite e la ricerca libera su tutti i campi, ho creato una app (vedi "github iolvienna":https://github.com/aaaasmile/iolvienna) con la quale è possibile navigare attraverso più di 20 000 posts scritti in più di dieci anni di attività della sezione di Vienna.
+
+La pubblicazione si trova su invido.it al link: "vienna.invido.it":https://vienna.invido.it/. 
+
+h2. Ripreso a programmare la Cuperativa
+
+p(data). Giovedì, 25 Ottobre 2018
+
+Ho ripreso a programmare il software della cuperativa. Per seguire gli sviluppi, guarda il sito "github aaaasmile":https://github.com/aaaasmile/TryACupClient3.
+
+h2. Invido.it is back!
+
+p(data). Mercoledì 11 ottobre 2018
+
+Dopo qualche giorno di quarantena, il sito dell'invido.it è tornato online su di un server tutto nuovo.
+La premessa per nuove applicazioni. State aggiornati.
+
+h2. Invido: finalmente la nuova versione 2.0.1!
+
+p(data). domenica, 10 giugno 2018
+
+<a href="{relocatable: /images/invido/Invido_home.PNG}"><img width="300" src="{relocatable: /images/invido/Invido_home.PNG}"></a>
+
+Il programma si può scaricare da questo link: "Invido 2.0.1":https://sourceforge.net/projects/invido/files/Invido_210_setup.exe/download.
+  
+Finalmente la nuova versione del gioco dell'Invido che ora supporta la funzione "Vado Dentro". Basta usare il tasto destro
+sulla carta con la quale si vuole andare dentro. Ora il gioco dell'Invido è completo in tutte le funzionalità ed è ancora più forte.
+Per la nuova versione ho fatto una revisione del "codice sorgente":https://github.com/aaaasmile/invidocpp, aggiornando la libreria SDL alla versione 2.0. 
+Sempre col tasto destro è possibile invitare il computer a chiamare di più, oppure dargli del 'bortolo'. Se poi questo invito viene accettato è tutto da provare.
+Maggiori informazioni sul progetto del gioco dell'Invido si trovano su "Progetto Invido":progetti/invido_progetto.html.
+Ho cambiato anche la musica in sottofondo pesscando una tra le più belle performance registrate della leggenda bredese Wolmer Beltrami.
+
+<a href="{relocatable: /images/invido/tasto_destro.PNG}"><img width="300" src="{relocatable: /images/invido/tasto_destro.PNG}"></a>
+
+h2. Runner tool
+
+p(data). mercoledì, 31 gennaio 2018
+
+Uno degli strumenti che uso maggiormanete è il "Runner Tool":https://runners-tool.firebaseapp.com/, che è la raccolta 
+di diverse funzioni per il bravo corridore amatore. Inizialmente l'avevo sviluppato come applicazione 
+per il browser Chrome (extension packged), ma Google ha deciso di non supportare più questo tipo di applicazioni. 
+Così l'ho trasformata in un'applicazione Progressive Web Apps (progetto su "PWAPP-runner-tool":https://github.com/aaaasmile/PWAPP-runner-tool). 
+Questo tipo di appllicazione può funzionare anche offline e può essere salvata all'interno dell'elenco App similmente
+alla mia "vecchia extension packaged":https://github.com/aaaasmile/corsa_tool. Buone corse.
+
+<a href="{relocatable: /images/runner-tool/runner-tool.PNG}"><img width="250" src="{relocatable: /images/runner-tool/runner-tool.PNG}"></a>
+
+h2. Tressette 0.7.5
+
+p(data). sabato, 2 settembre 2017
+
+Dopo aver settato una Virtual Machine con il mitico Windows XP, ho ritrovato il feeling per creare una nuova versione del programma 
+"Tressette":http://sourceforge.net/projects/tressette/files/latest/download, che sotto windows 10 non riusciva a salvare 
+le opzioni cambiate dall'utente. È stata anche l'occasione per migliorarne anche la grafica. La prima versione è stata dodici anni fa,
+ma il programma ha sempre funzionato in tutti i nuovi sistemi operativi che sono seguiti. Solo lo sviluppo del programma è diventato via via sempre 
+più difficoltoso, ma ripristinando Windows Xp e Visual Studio 2008 la compilazione dei sorgenti non è stata più un problema.   
+
+h2. Storia di Breda Cisoni
+
+p(data). sabato, 5 marzo 2016
+
+Non so come mai, ma tra passaggi di siti, nuovi e scomparsi, la storia di Breda Cisoni scritta da Beach è scomparsa.
+Ho rimediato <a href="{relocatable: /bredacisoni/index.html}">ripresentandola</a> su questo sito aggiungendoci qualche foto dal mio archivio.
+
+<a href="{relocatable: /bredacisoni/index.html}"><img width="250" src="{relocatable: /images/breda/stemmabreda_800.jpg}"></a>
+
+h2. Come giocare a "_Mariasa_"
+
+p(data). domenica, 24 gennaio 2016
+
+<div class="iframe-wrapper">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/H7ahL_4IvOI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Ho iniziato una campagna di divulgazione dei giochi di carte che ho visto, e ancora vedo giocare, al bar di Breda Cisoni.
+Il primo video della serie, mostra come si fa a giocare a _Mariasa_, in italiano Mariazza in altre parti denominato Mariazzo. 
+
+Se anche tu vuoi provare a giocare a _Mariasa_, ci sono due possibilità. La più affascinante è quella di trasferirti a la Breda,
+frequentare regolarmente il bar dopo i pasti, osservare i giocatori e alla fine sperare di essere invitato a svolgere una partita.
+La seconda, più immediata, è quella di scaricarti il software della "Cuperativa":progetti/cuperativa/index.html seguendo quello che
+è mostrato nel video.
 
 
 <a href="{relocatable: /index.html}">[ Indice </a>|
-  01   | <a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 ]</a>
+  01   | <a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 </a>|<a href="{relocatable: /index_04.html}"> 04 ]</a>
 

@@ -1,14 +1,3 @@
----
-title: Home
-in_menu: true
-routed_title: Invido
-directory_name: invido
-sort_info: 0
----
-
-<a href="{relocatable: /index.html}">[</a> Indice |
-<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 </a>|<a href="{relocatable: /index_04.html}"> 04 ]</a>
-
 h2. TTGO ed emulatore NES
 
 p(data). Sabato, 19 Febbraio 2022
@@ -37,7 +26,3 @@ che sono sei porte GPIO per i pulsanti e 2 per l'audio.
 Qualche nota che ho scritto durante lo sviluppo si trova "qui":https://github.com/aaaasmile/TTGO-Nes-Cup/blob/main/passaggi.md
 
  
-
-<a href="{relocatable: /index.html}">[</a> Indice |
-<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|<a href="{relocatable: /index_03.html}"> 03 </a>|<a href="{relocatable: /index_04.html}"> 04 ]</a>
-

@@ -5,204 +5,222 @@ directory_name: invido
 ---
 
 <a href="{relocatable: /index.html}">[ Indice </a>|
-<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   <a href="{relocatable: /index_03.html}"> ]</a> 
+<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   | <a href="{relocatable: /index_04.html}"> 04 ]</a>
 
-h2. Pubblicato "Lo Spazzino" - Cuperativa 0.6.0
+h2. Nuova versione 0.7.5 del programma Cuperativa
 
-p(data). Venerdì, 20 Novembre 2008
+p(data). lunedì, 3 Maggio 2010
 
-<a href="{relocatable: /images/cuperativa/spazzino_in_gioco_big.png}">
-  <img src="{relocatable: /images/cuperativa/spazzino_in_gioco_small.png}">
+<a href="{relocatable: /images/cuperativa/0_7_5mariazza_big.png}">
+  <img src="{relocatable: /images/cuperativa/0_7_5mariazza_small.png}">
 </a>
 
-Finalmente una nuova versione del programma *Cuperativa*: la versione 0.6.0.
-
-
-Questa versione consente di giocare allo spazzino, sia
-contro il cpu che in rete contro avversari remoti. Lo spazzino è una variante
-della scopa. Le regole del gioco si trovano nella "sezione spazzino":progetti/cuperativa/spazzino.html.
-
-*Il server è stato aggiornato*, questo significa che le vecchie versioni di cuperativa
-devono venire attualizzate per giocare in rete. Questo avviene in modo
-automatico quando ci si collega al server online.
-Durante l'aggiornamento online, viene scaricato un pacchetto di 4.4MB, molto
-più piccolo del setup completo.
-
-Questo il dettaglio della versione 0_6_0:
-
-
-  * - Aggiunto lo spazzino
-  * - Aggiunto la modalità gioco privato online
-  * - Migliorato il layout del programma
-  * - Migliorato l'aggiornamento automatico via server
-
-h2. Giochi di carte online
-
-p(data). Domenica, 26 Ottobre 2008
-
-I giochi di carte online sono sempre più numerosi, specialmente quelli dove si
-giocano soldi veri. Ce ne sono altri dove invece si può tranquillamente giocare
-per divertirsi. In mezzo a quest'ultima categoria ci metto il software della
-Cuperativa.
-_Che cosa rende però Cuperativa diverso da tutti gli altri_? La differenza sta nel fatto
-che è open source. Non solo si può vedere come funziona il programma, ma a nessuno
-è preclusa la via di implementarsi il proprio gioco. Per esempio, l'ultima versione
-si può anallizzare su "koders,":http://www.koders.co.uk/info.aspx?c=ProjectInfo&pid=XA6PS4T6TU6DVZFNQ5WA838XGD&s=cdef%3agame
-il sito che mette in risalto i sorgenti di progetti open.
-
-h2. Robots nella Cuperativa
-
-p(data). Domenica, 8 Ottobre 2008
-
-<a href="{relocatable: /images/cuperativa/cup_0_5_4_robot_big.png}">
-  <img src="{relocatable: /images/cuperativa/cup_0_5_4_robot_small.png}">
+<a href="{relocatable: /images/cuperativa/0_7_5mainrete_big.png}">
+  <img src="{relocatable: /images/cuperativa/0_7_5mainrete_small.png}">
 </a>
 
-Per non lasciare soli chi per la prima volta si accinge a varcare la soglia
-della mitica Cuperativa, ho liberato un robot che consente di provare a giocare
-online, anche in assenza di giocatori reali.
-A me non piace giocare online contro giocatori artificiali, ma essi
-possono aiutare il nuovo l'utente per imparare a giocare. I giocatori automatici
-sono riconoscibili dal nome "robot_XX".
-
-
-h2. Europass
-
-p(data). Martedì, 7 Ottobre 2008
-
-A quando il prossimo gioco? Vediamo, intanto mi sono creato una nuova
-applicazione per scrivere il mio curriculum in modo decente, sulla falsa riga del
-modello europass.
-Niente di stravolgente, ma una buona occasione per creare
-un'applicazione in rails e pdfwriter. Appena la finisco, l'aggiungerò alla ristabilita
-sezione tools.
-
-h2. Server attivo
-
-p(data). Mercoledì, 17 Settembre 2008
-
-Il server per giocare a briscola a briscola e a mariazza è ora attivo
-24 ore su 24, 7 giorni su 7.
-Il gioco dello spazzino sta entrando nella fase conclusiva.
-
-
-h2. Pubblicata nuova versione di Cuperativa (0.5.4)
-
-p(data). Sabato, 07 Giugno 2008
-
-Finalmente ho pubblicato una nuova versione del programma *Cuperativa*.
-Questa è la nuova versione *necessaria per giocare online*.
-Con le versioni precedenti non è più possibile giocare in rete e vanno,
-quindi, aggiornate.
-
-Maggiori informazioni nella pagina delle <a href="{relocatable: /news.html}">
-news</a>.
-
-
-h2. Stato del progetto Cuperativa
-
-p(data). Sabato, 30 Maggio 2008
-
-Attualmente sto lavorando ad una nuova versione del programma, la quale consentirà un
-aggiornamento senza dovere scaricare ogni volta tutto il software. Questo avverrà
-quando ci si collegherà al server per giocare online. Siccome il programma non è
-compilato, ma interpretato, per aggiornare il software basta cambiare pochi files.
-In più, un utente che avesse voglia di cambiare il programma, può farlo direttamente
-usando semplicemente Notepad, o qualsiasi altro editor di testo. Personalizzare
-o aggiungere giochi di carte come la briscola sarà quindi immediato.
-
-Ecco in anteprima una schermata del gioco della briscola aggiornato col layout
-suggerito da Domenico Starna.
-
-<a href="{relocatable: /images/cuperativa/inbriscola_0_5_4_big.png}">
-  <img src="{relocatable: /images/cuperativa/inbriscola_0_5_4_small.png}">
+<a href="{relocatable: /images/cuperativa/0_7_5briscolone_big.png}">
+  <img src="{relocatable: /images/cuperativa/0_7_5briscolone_small.png}">
 </a>
-
 
-h2. Invido.it
 
-p(data). Sabato, 10 Maggio 2008
+Ho pubblicato una nuova versione del programma Cuperativa, la 0.7.5.
+Contiene il nuovo gioco del briscolone, effetti sonori e una grafica migliorata.
 
-Ho rinnovato il sito di *invido.it* per renderlo più accessibile.
-Le FAQ, la descrizione dei progetti, gli screenshots e i download fanno ora
-tutti parte di questo sito.
-La <a href="{relocatable: /download/index.html}"> sezione download</a>
-contiene tutti i programmi pubblicati. 
-
+
+Il gioco in rete funziona solo con la versione 0.7.5.
 
 h2. Cuperativa
 
-p(data). Venerdì, 25 Aprile 2008
+p(data). domenica, 7 Marzo 2010
 
-Il gioco della *__briscola online__* inserito nella cuperativa sta trovando appassionati.
-Sto aggiornando la versione, per migliorare la grafica e qualche funzione nel
-gioco in rete. Il fatto è che passo molto tempo a giocare a briscola online
-usando la cuperativa. Divertente.
+Tra un allenamento e l'altro e uno studio partecipe di altri siti dove si gioca a carte,
+scrivo un po' di codice della nuova versione della cuperativa. Che d'improvviso
+potrebbe essere pubblicata. 
 
-h2. Briscola
+h2. Il Briscolone
 
-p(data). Venerdì, 07 Marzo 2008
+p(data). Venerdì, 17 Ottobre 2009
 
-Nella Cuperativa, l'ultimo gioco arrivato è la *briscola in due*. Si può scaricare
-con la
-Cuperativa 0.5.0.
+L'autunno non è ancora iniziato che è già inverno. Tempo per una versione
+del  programma Cuperativa che uscirà presto.
+Ci sono alcune migliorie all'interfaccia
+grafica, così come un nuovo gioco: il briscolone. Il briscolone è una variante
+della briscola, si gioca con 5 carte e non ha la briscola. L'idea è venuta dopo
+una partita a briscola con Jason.
 
+h2. Il tombolon
 
-<img src="{relocatable: /images/cuperativa/in_briscola_050.jpg}">
+p(data). Venerdì, 28 Agosto 2009
+
+Il tombolon è un gioco simile allo spazzino che si gioca a Rovigo. Il gioco
+è stato segnalato da Domenico Starna il quale ha seguito direttamente i giocatori
+nella città veneta. Ecco uno stralcio di quello che mi ha riportato durante
+i suoi viaggi.
+
+<i>Torniamo a Tombolon, giocato a Rovigo con 40 carte ed a Padova con 52 carte.    
+Ho passato due pomeriggi a Rovigo.
+Sono stato nei due locali dove giocano a carte. Auser (autogestione servizi), centro anziani,
+che non sanno usare il computer, e il Bar Sala Giochi Ramada, ora gestito da cinesi.
+I tre giochi tradizionali con le carte regionali italiane, Briscola Scopa e Tressette,
+a Rovigo diventano Briscola, Tombolon e Tressette col Trionfo.
+Mentre i primi due si giocano a 2 oppure a 4 giocatori, il Tressette col Trionfo,
+cioè con un seme di briscola, a Rovigo si gioca in 4. </i>
+
+Per chi volesse vedere partite dal vivo del Tombolon, non deve fare altro che
+recarsi nei locali sopra citati. Per tutti gli altri basta collegarsi al server
+della cuperativa e crecare un avversario col quale giocare.
 
 
-h2. Tressette
+h2. Nuova versione di Cuperativa: 0.7.1
 
-p(data). Sabato, 09 Febbraio 2008
+<img src="{relocatable: /images/cuperativa/mariazza_title_trasp.png}">
 
-Ho notato con piacere che negli ultimi giorni c'è stato un incremento dei download
-del programma del *__tressette__* dal sito
-"http://sourceforge.net/projects/tressette/":http://sourceforge.net/projects/tressette/.
-Non è che attualmente stia lavorando direttamente a questo programma,
-ma mi piacerebbe sapere il motivo di questo improvviso picco.
-Maggiori informazioni su questo gioco si trovano alla 
-<a href="{relocatable: /progetti/tressette_progetto.html}"> sezione progetto tressette </a>.
-<img src="{relocatable: /images/tressette/in_partita_small.jpg}">
-
-In ogni modo sto lavorando a gran ritmo per completare la nuova versione del programma cuperativa, per giocare a mariazza. Una volta completata la mariazza, sarà tempo di rinnovare la briscola aggiungendola al programma cuperativa.
-
-h2.  Come si gioca a Mariazza?
-
-p(data). Giovedì, 15 Novembre 2007
-
-Il gioco è molto semplice e funziona come la briscola.Si usano le stesse carte,
-valgono gli stessi punti e le stesse regole per la presa. Si gioca solo in due.
-La Mariazza si può considerare come una variante della briscola.
-Lo svolgimento preciso si trova nella sezione
-<a href="{relocatable: /progetti/cuperativa/mariazza.html}"> Mariazza </a>
-
-h2. Italian Special Solitaire
-
-p(data). Domenica, 02 Ottobre 2005
-
-Aggiunto il programma Italian Special Solitaire 2.0. La peculiarità di questa
-versione è quella di usare il mazzo del Tarocco Piemontese ridotto a 56 carte.
-Nelle carte sono stati aggiunti i semi francesi e scritte in latino
-
-<img src="{relocatable: /images/solitario/special/in_partita_small.jpg}">
-
-Il programma Italian Special Solitaire 2.0 accetta anche delle opzioni a linea
-di comando, per essere lanciato in full screen, oppure a risoluzione definita
-dall'utente. Le immagini del mazzo sono in formato png e sono state realizzate,
-così come quella dello sfondo, da Domenico Starna.
-
-Le funzioni più importanti del programma sono:
-
-    * Solitario a 56 carte
-    * Gestione del punteggio
-    * Carte e sfondo personalizzabili
-    * Multilingua: italiano, inglese e dialetto bredese della bassa mantovana destra Oglio.
-    * Storia e descrizione del mazzo del Tarocco Piemontese (Domenico Starna).
-
-Il programma utilizza la libreria open source SDL. 
+In questa versione sono stati corretti numerosi bugs. Primo fra tutti la possibilità
+di effettuare un update in modo automatico e senza la necessità di scaricare 9Mb
+del setup. La lista degli utenti online è ora di nuovo funzionante. I giochi del
+Tombolon e della Mariazza sono stati corretti. Nella Briscola ora si possono
+vedere quante carte sono rimaste da pescare.
 
 
+
+h2. Nuova versione di Cuperativa: 0.7.0
+
+p(data). Domenica, 7 Giugno 2009
+
+<a href="{relocatable: /images/cuperativa/cup070_big.png}">
+  <img src="{relocatable: /images/cuperativa/cup070_small.png}">
+</a>
+
+Con grande piacere annuncio la pubblicazione della nuova versione del software 
+Cuperativa 0.7.0
+
+Nella versione 0.7.0 è ora possibile giocare per la classifica. 
+
+Da subito, per giocare gratuitamente in internet sul server della cuperativa,
+è necessario registrarsi. La registrazione gratuita avviene in modo molto semplice
+sul sito "cuperativa.invido.it":http://cuperativa.invido.it. Su cuperativa.invido.it
+ho messo anche un piccolo forum, che può essere usato anche per segnalare problemi o suggerimenti.
+
+In questa versione ho aggiunto il gioco del Tombolon. Questo gioco è stato 
+curato, per quanto riguarda le regole e il suo funzionamento, da Domenico Starna.
+Domenico ha potuto constatare, direttamente nei bar e nei circoli
+di Rovigo, come il gioco funzioni veramente.
+
+Le versioni precedenti della cuperativa non possono più giocare col server in internet.
+Per giocare online è quindi necessario l'aggiornamento all'ultima versione.
+Questo aggiornamento va fatto scaricado il programma setup. Nelle prossime versioni
+sarà di nuovo  disponibile l'aggiornamento automatico.
+
+h2. Cuperativa alla stretta finale 
+
+p(data). Sabato, 09 Maggio 2009
+
+In questo periodo sto ultimando la nuova versione della Cuperativa e i primi test
+sono stati messi in moto. Le novità maggiori saranno il gioco del Tombolon e
+la possibilità di giocare per una classifica. Per quest'ultima funzione ho creato
+il sito "cuperativa.invido.it":http://cuperativa.invido.it. Il nuovo sito permette
+di registrare nuovi utenti e di utilizzare un forum.
+
+
+h2. Quando un amico non c'è più
+
+p(data). Sabato, 25 Aprile 2009
+
+Quanto costa non vedere più una persona, non sentirne più la voce, non poter più
+ricordare i bei momenti passati assieme. Quando un amico se ne va, lo fa senza portarsi
+via nulla, lasciando lo spazio dei ricordi intatto, oppure spacca un mondo che
+appartiene al passato per lasciare posto al nuovo? Ho lasciato un paese per scelta,
+ma non ho scelto di lasciarne i ricordi; ma quanto è difficile trattenerli se il volto,
+la voce, il sorriso non ci sono più.
+
+
+h2. Registrazione utenti
+
+p(data). Sabato, 28 Febbraio 2009
+
+Tutti i giochi di carte online hanno la possibilità di registrare gli utenti
+che vi partecipano e di fornire punteggi con classifiche. Cuperativa non ha ancora questa
+possibilità, ma è arrivato il momento di offrire questa possibilità anche nella cuperativa.
+Nella prossima versione, oltre al gioco del Tombolon, sarà possibile registrarsi
+sul sito e giocare con un punteggio. Ho preso in considerazione di usare
+servizi come Facebook, Google friend e openid. Nessun servizio mi ha convinto del tutto
+ed allora, per il momento, la registrazione verrà fatta su questo sito.
+
+h2. Tombolon: il prossimo gioco della cuperativa
+
+p(data). Martedì, 25 Gennaio 2009
+
+Prosegue allegramente lo sviluppo della cuperativa, con in arrivo un altro
+gioco di nicchia. L'esperto di giochi Domenico Starna mi ha suggerito, che il gioco dello
+spazzino assomiglia un po' al gioco del Tombolon giocato a Rovigo. Mi ha spiegato
+le regole e sto provando ad implementarle. Quindi fans del Tombolon rovigiano state in campana.
+Nel frattempo ho tolto le aggiunte di google friend al sito, che erano fine a se stesse.
+Se qualcuno ne sente la mancanza me lo faccia sapere.
+
+
+h2. Google friend connect
+
+p(data). Martedì, 30 Dicembre 2008
+
+Non c'è nulla di più noiso che registrarsi, per l'ennesima volta, su un sito per accedere
+ai servizi che esso offre. 
+Sto provando diversi metodi per accedere al sito invido.it e al gioco della
+Cuperativa. Facebook e Google Friend Connect sono due sistemi interessanti
+per accedere a diversi siti riutilizzando lo stesso account. Per ora ho messo
+la possibilità di commentare le varie pagine del sito invido.it utilizzando
+un account supportato da google friend connect (per esempio google, yahoo, openid,...).
+Su ogni pagina del sito è ora possibile inserire un commento e un voto.
+Per il gioco della Cuperativa, invece, sto pensando di usare l'account di
+Facebook. Fino a quel momento, però, il gioco della cuperativa non prevede
+nessun tipo di riconoscimento centrale, ma lascia ad ogni giocatore la
+libertà di scegliere un nome a piacere.
+
+Buon Anno a tutti.
+
+h2. Pubblicato il gioco della Scopa - Cuperativa 0.6.1
+
+p(data). Mercoledì, 24 Dicembre 2008
+
+Ho aggiunto, al programma della *Cuperativa*, il gioco della scopa a due giocatori.
+Per un aggiornamento veloce dalla versione precedente, basta collegarsi al server online
+della cuperativa, lì vengono scaricati in modo automatico solo un file da 150 kb. 
+
+Di seguito la lista principale dei cambiamenti nella versione 0.6.1
+
+  * - Aggiunto il gioco della scopa
+  * - Cambiate le animazioni nella briscola
+  * - Cambiato il la grafica della mariazza
+  * - Corretto un errore sulla presa delle carte multiple nello spazzino
+
+A tutti gli appasionati della cuperativa e dell'invido, *auguri di buone feste*.
+
+h2. Il prossimo gioco della Cuperativa
+
+p(data). Domenica, 14 Dicembre 2008
+
+Entro Natale sarà pubblicata una nuova versione del programma Cuperativa.
+Ci sarà il nuovo gioco della scopa a due giocatori (scopetta). 
+Ci saranno anche delle migliorie nel gioco della Mariazza, della Briscola e qualche
+aggiustamento nello Spazzino.
+L'aggiornamento sarà automatico per chi si collegherà al server online della cuperativa.
+
+
+h2. Cuperativa: aggiornamento usando Vista
+
+p(data). Lunedì, 8 Dicembre 2008
+
+Alcuni hanno notato che un aggiornamento automatico del programma
+cuperativa usando il server della cuperativa, non funziona se si usa il sistema
+operativo Windows Vista.
+Questo è dovuto al fatto che Vista è restrittivo nell'esecuzione dei programmi.
+Una possibile soluzione è quella di eseguire il programmma con i diritti di amministratore. 
+Questo è necessario solo nella fase di aggiornamento. 
+Se invece non si vuole cambiare i privilegi al programma, allora non rimane altro che scaricare
+il programma dal link "cuperativa download":download/cuperativa_download.html ed installare 
+l'ultima versione mettendola, per esempio, nella directory c:\cuperativa. 
+Maggiori informazioni nella sezione "faq Cuperativa":faq/index.html
 
 <a href="{relocatable: /index.html}">[ Indice </a>|
-<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   <a href="{relocatable: /index_03.html}"> ]</a> 
+<a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   | <a href="{relocatable: /index_04.html}"> 04 ]</a>
 
