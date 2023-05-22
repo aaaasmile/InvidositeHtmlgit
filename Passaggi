@@ -22,6 +22,10 @@ Versione di webgen usata:
 PS D:\Projects\GItHub\InvidositeHtmlgit> webgen --version
 webgen 1.4.1
 
+== Versione 1.7.2
+$env:path = "D:\ruby\ruby_3_2_0\bin;c:\Program files\git\bin"
+Però non funziona nulla.
+
 == Crea un nuovo post col Preprocessor
 Si usa vido-preproc.exe. Vedi --usage per il dettaglio. Un nuovo post si aggiunge e si edita
 automaticamante con:
