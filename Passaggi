@@ -9,7 +9,19 @@ Per cambiare le altre pagine, basta usare Visual Code. Tutti i files sono in UTF
 
 Si può usare anche la command line per creare tutti i files index_xx.page con:
 vido-preproc.exe -cmd createindex oppure usando il browser con il quale si è editato il nuovo post.
-Ora tocca a webgen (nota che webgen può essere chiamato all'interno del Preprocessor):
+Ora tocca a webgen (nota che webgen può essere chiamato all'interno del Preprocessor)
+
+== Versione 1.7.2
+$env:path = "D:\ruby\ruby_3_2_0\bin;" + $env:path
+La versione di Ruby 2.3.1 con Windows 11 su minitoro non va. Allora sono passato alla versione 3.2.0,
+che non ha funzionato subito. Per trovare gli errori ho usato il debugger su una versione standalone
+su D:\scratch\ruby\webgen\stand2 perfettamente funzionante (vedi passaggi.md).
+Ho dovuto risolvere il problema con l'Alias e il require di RedCloth. In entrambi i casi ho cambiato
+i files dei gems (redcloth.rb e bundle_loader.rb in webgen).
+
+
+== Versione 1.4.1
+
 - con powershel lancia webgen:
 $env:path = "D:\ruby\ruby_2_3_1\bin"
 o meglio:
@@ -22,9 +34,6 @@ Versione di webgen usata:
 PS D:\Projects\GItHub\InvidositeHtmlgit> webgen --version
 webgen 1.4.1
 
-== Versione 1.7.2
-$env:path = "D:\ruby\ruby_3_2_0\bin;c:\Program files\git\bin"
-Però non funziona nulla.
 
 == Crea un nuovo post col Preprocessor
 Si usa vido-preproc.exe. Vedi --usage per il dettaglio. Un nuovo post si aggiunge e si edita
