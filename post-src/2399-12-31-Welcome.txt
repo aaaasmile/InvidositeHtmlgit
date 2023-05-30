@@ -1,0 +1,9 @@
+h2. Benvenuti su Invido.it
+
+Questo è il sito invido.it che prende il nome dall'omonimo gioco delle carte Invido, un simpatico
+gioco di carte praticato nella bassa padana.
+
+Il sito descrive diversi software che ho sviluppato negli anni per giocare a carte 
+(per esempio l'Invido, il Tressette, la Briscola, il Solitario e altri ancora).
+
+Diversi progetti li ho messi a disposizione su "github/aaaasmile":https://github.com/aaaasmile.

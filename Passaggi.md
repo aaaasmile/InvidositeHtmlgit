@@ -4,12 +4,28 @@ Meglio usare start_code.ps1 ed usare il Terminal per fare partire _vido-preproc.
 In Visual Code poi si cambiano tutti gli altri files in src che non sono nell'indice.
 _vido-preproc.exe_ viene usato anche per lanciare Webgen.
 
+Ultimamente uso Visual Code per editare tutti i contenuti, compreso l'ultimo post,
+in quanto lo Spell Checker funziona molto bene (extension Italian - Code Spell Checker). 
+Questi sono i due comandi da usare nel terminal (in una sola volta):
+
+    .\vido-preproc.exe -cmd createindex; webgen
+
 ## Nuovo Post
 Per i contenuti in index_xx.page si usa il _vido-preproc.exe_ con:
 
     vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
 Edita il file nel browser per avere un correttore ortografico. 
 Nel browser è possibile creare l'index e lanciare webgen usando i pulsanti appositi (rimane fuori dal browser l'update del sito con WLC).
+
+Oppure in Terminal:
+
+    cd .\post-src\
+    touch 2023-05-30-NuovoPost.txt
+    cd ..
+Ora edita il nuovo post con Visual code e aggiorna il sito con:
+
+    .\vido-preproc.exe -cmd createindex; webgen
+
 
 ## Editare l'ultimo post
 Si usa il comando (se il browser è già aperto):
@@ -21,7 +37,10 @@ Si usa il comando (se il browser è già aperto):
 Per cambiare le altre pagine, basta usare Visual Code. Tutti i files sono in UTF-8 e webgen li supporta.
 
 Si può usare anche la command line per creare tutti i files index_xx.page con:
-vido-preproc.exe -cmd createindex oppure usando il browser con il quale si è editato il nuovo post.
+    
+    vido-preproc.exe -cmd createindex 
+    
+oppure usando il browser con il quale si è editato il nuovo post.
 Ora tocca a webgen (nota che webgen può essere chiamato all'interno del Preprocessor)
 
 ## Webgen Versione 1.7.2
