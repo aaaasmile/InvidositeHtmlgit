@@ -35,5 +35,5 @@ di Rovigo, come il gioco funzioni veramente.
 
 Le versioni precedenti della cuperativa non possono più giocare col server in internet.
 Per giocare online è quindi necessario l'aggiornamento all'ultima versione.
-Questo aggiornamento va fatto scaricado il programma setup. Nelle prossime versioni
-sarà di nuovo  disponibile l'aggiornamento automatico.
+Questo aggiornamento va fatto scaricando il programma Setup. Nelle prossime versioni
+sarà di nuovo  disponibile l'aggiornamento automatico.

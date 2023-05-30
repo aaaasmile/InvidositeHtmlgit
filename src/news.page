@@ -6,6 +6,10 @@ sort_info: 1
 ---
 h2. News
 
+h3. 30.05.2023 - Solitario 2.0.1
+* Nuova versione del Solitario che ingloba le carte da Briscola con le carte del Tarocco Piemontese.
+* Compilazione dei sorgenti sotto Linux
+* Utilizzo della libreria SDL 2.0
 
 h3. 03.04.2021 - Cuperativa 1.3.11
 

@@ -1,0 +1,39 @@
+h2. TTGO ed emulatore NES
+
+p(data). Sabato, 19 Febbraio 2022
+
+<a href="{relocatable: /images/esp32/img400.png}"><img width="300" src="{relocatable: /images/esp32/img400.png}"></a>
+
+Una delle piacevoli novità di quest'ultimo periodo è  provare a giocare con dei microcontroller che hanno 
+ormai una capacità di calcolo molto vicina a quelli dei personal computer di qualche decina d'anni fa. 
+Se però un computer Intel 486, il mio primo personal computer, trentasette anni fa costava 
+come un mese e mezzo di uno stipendio da operaio, ora un microcontroller costa quanto una birra media. 
+Mancano un po' di periferie, ma la sostanza non cambia: i prezzi, a parità d calcolo, sono molto bassi. 
+Tra i diversi dispositivi che ho, il TTGO è uno di quelli più divertenti. È un microcontroller ESP32 
+con integrato un mini display e porta USB per la programmazione. Penso di averlo pagato intorno ai 14 euro, 
+ma i prezzi sono abbastanza instabili. Con un po' di voglia di provare diversi software e giocare con una 
+basetta sono riuscito a fare andare un emulatore NES con qualche classico gioco tipo pacman, invaders 
+e altri ancora. 
+
+Il codice, che ho dovuto adattare un po', si trova su 
+"github.com/aaaasmile/TTGO-Nes-Cup":https://github.com/aaaasmile/TTGO-Nes-Cup. 
+Per quanto riguarda i componenti usati essi sono:
+
+ * TTGO T-Display ESP32 microcontroller
+
+ * PAM8302A amplificatore audio
+
+ * 5 resistenze da 10K
+
+ * 8 pulsanti
+
+ * 1 altoparlante 0.5W
+
+I collegamenti sono visibili nelle foto presenti su 
+"github.com/aaaasmile/TTGO-Nes-Cup/doc":https://github.com/aaaasmile/TTGO-Nes-Cup/tree/main/doc
+che sono sei porte GPIO per i pulsanti e 2 per l'audio.
+
+Qualche nota che ho scritto durante lo sviluppo si trova 
+"qui":https://github.com/aaaasmile/TTGO-Nes-Cup/blob/main/passaggi.md
+
+ 

@@ -15,13 +15,29 @@ p(data). Lunedì, 22 Maggio 2023
 
 <a href="{relocatable: /images/solitario/mazzo.png}"><img width="300" src="{relocatable: /images/solitario/mazzo.png}"></a>
 
-In quest'ultimo periodo mi sono dedicato alla riscrittura del programma Solitario. Precedentemente ne avevo programmato due versioni differenti. Entrambe le versioni sono ora confluite in un unico programma denominato _Solitario_. Il Solitario è il classico programma che si trova in Windows ma utilizza le carte da briscola italiane di 40 carte. Un altro mazzo disponibile è il mazzo del Tarocco Piemontese composto da 56 carte.
+In quest'ultimo periodo mi sono dedicato alla riscrittura del programma Solitario. 
+Precedentemente ne avevo programmato due versioni differenti. 
+Entrambe le versioni sono ora confluite in un unico programma denominato _Solitario_. 
+Il Solitario è il classico programma che si trova in Windows ma utilizza 
+le carte da briscola italiane di 40 carte. Un altro mazzo disponibile è il mazzo del Tarocco Piemontese 
+composto da 56 carte.
 
-I sorgenti, che ho sviluppato sotto Windows con msys64, si trovano su github al link "github.com/aaaasmile/Solitario":https://github.com/aaaasmile/Solitario. Il setup per Windows si trova su "sourceforge.net/projects/solitarioita/files/latest/download":https://sourceforge.net/projects/solitarioita/files/latest/download.
+I sorgenti, che ho sviluppato sotto Windows con msys64, 
+si trovano su github al link "github.com/aaaasmile/Solitario":https://github.com/aaaasmile/Solitario. 
+Il setup per Windows si trova su 
+"sourceforge.net/projects/solitarioita/files/latest/download":https://sourceforge.net/projects/solitarioita/files/latest/download.
 
-Riscrivere il programma, dopo 18 anni dalla sua prima versione, mi ha molto divertito, specialmente la parte in C. Mi ha sorpreso lo sviluppo del Solitario in Windows utilizzando dei tools che nel passato erano disponibili solo sui sistemi Linux (gcc, make, CMake, ninja & Co.). 
+Riscrivere il programma, dopo 18 anni dalla sua prima versione, mi ha molto divertito, 
+specialmente la parte in C. Mi ha sorpreso lo sviluppo del Solitario in Windows utilizzando dei tools 
+che nel passato erano disponibili solo sui sistemi Linux (gcc, make, CMake, ninja e compagnia.). 
 
-Ho aggiunto anche un punteggio che premia i più veloci nel risolvere il solitario. Un più alto punteggio teorico può essere raggiunto usando il mazzo da 56 carte. Però, con il mazzo da 40 carte si raggiunge la soluzione più velocemente. Il tempo è un fattore importante che ha una grande influenza sul punteggio finale. Un punteggio superiore ai 6000 punti merita sicuramente uno screenshot da inviare al sito (vedi Autore).  Buon divertimento! 
+Ho aggiunto anche un punteggio che premia i più veloci nel risolvere il solitario. 
+Un più alto punteggio teorico può essere raggiunto usando il mazzo da 56 carte. 
+Però, con il mazzo da 40 carte si raggiunge la soluzione più velocemente. 
+Il tempo è un fattore importante che ha una grande influenza sul punteggio finale. 
+Un punteggio superiore ai 6000 punti merita sicuramente uno screenshot da inviare al sito 
+(vedi "Autore":Igor-sarzi-sartori.html).  
+Buon divertimento! 
 
 h2. TTGO ed emulatore NES
 
@@ -29,10 +45,19 @@ p(data). Sabato, 19 Febbraio 2022
 
 <a href="{relocatable: /images/esp32/img400.png}"><img width="300" src="{relocatable: /images/esp32/img400.png}"></a>
 
-Una delle piacevoli novità di quest'ultmio periodo è  provare a giocare con dei microcontroller che hanno ormai una capacità di calcolo molto vicina a quelli dei personal computer di qualche decina d'anni fa. Se però un computer Intel 486, il mio primo personal computer, trentasette anni fa costava come un mese e mezzo di uno stipendio da operaio, ora un microcontroller costa quanto una birra media. Mancano un po' di periferie, ma la sostanza non cambia: i prezzi, a parità d calcolo, sono molto bassi. 
-Tra i diversi dispositivi che ho, il TTGO è uno di quelli più divertenti. È un microcontroller ESP32 con integrato un mini display e porta USB per la programmazione. Penso di averlo pagato intorno ai 14 euro, ma i prezzi sono abbastanza instabili. Con un po' di voglia di provare diversi software e giocare con una basetta sono riuscito a fare andare un emulatore NES con qualche classico gioco tipo pacman, invaders e altri ancora. 
+Una delle piacevoli novità di quest'ultimo periodo è  provare a giocare con dei microcontroller che hanno 
+ormai una capacità di calcolo molto vicina a quelli dei personal computer di qualche decina d'anni fa. 
+Se però un computer Intel 486, il mio primo personal computer, trentasette anni fa costava 
+come un mese e mezzo di uno stipendio da operaio, ora un microcontroller costa quanto una birra media. 
+Mancano un po' di periferie, ma la sostanza non cambia: i prezzi, a parità d calcolo, sono molto bassi. 
+Tra i diversi dispositivi che ho, il TTGO è uno di quelli più divertenti. È un microcontroller ESP32 
+con integrato un mini display e porta USB per la programmazione. Penso di averlo pagato intorno ai 14 euro, 
+ma i prezzi sono abbastanza instabili. Con un po' di voglia di provare diversi software e giocare con una 
+basetta sono riuscito a fare andare un emulatore NES con qualche classico gioco tipo pacman, invaders 
+e altri ancora. 
 
-Il codice, che ho dovuto adattare un po', si trova su "github.com/aaaasmile/TTGO-Nes-Cup":https://github.com/aaaasmile/TTGO-Nes-Cup. 
+Il codice, che ho dovuto adattare un po', si trova su 
+"github.com/aaaasmile/TTGO-Nes-Cup":https://github.com/aaaasmile/TTGO-Nes-Cup. 
 Per quanto riguarda i componenti usati essi sono:
 
  * TTGO T-Display ESP32 microcontroller
@@ -45,10 +70,12 @@ Per quanto riguarda i componenti usati essi sono:
 
  * 1 altoparlante 0.5W
 
-I collegamenti sono visibili nelle foto presenti su "github.com/aaaasmile/TTGO-Nes-Cup/doc":https://github.com/aaaasmile/TTGO-Nes-Cup/tree/main/doc
+I collegamenti sono visibili nelle foto presenti su 
+"github.com/aaaasmile/TTGO-Nes-Cup/doc":https://github.com/aaaasmile/TTGO-Nes-Cup/tree/main/doc
 che sono sei porte GPIO per i pulsanti e 2 per l'audio.
 
-Qualche nota che ho scritto durante lo sviluppo si trova "qui":https://github.com/aaaasmile/TTGO-Nes-Cup/blob/main/passaggi.md
+Qualche nota che ho scritto durante lo sviluppo si trova 
+"qui":https://github.com/aaaasmile/TTGO-Nes-Cup/blob/main/passaggi.md
 
  
 

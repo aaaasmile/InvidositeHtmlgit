@@ -2,39 +2,30 @@
 directory_name: Download
 title: Solitario download 
 in_menu: true
-sort_info: 44
+sort_info: 41
 ---
 
-h2. Italian Special Solitaire 
+h2. Solitario
 
-Download: "Italian Special Solitaire ver 2.0":https://github.com/aaaasmile/Solitario/blob/main/artifact/ItalianSpecialSolitaire_2_0.zip
+Download: "Solitario ver 2.0.1":https://sourceforge.net/projects/solitarioita/files/latest/download
 
-|*Descrizione*:| Programma per giocare al solitario con il mazzo del Tarocco piemontese ridotto a 56 carte. Versione Windows 2.0. Risoluzione minima 1024x768.|
-|*Dimensione*:| 2,8 MB|
-|*Versione*:| 2.0|
+|*Descrizione*:| Programma per giocare al solitario con il mazzo del Tarocco piemontese a 56 carte e con le carte da briscola italiane da 40 carte. Versione Windows 2.0.1.|
+|*Dimensione*:| 19 MB|
+|*Versione*:| 2.0.1|
 |*Tipo file*:| Zip|
 |*Sistema Operativo*:| Windows|
 |*Autore*:| Igor|
 |*Licenza*:| Freeware |
-|*Data*:| 29.09.2005|
-|*Screenshot*:| <img src="{relocatable: /images/solitario/special/in_partita_small.jpg}">|
-
-h2.  Solitario 1.6 WIN
-
-Download: "Solitario 1.6 WIN ver 1.6":https://github.com/aaaasmile/Solitario/blob/main/artifact/solitario_1_6_win.zip
-
-|*Descrizione*:| Il Solitario come non avete mai visto. Supporta molte carte da briscola italiane. Ora nella versione 1.6.|
-|*Dimensione*:| 2,7 MB|
-|*Versione*:| 1.6|
-|*Tipo file*:| Zip|
-|*Sistema Operativo*:| Windows|
-|*Autore*:| Igor|
-|*Licenza*:| Open Source |
-|*Data*:| 29.09.2005|
-|*Screenshot*:| <img src="{relocatable: /images/solitario/windows/in_partita_small.jpg}">|
+|*Data*:| 30.05.2023|
+|*Screenshot*:| <img width="300" src="{relocatable: /images/solitario/tarocco.png}">|
+|*Screenshot*:| <img width="300" src="{relocatable: /images/solitario/mazzo.png}">|
 
 
-h2. Solitario Source Code Linux
+h2. Codice sorgente del Solitario per Windows e Linux
 
-Download: "Solitario Source Code ver 1.6":https://github.com/aaaasmile/Solitario
+I sorgenti si trovano su GitHub al link "github.com/aaaasmile/Solitario":https://github.com/aaaasmile/Solitario.
+Per quanto riguarda le informazioni per compilare il Solitario su Ubuntu 22.04, Windows e WSL2 vedi il link:
+"github.com/aaaasmile/Solitario/blob/main/passaggi.md":https://github.com/aaaasmile/Solitario/blob/main/passaggi.md
+
+I sorgenti sono sotto licenza MIT
 

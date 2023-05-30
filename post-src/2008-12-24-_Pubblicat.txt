@@ -13,4 +13,4 @@ Di seguito la lista principale dei cambiamenti nella versione 0.6.1
   * - Cambiato il la grafica della mariazza
   * - Corretto un errore sulla presa delle carte multiple nello spazzino
 
-A tutti gli appasionati della cuperativa e dell'invido, *auguri di buone feste*.
+A tutti gli appassionati della cuperativa e dell'invido, *auguri di buone feste*.

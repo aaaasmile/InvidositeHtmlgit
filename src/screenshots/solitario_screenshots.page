@@ -8,14 +8,12 @@ sort_info: 84
 h2. Solitario screenshots
 
 
-<a href="{relocatable: /images/solitario/windows/solita_big.jpg}">
-  <img src="{relocatable: /images/solitario/windows/in_partita_small.jpg}">
+<a href="{relocatable: /images/solitario/mazzo.png}">
+  <img width="300" src="{relocatable: /images/solitario/mazzo.png}">
 </a>
 
-Solitario win Ver 1.4
-
-<a href="{relocatable: /images/solitario/special/scr_solit_2_0_400.jpg}">
-  <img src="{relocatable: /images/solitario/special/in_partita_small.jpg}">
+<a href="{relocatable: /images/solitario/tarocco.png}">
+  <img width="300" src="{relocatable: /images/solitario/tarocco.png}">
 </a>
 
-Italian Special Solitaire
+

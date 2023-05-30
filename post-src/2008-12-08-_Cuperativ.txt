@@ -6,9 +6,9 @@ Alcuni hanno notato che un aggiornamento automatico del programma
 cuperativa usando il server della cuperativa, non funziona se si usa il sistema
 operativo Windows Vista.
 Questo è dovuto al fatto che Vista è restrittivo nell'esecuzione dei programmi.
-Una possibile soluzione è quella di eseguire il programmma con i diritti di amministratore. 
+Una possibile soluzione è quella di eseguire il programma con i diritti di amministratore. 
 Questo è necessario solo nella fase di aggiornamento. 
 Se invece non si vuole cambiare i privilegi al programma, allora non rimane altro che scaricare
 il programma dal link "cuperativa download":download/cuperativa_download.html ed installare 
 l'ultima versione mettendola, per esempio, nella directory c:\cuperativa. 
-Maggiori informazioni nella sezione "faq Cuperativa":faq/index.html
+Maggiori informazioni nella sezione "faq Cuperativa":faq/index.html

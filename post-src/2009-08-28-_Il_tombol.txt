@@ -9,7 +9,7 @@ i suoi viaggi.
 
 <i>Torniamo a Tombolon, giocato a Rovigo con 40 carte ed a Padova con 52 carte.    
 Ho passato due pomeriggi a Rovigo.
-Sono stato nei due locali dove giocano a carte. Auser (autogestione servizi), centro anziani,
+Sono stato nei due locali dove giocano a carte. _Auser_ (autogestione servizi), centro anziani,
 che non sanno usare il computer, e il Bar Sala Giochi Ramada, ora gestito da cinesi.
 I tre giochi tradizionali con le carte regionali italiane, Briscola Scopa e Tressette,
 a Rovigo diventano Briscola, Tombolon e Tressette col Trionfo.
@@ -18,5 +18,5 @@ cioè con un seme di briscola, a Rovigo si gioca in 4. </i>
 
 Per chi volesse vedere partite dal vivo del Tombolon, non deve fare altro che
 recarsi nei locali sopra citati. Per tutti gli altri basta collegarsi al server
-della cuperativa e crecare un avversario col quale giocare.
-
+della Cuperativa e cercare un avversario col quale giocare.
+

@@ -60,7 +60,7 @@ i suoi viaggi.
 
 <i>Torniamo a Tombolon, giocato a Rovigo con 40 carte ed a Padova con 52 carte.    
 Ho passato due pomeriggi a Rovigo.
-Sono stato nei due locali dove giocano a carte. Auser (autogestione servizi), centro anziani,
+Sono stato nei due locali dove giocano a carte. _Auser_ (autogestione servizi), centro anziani,
 che non sanno usare il computer, e il Bar Sala Giochi Ramada, ora gestito da cinesi.
 I tre giochi tradizionali con le carte regionali italiane, Briscola Scopa e Tressette,
 a Rovigo diventano Briscola, Tombolon e Tressette col Trionfo.
@@ -69,8 +69,9 @@ cioè con un seme di briscola, a Rovigo si gioca in 4. </i>
 
 Per chi volesse vedere partite dal vivo del Tombolon, non deve fare altro che
 recarsi nei locali sopra citati. Per tutti gli altri basta collegarsi al server
-della cuperativa e crecare un avversario col quale giocare.
-
+della Cuperativa e cercare un avversario col quale giocare.
+
+
 
 h2. Nuova versione di Cuperativa: 0.7.1
 
@@ -109,8 +110,9 @@ di Rovigo, come il gioco funzioni veramente.
 
 Le versioni precedenti della cuperativa non possono più giocare col server in internet.
 Per giocare online è quindi necessario l'aggiornamento all'ultima versione.
-Questo aggiornamento va fatto scaricado il programma setup. Nelle prossime versioni
-sarà di nuovo  disponibile l'aggiornamento automatico.
+Questo aggiornamento va fatto scaricando il programma Setup. Nelle prossime versioni
+sarà di nuovo  disponibile l'aggiornamento automatico.
+
 
 h2. Cuperativa alla stretta finale 
 
@@ -193,7 +195,8 @@ Di seguito la lista principale dei cambiamenti nella versione 0.6.1
   * - Cambiato il la grafica della mariazza
   * - Corretto un errore sulla presa delle carte multiple nello spazzino
 
-A tutti gli appasionati della cuperativa e dell'invido, *auguri di buone feste*.
+A tutti gli appassionati della cuperativa e dell'invido, *auguri di buone feste*.
+
 
 h2. Il prossimo gioco della Cuperativa
 
@@ -214,12 +217,13 @@ Alcuni hanno notato che un aggiornamento automatico del programma
 cuperativa usando il server della cuperativa, non funziona se si usa il sistema
 operativo Windows Vista.
 Questo è dovuto al fatto che Vista è restrittivo nell'esecuzione dei programmi.
-Una possibile soluzione è quella di eseguire il programmma con i diritti di amministratore. 
+Una possibile soluzione è quella di eseguire il programma con i diritti di amministratore. 
 Questo è necessario solo nella fase di aggiornamento. 
 Se invece non si vuole cambiare i privilegi al programma, allora non rimane altro che scaricare
 il programma dal link "cuperativa download":download/cuperativa_download.html ed installare 
 l'ultima versione mettendola, per esempio, nella directory c:\cuperativa. 
-Maggiori informazioni nella sezione "faq Cuperativa":faq/index.html
+Maggiori informazioni nella sezione "faq Cuperativa":faq/index.html
+
 
 <a href="{relocatable: /index.html}">[ Indice </a>|
 <a href="{relocatable: /index_01.html}"> 01 </a>|<a href="{relocatable: /index_02.html}"> 02 </a>|  03   | <a href="{relocatable: /index_04.html}"> 04 ]</a>
