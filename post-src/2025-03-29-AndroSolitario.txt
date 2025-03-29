@@ -1,0 +1,10 @@
+h2. Solitario 2.3.1 versione Android
+
+p(data). Sabato, 29 Marzo 2025
+
+Ho pubblicato una versione del Solitario per Android.
+Si trova su: "Solitario-2.3.1.apk":https://sourceforge.net/projects/solitarioita/files/Android/Solitario-2.3.1.apk/download.
+I sorgenti si trovano su "github":https://github.com/aaaasmile/AndroSolitario/releases/tag/v2.3.1.
+
+<a href="{relocatable: /images/solitario/android/photo1.png}"><img width="300" src="{relocatable: /images/solitario/android/photo1.png}"></a>
+<a href="{relocatable: /images/solitario/android/photo2.png}"><img width="300" src="{relocatable: /images/solitario/android/photo2.png}"></a>
