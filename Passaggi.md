@@ -11,19 +11,14 @@ Questi sono i due comandi da usare nel terminal (in una sola volta):
     .\vido-preproc.exe -cmd createindex; webgen
 
 ## Nuovo Post
-Per i contenuti in index_xx.page si usa il _vido-preproc.exe_ con:
-
-    vido-preproc.exe --uicmd new --title "Metti un titolo interssante"
-Edita il file nel browser per avere un correttore ortografico. 
-Nel browser è possibile creare l'index e lanciare webgen usando i pulsanti appositi (rimane fuori dal browser l'update del sito con WLC).
-
-Oppure in Terminal:
+In visual code Terminal:
 
     cd .\post-src\
     touch 2023-05-30-NuovoPost.txt
     cd ..
 Ora edita il nuovo post con Visual code e aggiorna il sito con:
 
+    $env:path = "D:\ruby\ruby_3_2_0\bin;" + $env:path
     .\vido-preproc.exe -cmd createindex; webgen
 
 
@@ -32,9 +27,10 @@ Si usa il comando (se il browser è già aperto):
 
     .\vido-preproc.exe --uicmd last --nobrowser
 
+Siccome l'ultimo post è Welcome, non riesce ad editare nient'altro che quello.
 
 ## Cambiare altre pagine
-Per cambiare le altre pagine, basta usare Visual Code. Tutti i files sono in UTF-8 e webgen li supporta.
+Per cambiare le altre pagine, basta usare Visual Code. Tutti i files sono in UTF-8 e _webgen_ li supporta.
 
 Si può usare anche la command line per creare tutti i files index_xx.page con:
     
