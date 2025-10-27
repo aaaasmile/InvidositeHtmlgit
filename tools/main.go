@@ -11,7 +11,6 @@ import (
 )
 
 // semplice programma per convertire la directory out in unaltra iso-8859 per il deployment
-// su kickers.fabbricadigitale.it
 // Il programma ha dei problemi:
 // Nella conversione isolatin ci sono dei file nella sottodir manual che sono già in in isolatin
 // che vanno esclusi dalla conversione.

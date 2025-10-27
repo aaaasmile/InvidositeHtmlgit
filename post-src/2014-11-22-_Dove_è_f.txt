@@ -8,5 +8,5 @@ Ringrazio tutti quelli che hanno contribuito a renderlo attivo tutti questi anni
 I software per giocare a carte in modalità singola contro il computer si trovano sempre
 su questo sito alla sezione <a href="{relocatable: /download/index.html}">download</a>. 
 
-Il mio blog si trova è trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
-
+Il mio blog si trova è trasferito su "igorrun.invido.it":https://igorrun.invido.it/.
+

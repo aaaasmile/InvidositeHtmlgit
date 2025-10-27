@@ -59,20 +59,22 @@ Ringrazio tutti quelli che hanno contribuito a renderlo attivo tutti questi anni
 I software per giocare a carte in modalità singola contro il computer si trovano sempre
 su questo sito alla sezione <a href="{relocatable: /download/index.html}">download</a>. 
 
-Il mio blog si trova è trasferito su "stesosopra.blogspot.com":http://stesosopra.blogspot.com/.
-
+Il mio blog si trova è trasferito su "igorrun.invido.it":https://igorrun.invido.it/.
+
+
 
 h2. Tornato il Tressette su sf.net
 
 p(data). martedì, 29 novembre 2011
 
-Dopo svariato tempo ho pubblicato su sf.net una nuova versione del "tressette":http://sourceforge.net/projects/tressette/. 
+Dopo svariato tempo ho pubblicato su sf.net una nuova versione del "tressette":https://sourceforge.net/projects/tressette/. 
 Si tratta di un bugfixing di qualche imprecisione che era rimasta in sospeso. 
 Per l'occasione ho aggiornato le librerie del suono, che ora funzionano con le nuove versioni del sistema operativo windows. 
 I sorgenti del programma si trovano ora in svn e non più in cvs. Li avevo compilati anche sotto Ubuntu, ma non so se funzionano ancora.
 
 
-<img src="{relocatable: /images/tressette/screenshot02_small.jpg}">
+<img src="{relocatable: /images/tressette/screenshot02_small.jpg}">
+
 
 h2. Nuova versione dell'Invido: the best(ia))!
 
@@ -108,16 +110,6 @@ Essi sono: il bellissimo mazzo di carte del Tarocco Piemontese creato da Domenic
 le carte bolognesi, le carte genovesi, le carte piemontesi, le carte romagnole, le carte della Sardegna,
 le carte trentine e le carte triestine.
 
-I mazzi si trovano:
-
-* "mazzo tarocco piemontese":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/tarocco_piemontese.zip
-* "mazzo carte bolognesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/bologna.zip
-* "mazzo carte genovesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/genova.zip
-* "mazzo carte piemontesi":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/piemonte.zip
-* "mazzo carte romagnole":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/romagna.zip
-* "mazzo carte sardegna":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/sardegna.zip
-* "mazzo carte trento":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trento.zip
-* "mazzo carte trieste":http://kickers.fabbricadigitale.it/cuperativa/mazzi/ver001/trieste.zip.
 
 Per installare un nuovo mazzo basta scompattare lo zip nella sotto directory _res/carte_ dove è installato il programma
 Cuperativa (per esempio C:\cuperativa\ver_0_8_2\app\res\carte).
@@ -131,7 +123,8 @@ Esempio carte romagnole:
 * Lanciare il programma cuperativa, selezionare il menu opzioni, mazzi di carte, selezionare carte romagnole e premere il pulsante [applica].
 
 A questo punto tutti i giochi di carte saranno eseguiti usando il mazzo delle carte romagnole.
-<br/>
+<br/>
+
 
 h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.2
 
@@ -139,10 +132,9 @@ p(data). lunedì, 08 novembre 2010
 
 La cuperativa ha corretto nuovi errori che alcuni utenti  mi hanno cortesemente segnalato,
 come il mancato salvataggio dei settings.
-Il setup completo si trova su:
-"Cuperativa 0.8.2 Aloa verde":http://kickers.fabbricadigitale.it/cuperativa/update_packages/cuperativa_082_setup.exe
 Collegandosi al server della cuperativa con una versione precedente del programma,
-si può fare un aggiornamento automatico. 
+si può fare un aggiornamento automatico. 
+
 
 h2. Pubblicata nuova versione della cuperativa: Aloa verde 0.8.1 
 
@@ -178,7 +170,7 @@ h2. Tressette
 
 p(data). domenica, 26 Settembre 2010
 
-Guardando le statistiche del programma tressette, che ho pubblicato su "sf.net":http://sourceforge.net/projects/tressette/
+Guardando le statistiche del programma tressette, che ho pubblicato su "sf.net":https://sourceforge.net/projects/tressette/
 qualche tempo fa (tre.exe), mi sono accorto che presto saranno raggiunti i 10000 download.
 Per l'occasione, mi sembra il minimo dover aggiungere il gioco del tressette a due giocatori
 nella suite della cuperativa. Alcuni mi hanno chiesto quando ci sarà una nuova versione
@@ -192,8 +184,9 @@ h2. Creato un nuovo Blog
 
 p(data). domenica, 5 Settembre 2010
 
-Ho creato un nuovo blog personale alla pagina "stesosopra.blogspot.com/":http://stesosopra.blogspot.com/
-
+Ho creato un nuovo blog personale alla pagina "igorrun.invido.it/":https://igorrun.invido.it/
+
+
 
 <a href="{relocatable: /index.html}">[ Indice </a>|
 <a href="{relocatable: /index_01.html}"> 01 </a>|  02   | <a href="{relocatable: /index_03.html}"> 03 </a>|<a href="{relocatable: /index_04.html}"> 04 ]</a>

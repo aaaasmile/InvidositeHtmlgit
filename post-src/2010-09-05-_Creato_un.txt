@@ -2,5 +2,5 @@ h2. Creato un nuovo Blog
 
 p(data). domenica, 5 Settembre 2010
 
-Ho creato un nuovo blog personale alla pagina "stesosopra.blogspot.com/":http://stesosopra.blogspot.com/
-
+Ho creato un nuovo blog personale alla pagina "igorrun.invido.it/":https://igorrun.invido.it/
+
